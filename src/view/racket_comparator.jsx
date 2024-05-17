@@ -1,65 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Radar } from 'react-chartjs-2';
 import { Chart as ChartJS, RadialLinearScale, PointElement, LineElement, Filler, Tooltip, Legend } from 'chart.js';
+import ShopifyService from '../services/shopify';
+
 
 ChartJS.register(RadialLinearScale, PointElement, LineElement, Filler, Tooltip, Legend);
 
-const fakeRackets = [
-  {
-    model: 'Raquette Alpha',
-    inertie: 8,
-    poids: 7,
-    equilibre: 6,
-    deflexionVisage: 5,
-    flexionHorizontale: 4,
-    url: '#'
-  },
-  {
-    model: 'Raquette Beta',
-    inertie: 7,
-    poids: 6,
-    equilibre: 5,
-    deflexionVisage: 4,
-    flexionHorizontale: 3,
-    url: '#'
-  },
-  {
-    model: 'Raquette Gamma',
-    inertie: 6,
-    poids: 5,
-    equilibre: 4,
-    deflexionVisage: 3,
-    flexionHorizontale: 2,
-    url: '#'
-  },
-  {
-    model: 'Raquette Alph zea',
-    inertie: 8,
-    poids: 7,
-    equilibre: 6,
-    deflexionVisage: 5,
-    flexionHorizontale: 4,
-    url: '#'
-  },
-  {
-    model: 'Raquette Beta ze',
-    inertie: 7,
-    poids: 6,
-    equilibre: 5,
-    deflexionVisage: 4,
-    flexionHorizontale: 3,
-    url: '#'
-  },
-  {
-    model: 'Raquette Gammaez',
-    inertie: 6,
-    poids: 5,
-    equilibre: 4,
-    deflexionVisage: 3,
-    flexionHorizontale: 2,
-    url: '#'
-  }
-];
 
 // Définir un ensemble de couleurs fixes
 const colors = [
@@ -92,16 +38,63 @@ const colors = [
 const RacketComparison = () => {
   const [selectedRackets, setSelectedRackets] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
+  const shopifyService = new ShopifyService();
+  const [debounceTimer, setDebounceTimer] = useState(null);
+  const [searchResultRacket, setSearchResultRacket] = useState([]);
 
-  const addRacket = (racketName) => {
-    const racket = fakeRackets.find(r => r.model.toLowerCase() === racketName.toLowerCase());
-    if (racket && !selectedRackets.includes(racket)) {
+
+  useEffect(() => {
+    if (debounceTimer) {
+      clearTimeout(debounceTimer);
+    }
+
+    if (searchTerm.length >= 3) {
+      const timerId = setTimeout(() => {
+        fetchProducts(searchTerm);
+      }, 100);
+
+      setDebounceTimer(timerId);
+    }
+
+    return () => {
+      if (debounceTimer) {
+        clearTimeout(debounceTimer);
+      }
+    };
+  }, [searchTerm]);
+
+  const addRacket = (racketModel) => {
+    // Trouver le racket dans searchResultRacket
+    const racketToAdd = searchResultRacket.find(racket => racket.model.toLowerCase() === racketModel.toLowerCase());
+  
+    if (racketToAdd &&!selectedRackets.includes(racketToAdd)) {
       if (selectedRackets.length === 3) {
         setSelectedRackets(prevSelectedRackets => prevSelectedRackets.slice(1));
       }
-      setSelectedRackets(prevSelectedRackets => [...prevSelectedRackets, racket]);
+      setSelectedRackets(prevSelectedRackets => [...prevSelectedRackets, racketToAdd]);
+      setSearchResultRacket([]);
     }
-    setSearchTerm('');
+  };
+  
+
+
+  const fetchProducts = async (searchTerm) => {
+    try {
+      const products = await shopifyService.getProducts(searchTerm);
+      const formattedProducts = products.map((product) => ({
+        model: product.node.title,
+        inertie: 3,
+        poids: 4,
+        equilibre: 5,
+        deflexionVisage: 7,
+        flexionHorizontale: 3,
+        url: product.node.onlineStoreUrl,
+        imageUrl: product.node.images.edges[0].node.originalSrc
+      }));
+      setSearchResultRacket(formattedProducts);
+    } catch (error) {
+      console.error('Erreur lors de la récupération des produits :', error);
+    }
   };
 
   const updateChart = () => {
@@ -110,6 +103,8 @@ const RacketComparison = () => {
       label: racket.model,
       data: [racket.inertie, racket.poids, racket.equilibre, racket.deflexionVisage, racket.flexionHorizontale],
       fill: true,
+      pointRadius: 2.5,
+      borderWidth: 1,
       ...colors[index % colors.length]  // Utiliser les couleurs fixes
     }));
 
@@ -129,10 +124,10 @@ const RacketComparison = () => {
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
       />
-      <div id="suggestions">
+      <div id="suggestions" hidden={setSearchResultRacket.length === 0}>
         {searchTerm && (
           <ul>
-            {fakeRackets.filter(racket => racket.model.toLowerCase().includes(searchTerm.toLowerCase())).map((racket) => (
+            {searchResultRacket.map((racket) => (
               <li key={racket.model} onClick={() => addRacket(racket.model)}>
                 {racket.model}
               </li>
@@ -166,16 +161,13 @@ const RacketComparison = () => {
         }} />
       </div>
       <div id="racketList">
-        {selectedRackets.map(racket => (
-          <button
-            key={racket.model}
-            className="racket-button"
-            onClick={() => window.open(racket.url, '_blank')}
-          >
-            {racket.model}
-          </button>
-        ))}
-      </div>
+  {selectedRackets.map(racket => (
+    <div key={racket.model} className="racket-card" onClick={() => window.open(racket.url, '_blank')}>
+        <img src={racket.imageUrl} alt={`Image de ${racket.model}`} style={{maxHeight: '60px'}} /> {/* Image du produit */}
+        <span>{racket.model}</span> {/* Nom du produit */}
+    </div>
+  ))}
+</div>
     </div>
   );
 };
