@@ -1,13 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Radar } from 'react-chartjs-2';
 import { Chart as ChartJS, RadialLinearScale, PointElement, LineElement, Filler, Tooltip, Legend } from 'chart.js';
-import ShopifyService from '../services/shopify';
-
+import products from './products' 
 
 ChartJS.register(RadialLinearScale, PointElement, LineElement, Filler, Tooltip, Legend);
 
-
-// Définir un ensemble de couleurs fixes
 const colors = [
   {
     backgroundColor: 'rgba(255, 99, 132, 0.2)',
@@ -38,10 +35,9 @@ const colors = [
 const RacketComparison = () => {
   const [selectedRackets, setSelectedRackets] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
-  const shopifyService = new ShopifyService();
   const [debounceTimer, setDebounceTimer] = useState(null);
   const [searchResultRacket, setSearchResultRacket] = useState([]);
-
+  // const product = le json final 
 
   useEffect(() => {
     if (debounceTimer) {
@@ -50,7 +46,7 @@ const RacketComparison = () => {
 
     if (searchTerm.length >= 3) {
       const timerId = setTimeout(() => {
-        fetchProducts(searchTerm);
+        searchProducts(searchTerm);
       }, 100);
 
       setDebounceTimer(timerId);
@@ -63,11 +59,10 @@ const RacketComparison = () => {
     };
   }, [searchTerm]);
 
-  const addRacket = (racketModel) => {
-    // Trouver le racket dans searchResultRacket
-    const racketToAdd = searchResultRacket.find(racket => racket.model.toLowerCase() === racketModel.toLowerCase());
-  
-    if (racketToAdd &&!selectedRackets.includes(racketToAdd)) {
+  const addRacket = (racketName) => {
+    const racketToAdd = searchResultRacket.find(racket => racket.name.toLowerCase() === racketName.toLowerCase());
+
+    if (racketToAdd && !selectedRackets.includes(racketToAdd)) {
       if (selectedRackets.length === 3) {
         setSelectedRackets(prevSelectedRackets => prevSelectedRackets.slice(1));
       }
@@ -75,37 +70,23 @@ const RacketComparison = () => {
       setSearchResultRacket([]);
     }
   };
-  
 
-
-  const fetchProducts = async (searchTerm) => {
-    try {
-      const products = await shopifyService.getProducts(searchTerm);
-      const formattedProducts = products.map((product) => ({
-        model: product.node.title,
-        inertie: 3,
-        poids: 4,
-        equilibre: 5,
-        deflexionVisage: 7,
-        flexionHorizontale: 3,
-        url: product.node.onlineStoreUrl,
-        imageUrl: product.node.images.edges[0].node.originalSrc
-      }));
-      setSearchResultRacket(formattedProducts);
-    } catch (error) {
-      console.error('Erreur lors de la récupération des produits :', error);
-    }
+  const searchProducts = (searchTerm) => {
+    const filteredProducts = products.filter(product =>
+      product.name.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+    setSearchResultRacket(filteredProducts);
   };
 
   const updateChart = () => {
-    const labels = ['Inertie', 'Poids', 'Equilibre', 'Déflexion visage', 'Flexion horizontale'];
+    const labels = ['Maniability', 'Weight', 'Effect', 'Tolerance', 'Power', 'Control'];
     const datasets = selectedRackets.map((racket, index) => ({
-      label: racket.model,
-      data: [racket.inertie, racket.poids, racket.equilibre, racket.deflexionVisage, racket.flexionHorizontale],
+      label: racket.name,
+      data: [racket.Maniability, racket.Weight, racket.Effect, racket.Tolerance, racket.Power, racket.Control],
       fill: true,
       pointRadius: 2.5,
       borderWidth: 1,
-      ...colors[index % colors.length]  // Utiliser les couleurs fixes
+      ...colors[index % colors.length]
     }));
 
     return {
@@ -116,11 +97,11 @@ const RacketComparison = () => {
 
   return (
     <div className="racket-comparison">
-      <h2>Comparateur de raquettes de padel</h2>
+      <h2>Padel Racket Comparison</h2>
       <input
         type="text"
         id="searchInput"
-        placeholder="Rechercher une raquette..."
+        placeholder="Search for a racket..."
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
       />
@@ -128,8 +109,8 @@ const RacketComparison = () => {
         {searchTerm && (
           <ul>
             {searchResultRacket.map((racket) => (
-              <li key={racket.model} onClick={() => addRacket(racket.model)}>
-                {racket.model}
+              <li key={racket.name} onClick={() => addRacket(racket.name)}>
+                {racket.name}
               </li>
             ))}
           </ul>
@@ -161,13 +142,13 @@ const RacketComparison = () => {
         }} />
       </div>
       <div id="racketList">
-  {selectedRackets.map(racket => (
-    <div key={racket.model} className="racket-card" onClick={() => window.open(racket.url, '_blank')}>
-        <img src={racket.imageUrl} alt={`Image de ${racket.model}`} style={{maxHeight: '60px'}} /> {/* Image du produit */}
-        <span>{racket.model}</span> {/* Nom du produit */}
-    </div>
-  ))}
-</div>
+        {selectedRackets.map(racket => (
+          <div key={racket.name} className="racket-card" onClick={() => window.open(racket.storeUrl, '_blank')}>
+            <img src={racket.imageUrl} alt={`Image of ${racket.name}`} style={{maxHeight: '60px'}} />
+            <span>{racket.name}</span>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
