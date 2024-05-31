@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Radar } from 'react-chartjs-2';
 import { Chart as ChartJS, RadialLinearScale, PointElement, LineElement, Filler, Tooltip, Legend } from 'chart.js';
-import products from './products' 
+import products from './products';
 
 ChartJS.register(RadialLinearScale, PointElement, LineElement, Filler, Tooltip, Legend);
 
@@ -36,7 +36,6 @@ const RacketComparison = () => {
   const [selectedRackets, setSelectedRackets] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [searchResultRacket, setSearchResultRacket] = useState([]);
-  // const product = le json final 
 
   useEffect(() => {
     searchProducts(searchTerm);
@@ -52,6 +51,12 @@ const RacketComparison = () => {
       setSelectedRackets(prevSelectedRackets => [...prevSelectedRackets, racketToAdd]);
       setSearchResultRacket([]);
     }
+  };
+
+  const addTopRackets = (category) => {
+    const sortedProducts = [...products].sort((a, b) => b[category] - a[category]);
+    const topRackets = sortedProducts.slice(0, 3);
+    setSelectedRackets(topRackets);
   };
 
   const searchProducts = (searchTerm) => {
@@ -91,7 +96,6 @@ const RacketComparison = () => {
       />
       <div id="suggestions" hidden={setSearchResultRacket.length === 0}>
         {searchTerm && searchResultRacket.length !== 0 && (
-          
           <ul>
             {searchResultRacket.map((racket) => (
               <li key={racket.name} onClick={() => addRacket(racket.name)}>
@@ -126,16 +130,29 @@ const RacketComparison = () => {
           }
         }} />
       </div>
+      <div>
+        <button onClick={() => addTopRackets('Maniability')} className="racket-button">Top Maniabilité </button>
+        <button onClick={() => addTopRackets('Weight')} className="racket-button">Top Poids</button>
+        <button onClick={() => addTopRackets('Effect')} className="racket-button">Top Effet</button>
+        <button onClick={() => addTopRackets('Tolerance')} className="racket-button">Top Tolérance</button>
+        <button onClick={() => addTopRackets('Power')} className="racket-button">Top Puissance</button>
+        <button onClick={() => addTopRackets('Control')} className="racket-button">Top Contrôle</button>
+      </div>
       <div id="racketList">
         {selectedRackets.map(racket => (
-          <div key={racket.name} className="racket-card" onClick={() => {
-            if(racket.storeUrl === undefined || racket.storeUrl === null || racket.storeUrl === ''){
-              
-            }
-            window.open(racket.storeUrl, '_blank')
+          <div key={racket.name} className="racket-card">
+            <button className="close-button" onClick={() => {
+              setSelectedRackets(prevSelectedRackets => prevSelectedRackets.filter(r => r.name !== racket.name));
             }}>
-            <img src={racket.imageUrl} alt={`Image of ${racket.name}`} style={{maxHeight: '60px'}} />
-            <span>{racket.name}</span>
+              &times;
+            </button>
+            <div onClick={() => {
+              if (!racket.storeUrl) return;
+              window.open(racket.storeUrl, '_blank');
+            }}>
+              <img src={racket.imageUrl} alt={`Image of ${racket.name}`} style={{ maxHeight: '60px' }} />
+              <span>{racket.name}</span>
+            </div>
           </div>
         ))}
       </div>
