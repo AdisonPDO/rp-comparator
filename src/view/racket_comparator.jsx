@@ -35,28 +35,11 @@ const colors = [
 const RacketComparison = () => {
   const [selectedRackets, setSelectedRackets] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
-  const [debounceTimer, setDebounceTimer] = useState(null);
   const [searchResultRacket, setSearchResultRacket] = useState([]);
   // const product = le json final 
 
   useEffect(() => {
-    if (debounceTimer) {
-      clearTimeout(debounceTimer);
-    }
-
-    if (searchTerm.length >= 3) {
-      const timerId = setTimeout(() => {
-        searchProducts(searchTerm);
-      }, 100);
-
-      setDebounceTimer(timerId);
-    }
-
-    return () => {
-      if (debounceTimer) {
-        clearTimeout(debounceTimer);
-      }
-    };
+    searchProducts(searchTerm);
   }, [searchTerm]);
 
   const addRacket = (racketName) => {
@@ -75,7 +58,7 @@ const RacketComparison = () => {
     const filteredProducts = products.filter(product =>
       product.name.toLowerCase().includes(searchTerm.toLowerCase())
     );
-    setSearchResultRacket(filteredProducts);
+    setSearchResultRacket(filteredProducts.slice(0, 10));
   };
 
   const updateChart = () => {
@@ -97,16 +80,18 @@ const RacketComparison = () => {
 
   return (
     <div className="racket-comparison">
-      <h2>Padel Racket Comparison</h2>
+      <h2>Comparateur de Raquette Pro</h2>
+      <p>Un outil innovant conçu pour vous aider à choisir la meilleure raquette de padel. Grâce à notre algorithme de calcul avancé, nous analysons des statistiques détaillées de chaque raquette pour vous offrir des comparaisons précises et personnalisées. Que vous soyez débutant ou joueur expérimenté, notre comparateur vous guide pour faire le choix le plus éclairé.</p>
       <input
         type="text"
         id="searchInput"
-        placeholder="Search for a racket..."
+        placeholder="Rechercher une raquette..."
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
       />
       <div id="suggestions" hidden={setSearchResultRacket.length === 0}>
-        {searchTerm && (
+        {searchTerm && searchResultRacket.length !== 0 && (
+          
           <ul>
             {searchResultRacket.map((racket) => (
               <li key={racket.name} onClick={() => addRacket(racket.name)}>
@@ -143,7 +128,12 @@ const RacketComparison = () => {
       </div>
       <div id="racketList">
         {selectedRackets.map(racket => (
-          <div key={racket.name} className="racket-card" onClick={() => window.open(racket.storeUrl, '_blank')}>
+          <div key={racket.name} className="racket-card" onClick={() => {
+            if(racket.storeUrl === undefined || racket.storeUrl === null || racket.storeUrl === ''){
+              
+            }
+            window.open(racket.storeUrl, '_blank')
+            }}>
             <img src={racket.imageUrl} alt={`Image of ${racket.name}`} style={{maxHeight: '60px'}} />
             <span>{racket.name}</span>
           </div>

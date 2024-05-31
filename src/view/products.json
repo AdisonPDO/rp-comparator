@@ -6,20 +6,9 @@
         "Maniability": 3.69,
         "Weight": 9.47,
         "Effect": 9.0,
-        "Tolerance": 6.44,
+        "Tolerance": 2.94,
         "Power": 9.29,
-        "Control": 2.08
-    },
-    {
-        "name": "Black Crown Demo",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/test.webp?v=1672430244",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
+        "Control": 2.96
     },
     {
         "name": "Black Crown Hurricane Pro",
@@ -28,9 +17,9 @@
         "Maniability": 4.82,
         "Weight": 8.3,
         "Effect": 8.0,
-        "Tolerance": 3.35,
+        "Tolerance": 6.86,
         "Power": 6.79,
-        "Control": 4.65
+        "Control": 5.52
     },
     {
         "name": "Black Crown Special Power",
@@ -38,10 +27,10 @@
         "storeUrl": "https://padeleurope.co/products/black-crown-special-power",
         "Maniability": 5.45,
         "Weight": 8.3,
-        "Effect": 5.5,
-        "Tolerance": 3.56,
-        "Power": 5.01,
-        "Control": 5.61
+        "Effect": 4.0,
+        "Tolerance": 5.31,
+        "Power": 5.89,
+        "Control": 5.46
     },
     {
         "name": "Black Crown Piton 10",
@@ -50,9 +39,9 @@
         "Maniability": 4.63,
         "Weight": 7.88,
         "Effect": 4.5,
-        "Tolerance": 2.94,
+        "Tolerance": 6.44,
         "Power": 6.98,
-        "Control": 4.58
+        "Control": 5.46
     },
     {
         "name": "Black Crown Hurricane",
@@ -61,9 +50,9 @@
         "Maniability": 4.8,
         "Weight": 7.88,
         "Effect": 6.5,
-        "Tolerance": 3.15,
+        "Tolerance": 6.64,
         "Power": 6.38,
-        "Control": 3.97
+        "Control": 4.85
     },
     {
         "name": "Black Crown Piton Attack 12k+",
@@ -72,9 +61,9 @@
         "Maniability": 4.59,
         "Weight": 8.83,
         "Effect": 8.0,
-        "Tolerance": 3.15,
-        "Power": 6.32,
-        "Control": 5.39
+        "Tolerance": 4.89,
+        "Power": 7.19,
+        "Control": 5.24
     },
     {
         "name": "Black Crown Piton Air Plus",
@@ -83,9 +72,9 @@
         "Maniability": 4.57,
         "Weight": 8.41,
         "Effect": 8.0,
-        "Tolerance": 2.94,
+        "Tolerance": 6.44,
         "Power": 6.23,
-        "Control": 5.51
+        "Control": 6.39
     },
     {
         "name": "Black Crown Special",
@@ -93,10 +82,10 @@
         "storeUrl": "https://padeleurope.co/products/black-crown-special",
         "Maniability": 5.15,
         "Weight": 8.2,
-        "Effect": 5.5,
-        "Tolerance": 5.0,
-        "Power": 5.07,
-        "Control": 5.79
+        "Effect": 4.0,
+        "Tolerance": 6.75,
+        "Power": 5.95,
+        "Control": 5.65
     },
     {
         "name": "Black Crown Hurricane 2.0",
@@ -105,9 +94,9 @@
         "Maniability": 4.8,
         "Weight": 7.88,
         "Effect": 3.0,
-        "Tolerance": 4.38,
+        "Tolerance": 7.88,
         "Power": 6.54,
-        "Control": 5.83
+        "Control": 6.7
     },
     {
         "name": "Black Crown Special Soft",
@@ -115,10 +104,10 @@
         "storeUrl": "https://padeleurope.co/products/black-crown-special-soft",
         "Maniability": 5.2,
         "Weight": 8.3,
-        "Effect": 5.5,
-        "Tolerance": 3.77,
-        "Power": 6.15,
-        "Control": 4.49
+        "Effect": 4.0,
+        "Tolerance": 5.52,
+        "Power": 7.02,
+        "Control": 4.35
     },
     {
         "name": "Black Crown  Hurricane Pro 2.0",
@@ -127,9 +116,9 @@
         "Maniability": 5.11,
         "Weight": 7.24,
         "Effect": 9.0,
-        "Tolerance": 2.94,
+        "Tolerance": 6.44,
         "Power": 6.38,
-        "Control": 4.31
+        "Control": 5.18
     },
     {
         "name": "Black Crown Piton 11 Soft",
@@ -137,10 +126,10 @@
         "storeUrl": "https://padeleurope.co/products/black-crown-piton-11-soft",
         "Maniability": 4.94,
         "Weight": 8.09,
-        "Effect": 4.5,
-        "Tolerance": 3.56,
+        "Effect": 3.0,
+        "Tolerance": 7.06,
         "Power": 5.96,
-        "Control": 5.51
+        "Control": 6.39
     },
     {
         "name": "Black Crown Piton Furia",
@@ -148,10 +137,10 @@
         "storeUrl": "https://padeleurope.co/products/black-crown-piton-furia",
         "Maniability": 4.28,
         "Weight": 7.67,
-        "Effect": 4.5,
-        "Tolerance": 3.15,
+        "Effect": 3.0,
+        "Tolerance": 6.64,
         "Power": 7.23,
-        "Control": 4.58
+        "Control": 5.46
     },
     {
         "name": "Black Crown Piton 11",
@@ -159,10 +148,10 @@
         "storeUrl": "https://padeleurope.co/products/black-crown-piton-11",
         "Maniability": 4.65,
         "Weight": 8.3,
-        "Effect": 4.5,
-        "Tolerance": 3.15,
+        "Effect": 3.0,
+        "Tolerance": 6.64,
         "Power": 6.28,
-        "Control": 5.39
+        "Control": 6.26
     },
     {
         "name": "Black Crown Wolf",
@@ -171,9 +160,9 @@
         "Maniability": 5.55,
         "Weight": 7.67,
         "Effect": 3.0,
-        "Tolerance": 3.56,
-        "Power": 5.11,
-        "Control": 6.88
+        "Tolerance": 5.31,
+        "Power": 5.98,
+        "Control": 6.73
     },
     {
         "name": "Black Crown Piton",
@@ -182,20 +171,9 @@
         "Maniability": 4.57,
         "Weight": 7.56,
         "Effect": 4.5,
-        "Tolerance": 3.97,
+        "Tolerance": 7.47,
         "Power": 6.76,
-        "Control": 4.89
-    },
-    {
-        "name": "Black Crown Piton Jr",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/pitonjunior.jpg?v=1680536360",
-        "storeUrl": "https://padeleurope.co/products/black-crown-piton-jr",
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
+        "Control": 5.77
     },
     {
         "name": "Black Crown Snake",
@@ -204,9 +182,9 @@
         "Maniability": 4.64,
         "Weight": 8.09,
         "Effect": 4.5,
-        "Tolerance": 2.12,
+        "Tolerance": 5.62,
         "Power": 6.5,
-        "Control": 5.14
+        "Control": 6.01
     },
     {
         "name": "Black Crown Shark",
@@ -215,9 +193,9 @@
         "Maniability": 4.71,
         "Weight": 8.73,
         "Effect": 6.5,
-        "Tolerance": 3.56,
-        "Power": 5.49,
-        "Control": 7.13
+        "Tolerance": 5.31,
+        "Power": 6.37,
+        "Control": 6.98
     },
     {
         "name": "Babolat Storm 22",
@@ -226,9 +204,9 @@
         "Maniability": 6.51,
         "Weight": 5.65,
         "Effect": 4.5,
-        "Tolerance": 2.73,
-        "Power": 4.63,
-        "Control": 5.76
+        "Tolerance": 4.48,
+        "Power": 5.51,
+        "Control": 5.61
     },
     {
         "name": "Babolat Contact 22",
@@ -237,9 +215,9 @@
         "Maniability": 6.52,
         "Weight": 5.86,
         "Effect": 4.5,
-        "Tolerance": 2.73,
+        "Tolerance": 6.23,
         "Power": 4.57,
-        "Control": 5.82
+        "Control": 6.7
     },
     {
         "name": "Babolat Counter Veron 2023",
@@ -248,9 +226,9 @@
         "Maniability": 4.02,
         "Weight": 10.0,
         "Effect": 10.0,
-        "Tolerance": 2.73,
-        "Power": 6.62,
-        "Control": 4.34
+        "Tolerance": 4.48,
+        "Power": 7.5,
+        "Control": 4.2
     },
     {
         "name": "Head Gravity Elite",
@@ -259,9 +237,9 @@
         "Maniability": 4.42,
         "Weight": 8.73,
         "Effect": 10.0,
-        "Tolerance": 3.56,
+        "Tolerance": 7.06,
         "Power": 6.87,
-        "Control": 3.72
+        "Control": 4.6
     },
     {
         "name": "Head Gravity Motion",
@@ -270,9 +248,9 @@
         "Maniability": 5.16,
         "Weight": 7.56,
         "Effect": 10.0,
-        "Tolerance": 3.56,
+        "Tolerance": 7.06,
         "Power": 5.96,
-        "Control": 4.16
+        "Control": 5.03
     },
     {
         "name": "Head Gravity Pro",
@@ -281,9 +259,9 @@
         "Maniability": 4.38,
         "Weight": 8.83,
         "Effect": 9.0,
-        "Tolerance": 3.35,
+        "Tolerance": 6.86,
         "Power": 6.62,
-        "Control": 4.62
+        "Control": 5.49
     },
     {
         "name": "Tecnifibre Wallbreaker 375",
@@ -291,32 +269,10 @@
         "storeUrl": "https://padeleurope.co/products/tecnifibre-wallbreaker-375",
         "Maniability": 4.08,
         "Weight": 9.58,
-        "Effect": 3.0,
-        "Tolerance": 2.53,
-        "Power": 7.16,
-        "Control": 5.7
-    },
-    {
-        "name": "Nox AT Luxury Genius Attack 18K 2023",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/nox-at-luxury-genius-attack-18k-padel-racket-padelusa1.webp?v=1675015513",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Nox AT10 Luxury 18K 2023 BY AGUSTÍN TAPIA",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/nox-at10-luxury-genius-18K-2023-padel-racket-padelusa1.webp?v=1675015520",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
+        "Effect": 0.0,
+        "Tolerance": 4.28,
+        "Power": 8.04,
+        "Control": 3.52
     },
     {
         "name": "Nox AT10 Luxury Genius Arena 12K 2023",
@@ -324,21 +280,10 @@
         "storeUrl": null,
         "Maniability": 5.3,
         "Weight": 8.62,
-        "Effect": 3.0,
-        "Tolerance": 2.94,
-        "Power": 5.39,
-        "Control": 6.76
-    },
-    {
-        "name": "Nox ML10 Pro Cup Luxury 2023",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/nox-ml10-pro-cup-luxury-padel-racket-padelusa1.webp?v=1675015543",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
+        "Effect": 0.0,
+        "Tolerance": 4.69,
+        "Power": 6.26,
+        "Control": 4.57
     },
     {
         "name": "Bullpadel Ionic Power 23",
@@ -347,20 +292,9 @@
         "Maniability": 3.74,
         "Weight": 9.58,
         "Effect": 9.0,
-        "Tolerance": 6.44,
+        "Tolerance": 2.94,
         "Power": 9.26,
-        "Control": 2.08
-    },
-    {
-        "name": "Bullpadel Indiga Ctr 23",
-        "imageUrl": null,
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
+        "Control": 2.96
     },
     {
         "name": "Bullpadel Indiga W 23",
@@ -369,9 +303,9 @@
         "Maniability": 5.26,
         "Weight": 7.77,
         "Effect": 4.5,
-        "Tolerance": 2.73,
+        "Tolerance": 6.23,
         "Power": 5.74,
-        "Control": 5.51
+        "Control": 6.39
     },
     {
         "name": "Head Zephyr UL",
@@ -380,9 +314,9 @@
         "Maniability": 6.17,
         "Weight": 5.76,
         "Effect": 4.5,
-        "Tolerance": 3.35,
+        "Tolerance": 6.86,
         "Power": 5.34,
-        "Control": 5.2
+        "Control": 6.08
     },
     {
         "name": "Babolat Counter Vertuo 2023",
@@ -391,9 +325,9 @@
         "Maniability": 5.54,
         "Weight": 6.71,
         "Effect": 10.0,
-        "Tolerance": 3.35,
-        "Power": 5.79,
-        "Control": 4.04
+        "Tolerance": 5.11,
+        "Power": 6.67,
+        "Control": 3.89
     },
     {
         "name": "Babolat Technical Vertuo 2023",
@@ -402,9 +336,9 @@
         "Maniability": 4.62,
         "Weight": 7.77,
         "Effect": 10.0,
-        "Tolerance": 6.64,
+        "Tolerance": 3.15,
         "Power": 8.73,
-        "Control": 1.37
+        "Control": 2.25
     },
     {
         "name": "Babolat Air Vertuo 2023",
@@ -413,20 +347,9 @@
         "Maniability": 6.07,
         "Weight": 6.18,
         "Effect": 10.0,
-        "Tolerance": 2.94,
-        "Power": 5.05,
-        "Control": 4.47
-    },
-    {
-        "name": "Adidas RX 1000",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/ADIDASRX1000_1__2_jpg.webp?v=1677771439",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
+        "Tolerance": 4.69,
+        "Power": 5.92,
+        "Control": 4.32
     },
     {
         "name": "Adidas RX 2000 Light",
@@ -435,229 +358,9 @@
         "Maniability": 6.14,
         "Weight": 6.82,
         "Effect": 4.5,
-        "Tolerance": 3.15,
+        "Tolerance": 6.64,
         "Power": 4.26,
-        "Control": 6.5
-    },
-    {
-        "name": "Babolat Movea Men Padel Shoes",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/BabolatMoveaMenPadelShoes_1.webp?v=1683636635",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Sac de padel Babolat RH Perf",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/200474_1.webp?v=1683636648",
-        "storeUrl": "https://padeleurope.co/products/babolat-rh-perf-padel",
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Bullpadel Hesacore Grip",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/T942012000_1.webp?v=1683636652",
-        "storeUrl": "https://padeleurope.co/products/bullpadel-hesacore-grip",
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Bullpadel Protecteur de cadre HI FRAME Noir",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/P782005000_1.webp?v=1683636657",
-        "storeUrl": "https://padeleurope.co/products/bullpadel-frame-protector-hi-frame-black",
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Bullpadel Overgrips White",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/P779012000.webp?v=1683636660",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Bullpadel Frame Protector",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/C699005000.webp?v=1683636663",
-        "storeUrl": "https://padeleurope.co/products/bullpadel-frame-protector",
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Sac Bullpadel Vertex Grix",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/BL43051000_5.webp?v=1683636702",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Bullpadel Hesacore W Grip",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/AU85018000_1.webp?v=1683636752",
-        "storeUrl": "https://padeleurope.co/products/bullpadel-hesacore-w-grip",
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion Ambassador Summun White Racket Bag",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Untitleddesign_7.webp?v=1683636766",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Babolat Jet Premura 2 Men's Padel Shoes",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/BabolatJetPREMURA_3.webp?v=1683636776",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Babolat Technical Viper Juan Lebron",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Babolat-Technical-Viper-Juan-Lebron-Padel-Racket-1.webp?v=1683636790",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Nox Overgrip Pro White",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/OVNOXPRO12.webp?v=1683636792",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Nox Overgrip Pro WHITE - Pack of 3",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/18436049561278-600x600.webp?v=1683636794",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Nox Long Wristbands - Pack of 2",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/munequeras-deportivas-largas-nox-negroblanco-mulnebla2udbox-18436603192658-859858.webp?v=1683636798",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Nox Custom Grip",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/NOXCUGRIPBOX_6.webp?v=1683636809",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Nox Thermo Pro Series Black Padel Bag",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/BPTOURNEGRO_3.webp?v=1683636818",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Nox WPT Open Series Padel Bag",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/BPWPTOPEN_1.webp?v=1683636834",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Nox AT10 Lux Black/Sharp Green Gray Shoes",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/CALATLUXBLSG_11.webp?v=1683636854",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Nox AT10 Lux CoolGrey/Georgia Peach Padel Shoes",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/CALATLUXCGPF_11.webp?v=1683636874",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Adidas Multigame 3.2 Padel Racket Bag",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/AdidasMultigameBag_3.webp?v=1683636891",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
+        "Control": 7.38
     },
     {
         "name": "Siux Diablo Revolution II Sanyo Pro",
@@ -665,10 +368,10 @@
         "storeUrl": "https://padeleurope.co/products/siux-diablo-revolution-ii-sanyo-pro",
         "Maniability": 4.14,
         "Weight": 10.0,
-        "Effect": 3.0,
-        "Tolerance": 2.73,
-        "Power": 6.59,
-        "Control": 6.32
+        "Effect": 0.0,
+        "Tolerance": 4.48,
+        "Power": 7.46,
+        "Control": 4.13
     },
     {
         "name": "Babolat Technical Veron 2023",
@@ -677,20 +380,9 @@
         "Maniability": 4.63,
         "Weight": 8.73,
         "Effect": 10.0,
-        "Tolerance": 6.86,
+        "Tolerance": 3.35,
         "Power": 8.31,
-        "Control": 1.87
-    },
-    {
-        "name": "Nox Tempo WPT Luxury Series",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/NoxTempoWPTLuxurySeries1.0_7.webp?v=1683636931",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
+        "Control": 2.74
     },
     {
         "name": "Nox ML10 Pro Cup Rough Surface Edition",
@@ -698,164 +390,10 @@
         "storeUrl": "https://padeleurope.co/products/ml10-pro-cup-rough-surface-edition",
         "Maniability": 5.02,
         "Weight": 8.09,
-        "Effect": 4.5,
-        "Tolerance": 3.77,
+        "Effect": 3.0,
+        "Tolerance": 7.27,
         "Power": 6.59,
-        "Control": 4.71
-    },
-    {
-        "name": "Nox Nerbo WPT LUXURY SERIES",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/PNERWPT23_3.webp?v=1683636958",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion MAXIMA Summum Junior",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/MAXIMASummumJunior_3.webp?v=1683636972",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion MAXIMA Prisma Airflow W",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/MAXIMAPrismaAirfloww_1.webp?v=1683636986",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion LW PRISMA Airflow S",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/LWPRISMAAirflowS_3.webp?v=1683637001",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion LW PRISMA Airflow W",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/LWPRISMAAirflowW_4.webp?v=1683637015",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion Bourne Prisma AIRFLOW MY S",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/BournePrismaAIRFLOWMYS_5.webp?v=1683637028",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion Bourne Prisma AIRFLOW MY W",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/BournePrismaAIRFLOWMYW_10.webp?v=1683637041",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion Maxima Prisma Radio W 2023",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/MaximaPrismaRadioW_1.webp?v=1683637054",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion Bourne Prisma Radio W",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/BournePrismaRadioW_3.webp?v=1683637068",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion MAXIMA Prisma Airflow S",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/MAXIMAPrismaAirflowS_3.webp?v=1683637081",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion Ambassador Backpack - Black",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/AmbassBpack-Black_2.webp?v=1683637104",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion Ambassador Backpack - White",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/AmbassBpack-White_2.webp?v=1683637113",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion Bags Ambassador - Black",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Ambassador-Black_1.webp?v=1683637127",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion Bags Ambassador - Burgundy",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Ambass-Burgundy_2.webp?v=1683637141",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
+        "Control": 5.58
     },
     {
         "name": "Head Zephyr 2023",
@@ -864,42 +402,9 @@
         "Maniability": 5.63,
         "Weight": 6.82,
         "Effect": 4.5,
-        "Tolerance": 3.15,
+        "Tolerance": 6.64,
         "Power": 5.63,
-        "Control": 5.32
-    },
-    {
-        "name": "Varlion Overgrip Summum Air x 3 White",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/OvergripSummumAirx3White.webp?v=1683637153",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "StarVie Triton Speed 2.0",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/TritonSPEED2_4.webp?v=1683637165",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "StarVie Triton Pro 2.0 2023",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/TritonPRO2_4.webp?v=1683637177",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
+        "Control": 6.2
     },
     {
         "name": "Nox AT Genius LIMITED EDITION",
@@ -907,65 +412,10 @@
         "storeUrl": null,
         "Maniability": 5.64,
         "Weight": 7.77,
-        "Effect": 6.5,
-        "Tolerance": 3.56,
-        "Power": 4.99,
-        "Control": 4.9
-    },
-    {
-        "name": "Osaka Vision Pro Power Touch",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/13193-VISIONPRORACKET-PowerTouch-Purpl-Sand-1.0.webp?v=1683637247",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Navidium Shipping Protection",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/demo-upload.png?v=1683637298",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Adidas Metalbone Carbon",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Metalbone_carbon_RK1AD0U55_FRONT.webp?v=1683637313",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Adidas Adipower Multiweight CTRL",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/AdipowerMultiweightCTRLRK1CB0U23front.webp?v=1683637334",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Adidas Metalbone HRD 3.2 2023 (Ale Galan)",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Metalbone_HRD_3.2_RK1AB0U22_FRONT1.webp?v=1683637353",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
+        "Effect": 5.0,
+        "Tolerance": 5.31,
+        "Power": 5.86,
+        "Control": 4.76
     },
     {
         "name": "Babolat Technical Viper 2023",
@@ -974,9 +424,9 @@
         "Maniability": 4.3,
         "Weight": 8.94,
         "Effect": 10.0,
-        "Tolerance": 6.64,
+        "Tolerance": 3.15,
         "Power": 8.33,
-        "Control": 2.12
+        "Control": 2.99
     },
     {
         "name": "Wilson Bela Pro v2",
@@ -985,9 +435,9 @@
         "Maniability": 4.15,
         "Weight": 8.41,
         "Effect": 6.5,
-        "Tolerance": 2.73,
-        "Power": 7.06,
-        "Control": 5.77
+        "Tolerance": 4.48,
+        "Power": 7.93,
+        "Control": 5.62
     },
     {
         "name": "Babolat Counter Viper 2023",
@@ -995,10 +445,10 @@
         "storeUrl": null,
         "Maniability": 5.03,
         "Weight": 8.41,
-        "Effect": 6.5,
-        "Tolerance": 3.15,
-        "Power": 5.74,
-        "Control": 4.53
+        "Effect": 5.0,
+        "Tolerance": 4.89,
+        "Power": 6.61,
+        "Control": 4.38
     },
     {
         "name": "Babolat Air Viper 2023",
@@ -1006,10 +456,10 @@
         "storeUrl": null,
         "Maniability": 5.3,
         "Weight": 7.77,
-        "Effect": 6.5,
-        "Tolerance": 2.53,
-        "Power": 5.65,
-        "Control": 4.41
+        "Effect": 5.0,
+        "Tolerance": 4.28,
+        "Power": 6.53,
+        "Control": 4.26
     },
     {
         "name": "Head Concord 2023",
@@ -1018,9 +468,9 @@
         "Maniability": 4.13,
         "Weight": 7.98,
         "Effect": 4.5,
-        "Tolerance": 2.94,
-        "Power": 7.02,
-        "Control": 4.95
+        "Tolerance": 4.69,
+        "Power": 7.89,
+        "Control": 4.81
     },
     {
         "name": "Head Alpha Touch Graphene 360+",
@@ -1029,53 +479,9 @@
         "Maniability": 4.7,
         "Weight": 8.41,
         "Effect": 4.5,
-        "Tolerance": 2.33,
-        "Power": 6.4,
-        "Control": 5.2
-    },
-    {
-        "name": "StarVie Dronos Galaxy Speed 2.0",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Starvie-Dronos-Galaxy-Speed-Padel-Racket-PADELUSA1.webp?v=1683637437",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "StarVie Basalto Osiris 2.0 2023",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Starvie-Basalto-Padel-Racket.webp?v=1683637444",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "StarVie Basalto Osiris Pro 2.0 2023",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Starvie-Basalto-Pro-2.0-Padel-Racket-PADELUSA1.webp?v=1683637450",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "StarVie Astrum 2023",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Starvie-Astrum-2023-Padel-Racket-PadelUSA-1.webp?v=1683637458",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
+        "Tolerance": 4.08,
+        "Power": 7.27,
+        "Control": 5.06
     },
     {
         "name": "StarVie Metheora Dual 2023",
@@ -1084,9 +490,9 @@
         "Maniability": 4.92,
         "Weight": 8.62,
         "Effect": 8.0,
-        "Tolerance": 2.33,
+        "Tolerance": 5.83,
         "Power": 6.08,
-        "Control": 5.39
+        "Control": 6.26
     },
     {
         "name": "Adidas Metalbone 3.2 2023 (Ale Galan)",
@@ -1095,9 +501,9 @@
         "Maniability": 5.07,
         "Weight": 8.2,
         "Effect": 8.0,
-        "Tolerance": 6.86,
+        "Tolerance": 3.35,
         "Power": 7.89,
-        "Control": 3.16
+        "Control": 4.04
     },
     {
         "name": "Siux SG Copper Edition 18k (Sanyo)",
@@ -1106,9 +512,9 @@
         "Maniability": 5.26,
         "Weight": 7.77,
         "Effect": 4.5,
-        "Tolerance": 3.15,
-        "Power": 5.05,
-        "Control": 6.31
+        "Tolerance": 4.89,
+        "Power": 5.92,
+        "Control": 6.17
     },
     {
         "name": "Head Speed Pro 2023",
@@ -1117,9 +523,9 @@
         "Maniability": 4.21,
         "Weight": 8.94,
         "Effect": 4.5,
-        "Tolerance": 2.53,
-        "Power": 6.74,
-        "Control": 5.2
+        "Tolerance": 4.28,
+        "Power": 7.62,
+        "Control": 5.06
     },
     {
         "name": "Head Speed Motion 2023",
@@ -1128,9 +534,9 @@
         "Maniability": 5.24,
         "Weight": 7.35,
         "Effect": 3.0,
-        "Tolerance": 3.15,
-        "Power": 6.23,
-        "Control": 5.83
+        "Tolerance": 4.89,
+        "Power": 7.1,
+        "Control": 5.68
     },
     {
         "name": "Head Speed Elite 2023",
@@ -1139,9 +545,9 @@
         "Maniability": 4.43,
         "Weight": 8.94,
         "Effect": 4.5,
-        "Tolerance": 2.94,
-        "Power": 6.33,
-        "Control": 5.51
+        "Tolerance": 4.69,
+        "Power": 7.2,
+        "Control": 5.37
     },
     {
         "name": "Nox Luxury Titanium Exclusive",
@@ -1149,10 +555,10 @@
         "storeUrl": "https://padeleurope.co/products/nox-luxury-titanium-padel-racket",
         "Maniability": 4.35,
         "Weight": 8.2,
-        "Effect": 3.0,
-        "Tolerance": 3.15,
-        "Power": 6.92,
-        "Control": 5.77
+        "Effect": 0.0,
+        "Tolerance": 4.89,
+        "Power": 7.79,
+        "Control": 3.58
     },
     {
         "name": "Head Speed Pro X",
@@ -1161,42 +567,9 @@
         "Maniability": 3.8,
         "Weight": 10.0,
         "Effect": 4.5,
-        "Tolerance": 2.94,
-        "Power": 7.04,
-        "Control": 5.2
-    },
-    {
-        "name": "Babolat Revenge Woman",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Babolat-Revenge-Woman-Padel-Racket-PADELUSA1_2da5f067-398a-445c-b6d2-5ce6a938d27b.webp?v=1683637575",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion Maxima Summum Prisma S",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Varlion-Maxima-Summum-Prisma-S-Padel-Racket-PADELUSA1.webp?v=1683637583",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion Bourne Summum Prisma S (Mike Yanguas)",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Varlion-Bourne-Summum-Prisma-S-Padel-Racket-PADELUSA1.webp?v=1683637592",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
+        "Tolerance": 4.69,
+        "Power": 7.92,
+        "Control": 5.06
     },
     {
         "name": "Head Delta Motion",
@@ -1205,9 +578,9 @@
         "Maniability": 4.67,
         "Weight": 7.88,
         "Effect": 8.0,
-        "Tolerance": 6.44,
+        "Tolerance": 2.94,
         "Power": 8.06,
-        "Control": 3.28
+        "Control": 4.16
     },
     {
         "name": "Black Crown Piton Nakano",
@@ -1216,64 +589,9 @@
         "Maniability": 5.34,
         "Weight": 7.77,
         "Effect": 4.5,
-        "Tolerance": 3.15,
+        "Tolerance": 6.64,
         "Power": 5.67,
-        "Control": 5.51
-    },
-    {
-        "name": "Wilson Bela Super Tour Padel Bag Red",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Wilson-Bela-Super-Tour-Racket-Bag-PADELUSA1.webp?v=1683637645",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Wilson Bela Small Duffle Padel Bag Black",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Wilson-Bela-Small-Duffel-Black-Racket-Bag-PADELUSA1.webp?v=1683637659",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Wilson Pro Staff Elite V2",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Wilson-Pro-Staff-Elite-V2-Padel-Racket-PADELUSA1.webp?v=1683637695",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Head Graphene Discovery Touch",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Head-Graphene-Touch-Discovery-Padel-Racket-PADELUSA1.webp?v=1683637700",
-        "storeUrl": "https://padeleurope.co/products/head-graphene-discovery-touch",
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Babolat RH Team Padel Racket Bag",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Babolat-Racket-Bag-RH_TEAM_PADEL-PADELUSA3-face.webp?v=1683637708",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
+        "Control": 6.39
     },
     {
         "name": "Head Delta Elite",
@@ -1282,9 +600,9 @@
         "Maniability": 5.59,
         "Weight": 7.56,
         "Effect": 5.5,
-        "Tolerance": 7.27,
+        "Tolerance": 3.77,
         "Power": 7.51,
-        "Control": 2.58
+        "Control": 3.45
     },
     {
         "name": "Head Delta Speed Graphene 360+",
@@ -1293,9 +611,9 @@
         "Maniability": 6.0,
         "Weight": 6.39,
         "Effect": 9.0,
-        "Tolerance": 6.23,
+        "Tolerance": 2.73,
         "Power": 7.17,
-        "Control": 2.64
+        "Control": 3.51
     },
     {
         "name": "Wilson Blade Team V2",
@@ -1303,186 +621,10 @@
         "storeUrl": "https://padeleurope.co/products/wilson-blade-team-v2",
         "Maniability": 5.02,
         "Weight": 8.09,
-        "Effect": 3.0,
-        "Tolerance": 2.73,
-        "Power": 6.01,
-        "Control": 6.26
-    },
-    {
-        "name": "Nox AT10 GENIUS Arena by Agustín Tapia 2022",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/at10-luxury-genius-arena-2022-by-agustin-tapia-pat10genius22-8436567661743-505065_1800x1800_b0995d3d-2901-41bd-afce-eb94ccfd5f3a.jpg?v=1683637855",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Nox ML10 Luxury Bahia",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/ml10-luxury-bahia-2022-pml10luxbahia22-8436567661767-601193_1800x1800-PADELUSA1.webp?v=1683637869",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion Backpack Ambassador Leather Black",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Varlion-Ambassadorsbackpack_black_2.webp?v=1683637883",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion Ambassador Leather Burgundy Racket Bag",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Varlion-Ambassadors-bag_burgundy_5.webp?v=1683637954",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion Ambassador Summun Brown Racket Bag",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Varlion-Ambassadors-bag_brown_5.webp?v=1683638000",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion Ambassador Leather Black Racket Bag",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Varlion-Ambassadorsbag_black_5.webp?v=1683638024",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion Summum Pro Green Racket Bag",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Varlion-SummumPro-green-3.webp?v=1683638071",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion Summum Pro Silver Racket Bag",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Varlion-SummumPro-plata-3.webp?v=1683638090",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion Summum Green Racket Bag",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Varlion-Summumbag_turquoise_2.webp?v=1683638106",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion Summum Yellow Racket Bag",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Summumbag_yellow_2.webp?v=1683638148",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion LW Summum Prisma W",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Varlion-LWSummumPrismaW_1.webp?v=1683638165",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion Bourne Summum Prisma W (Mike Yanguas)",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Bourne-Summum-Prisma-W_1.webp?v=1683638210",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion Maxima Summum Prisma W",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/MaximaSummumPrismaW_1.webp?v=1683638226",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Siux Bag Fusion Blue",
-        "imageUrl": null,
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Siux Padel Bag Combi Tour Red",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/bag-padel-siux-combi-tour-red.webp?v=1683638332",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Siux Overgrip X12 WHITE SMOOTH",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/OVERGRIPSSIUXPROX12BLANCOwhite.webp?v=1683638334",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
+        "Effect": 0.0,
+        "Tolerance": 4.48,
+        "Power": 6.89,
+        "Control": 4.07
     },
     {
         "name": "Babolat Air Veron 2023",
@@ -1491,31 +633,9 @@
         "Maniability": 4.91,
         "Weight": 7.45,
         "Effect": 10.0,
-        "Tolerance": 7.47,
+        "Tolerance": 3.97,
         "Power": 8.11,
-        "Control": 1.87
-    },
-    {
-        "name": "Head Alpha Monstercombi Padel Racket Bag Pink",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/head-alpha-padel-racket-bag-pink.webp?v=1683638445",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "HEAD TOUR TEAM MONSTERCOMBI PADEL BAG",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/tour-team-padel-monstercombi-blue-navy_6eb1eeb0-6115-4240-8b55-bfbd4bd31339.webp?v=1683638528",
-        "storeUrl": "https://padeleurope.co/products/head-team-padel-bag-monstercombi-black-green-22",
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
+        "Control": 2.74
     },
     {
         "name": "Wilson Pro Staff V2 Team",
@@ -1524,130 +644,9 @@
         "Maniability": 5.03,
         "Weight": 8.41,
         "Effect": 3.0,
-        "Tolerance": 2.12,
+        "Tolerance": 5.62,
         "Power": 5.9,
-        "Control": 6.39
-    },
-    {
-        "name": "Wilson Pro Staff Team",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/wilson-pro-staff-team-padel.webp?v=1683638574",
-        "storeUrl": "https://padeleurope.co/products/wilson-pro-staff-team",
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Wilson Bela Small Duffle Padel Red Bag",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/padel-bag-wilson-bela-small-duffel.jpg?v=1683638622",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Wilson Team Padel Bag Black",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/thermo-bag-padel-wilson-team-padel-noir-2.jpg?v=1683638629",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Babolat Revenge Woman 2022",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Padel-Racket-Babolat-Revenge-Women-2022.webp?v=1683638662",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "StarVie Tronix 22",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/StarVieTronix22.webp?v=1683638678",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "StarVie Comet 2022",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/StarVieComet2022.webp?v=1683638695",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Nox ML10 Pro Cup Luxury By Miguel Lamperti",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/padel-racket-nox-ml10-pro-cup-luxury-by-miguel-lamperti-PADELUSA1.jpg?v=1683638725",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Adidas Adipower Master LTD",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Adidas-Adipower_MASTER_LTD.jpg?v=1683638803",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Nox ML 10 Pro Cup Black Edition",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/nox-padel-racket-ML-10-PRO-CUP-black-edition-PADELUSA1.jpg?v=1683638863",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Nox AT Luxury Genius Attack 18K 2022",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Nox-AT10-Attack-18k-Agustin-Tapia-Padel-Racket-PADELUSA1.webp?v=1683638891",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Nox ML 10 Pro Cup 2022",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/nox-padel-racket-ML-10-PRO-CUP-1.jpg?v=1683638911",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
+        "Control": 7.26
     },
     {
         "name": "Head Alpha Elite Graphene 360+",
@@ -1656,20 +655,9 @@
         "Maniability": 4.7,
         "Weight": 8.41,
         "Effect": 3.0,
-        "Tolerance": 2.94,
-        "Power": 6.14,
-        "Control": 6.39
-    },
-    {
-        "name": "StarVie Metheora",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Starvie-Metheora-Padel-Racket-Padelusa-1.webp?v=1683639039",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
+        "Tolerance": 4.69,
+        "Power": 7.01,
+        "Control": 6.24
     },
     {
         "name": "Babolat Defiance Woman",
@@ -1678,9 +666,9 @@
         "Maniability": 6.37,
         "Weight": 6.39,
         "Effect": 4.5,
-        "Tolerance": 2.12,
+        "Tolerance": 5.62,
         "Power": 4.46,
-        "Control": 6.07
+        "Control": 6.94
     },
     {
         "name": "Cartri Shield Alpha",
@@ -1689,9 +677,9 @@
         "Maniability": 5.46,
         "Weight": 7.67,
         "Effect": 9.0,
-        "Tolerance": 3.15,
-        "Power": 5.96,
-        "Control": 4.49
+        "Tolerance": 4.89,
+        "Power": 6.83,
+        "Control": 4.35
     },
     {
         "name": "Cartri Volcano Teide",
@@ -1700,53 +688,9 @@
         "Maniability": 4.66,
         "Weight": 8.52,
         "Effect": 8.0,
-        "Tolerance": 2.94,
-        "Power": 6.43,
-        "Control": 5.2
-    },
-    {
-        "name": "Varlion Bourne Carbon 2 Prisma",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Varlion-Bourne-Carbon-2-Prisma-1.jpg?v=1683639200",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion LW Carbon Ti",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/VarlionLWCarbonTi.webp?v=1683639213",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion Avant Carbon Ti Difusor Black",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/VarlionAvantCarbonTiDifusorBlack.webp?v=1683639225",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion Bourne Hexagon 8.8",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Varlion-Bourne-Hexagon-8.jpg?v=1683639235",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
+        "Tolerance": 4.69,
+        "Power": 7.3,
+        "Control": 5.06
     },
     {
         "name": "Varlion Bourne Summum Carbon Black",
@@ -1755,20 +699,9 @@
         "Maniability": 5.04,
         "Weight": 7.67,
         "Effect": 9.0,
-        "Tolerance": 6.03,
+        "Tolerance": 2.53,
         "Power": 7.9,
-        "Control": 2.58
-    },
-    {
-        "name": "Varlion Avant Difusor Carbon Black",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/VarlionAvantDifusorCarbonBlack.webp?v=1683639265",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
+        "Control": 3.45
     },
     {
         "name": "Varlion LW Summum Carbon Black",
@@ -1776,340 +709,10 @@
         "storeUrl": null,
         "Maniability": 5.4,
         "Weight": 7.35,
-        "Effect": 3.0,
-        "Tolerance": 2.12,
+        "Effect": 0.0,
+        "Tolerance": 5.62,
         "Power": 5.74,
-        "Control": 6.26
-    },
-    {
-        "name": "Varlion Bourne Prisma Radio",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/varlion-bourne-summum-prisma-radio-padel-racket-padelusa1.webp?v=1683639284",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion Maxima Prisma Radio",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Varlion-Maxima-Summum-Prisma-Radio-Padel-Racket-PADELUSA1.webp?v=1683639305",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Head Graphene 360 Alpha LTD",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Padel-Racket-Head-Graphene360-Alpha-LTD-PADELUSA.webp?v=1683639308",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Balles Head Padel Pro S - Le carton de 24 tubes",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/ball-box-head-padel-pro-s.jpg?v=1683639336",
-        "storeUrl": "https://padeleurope.co/products/head-padel-pro-s-box-of-24-cans",
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Head Graphene 360 Alpha Tour",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Head-Alpha-Pro-Tour-Padel-Racket-PadelUSA-1.webp?v=1683639341",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Wilson Bela Pro",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/wilson-bela-pro-padel.webp?v=1683639551",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Head Padel Pro - Le carton de 24 tubes",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/head-padel-pro-balls-24cans.jpg?v=1683639554",
-        "storeUrl": "https://padeleurope.co/products/head-padel-pro-balles-padel",
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "StarVie Titania Kepler Pro",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/starvie-titania-kepler-pro-bea-gonzales-2021.jpg?v=1683639572",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "StarVie Raptor",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/starvie-raptor-franco-stupaczuk-2021-1.jpg?v=1683639579",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "StarVie Dronos Galaxy",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/star-vie-dronos-galaxy-2021.jpg?v=1683639586",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "StarVie Triton Pro",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Padel-Racket-Starvie-Triton-Pro-PADELUSA1.webp?v=1683639595",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "StarVie Metheora",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/star-vie-metheora-mati-diaz-2021.jpg?v=1683639603",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Backpack Summum Leather Brown",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Ambassadors_Brown_2.jpg?v=1683639613",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Backpack Summum Leather Burgundy",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Ambassadors_Burgundy_2.jpg?v=1683639622",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Cartri Wolf",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Cartri-Wolf-Padel-Racket-Padelusa1.webp?v=1683639637",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion LW Summum W",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/LW-Summum-W-1.jpg?v=1683639673",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion Avant Carbon Difusor S",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Avant-Difusor-S-1.jpg?v=1683639704",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion Bourne Summum Prisma S",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Bourne-Prisma-S-1.jpg?v=1683639714",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion Bag Summum Turquoise",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Paletero-Summum-verde-4.jpg?v=1683639722",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion Bag Summum Silver",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Varlion-Bag-Summum-2021-Silver-4.jpg?v=1683639729",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Bag Varlion Summum Turquoise PRO",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Paletero-Summum-Pro-Verde-Pet-3.jpg?v=1683639742",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Backpack Summum Leather Black",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/backpacksummumleatherblack1.jpg?v=1683639747",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Backpack Summum Leather White",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/SummumCuero_Blanco_2.jpg?v=1683639756",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion Bag Summum Leather White",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/bag-summum-leather-white-1.jpg?v=1683639770",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion Maxima Summum Junior Woman",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/maxima-summum-junior-woman-first.jpg?v=1683639779",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion Avant Carbon Pro Black",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Avant-Carbon-Pro-1.jpg?v=1683639798",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion Maxima Summum Junior",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/maxima-summum-junior-first.jpg?v=1683639806",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion Bourne Hexagon 8.8",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/bourne-88-first.jpg?v=1683639826",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion Bourne Summum Sevenrhombus S",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Bourne-Summum-S-1.jpg?v=1683639855",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Varlion LW Summum S",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/LW-Summum-S-1.jpg?v=1683639866",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
+        "Control": 5.09
     },
     {
         "name": "Varlion Maxima Summum Prisma S",
@@ -2118,86 +721,9 @@
         "Maniability": 5.06,
         "Weight": 7.98,
         "Effect": 5.5,
-        "Tolerance": 2.12,
-        "Power": 5.83,
-        "Control": 4.99
-    },
-    {
-        "name": "4on TotalGrip Spray",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/4onTotalGripSpray_2.webp?v=1689672024",
-        "storeUrl": "https://padeleurope.co/products/4on-totalgrip-spray",
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "4on Totalgrip Paste",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/4onTotalGripPaste.png?v=1689673790",
-        "storeUrl": "https://padeleurope.co/products/4on-totalgrip-paste",
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "4on TotalDry",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/4onTotalDrySpray_2.webp?v=1689671995",
-        "storeUrl": "https://padeleurope.co/products/4on-totaldry",
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Shockout Antivibrateur Padel",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Untitleddesign_9_0cd11cc7-673f-41d9-8052-f48180518048.webp?v=1689675302",
-        "storeUrl": "https://padeleurope.co/products/shockout-antivibrateur-padel",
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Dual Pro Grip ShockOut",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/shockout-dual-pro-grip-bleu.png?v=1689675592",
-        "storeUrl": "https://padeleurope.co/products/dual-pro-grip-shockout",
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Head Pressurisateur Balles",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/pressurisateur-head-x3-black-1.jpg?v=1689768381",
-        "storeUrl": "https://padeleurope.co/products/head-pressurisateur-balles",
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Wilson Pro Overgrip",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/Wilson-Pro-Overgrip-Comfort-Padel-Europe.webp?v=1689874544",
-        "storeUrl": "https://padeleurope.co/products/wilson-pro-overgrip",
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
+        "Tolerance": 3.87,
+        "Power": 6.7,
+        "Control": 4.84
     },
     {
         "name": "Head Typhoon",
@@ -2206,97 +732,9 @@
         "Maniability": 4.18,
         "Weight": 9.15,
         "Effect": 4.5,
-        "Tolerance": 3.15,
-        "Power": 7.19,
-        "Control": 4.71
-    },
-    {
-        "name": "Head Padel Pro - Le pack de 3 tubes",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/Head-Padel-Pro-Le-pack-de-trois-padel-europe.webp?v=1689874036",
-        "storeUrl": "https://padeleurope.co/products/head-padel-pro-le-pack-de-3-tubes",
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Head Padel Pro S - Le pack de 3 tubes",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/Head-Padel-Pro-S-Le-pack-de-trois-padel-europe.webp?v=1689874765",
-        "storeUrl": "https://padeleurope.co/products/head-padel-pro-s-le-pack-de-3-tubes",
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Sac BELA Super Tour Padel Noir",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/Sac_Padel_belasupertourpadelnoir_wilson_2.png?v=1689924680",
-        "storeUrl": "https://padeleurope.co/products/sac-bela-super-tour-padel-noir",
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Sac BELA Super Tour Padel Rouge",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/Sac_Padel_belasupertourpadelrouge_wilson.png?v=1689924869",
-        "storeUrl": "https://padeleurope.co/products/sac-bela-super-tour-padel-rouge",
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Sac Head PRO X Padel L Noir",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/SAC_PADEL_proxpadelLNoir_HEAD.png?v=1689926070",
-        "storeUrl": "https://padeleurope.co/products/sac-head-pro-x-padel-l-noir",
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Sac Black Crown Atenea Bleu",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/sacateneableu-raquette-padel.com_9205e47c-f60c-4ef1-83a9-48d2becd02a1.jpg?v=1689926278",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Sac Wilson BELA SMALL DUFFEL Rouge",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/Sac_Padel_belasmallduffelrouge_wilson.png?v=1689949485",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Sac Wilson BELA SMALL DUFFEL Noir",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/Sac_Padel_belasmallduffelnoir_wilson.png?v=1689949569",
-        "storeUrl": "https://padeleurope.co/products/sac-wilson-bela-small-duffel-noir",
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
+        "Tolerance": 4.89,
+        "Power": 8.07,
+        "Control": 4.56
     },
     {
         "name": "Raquette de padel PITON 12",
@@ -2304,10 +742,10 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-piton-12",
         "Maniability": 4.54,
         "Weight": 8.73,
-        "Effect": 5.5,
-        "Tolerance": 3.15,
+        "Effect": 4.0,
+        "Tolerance": 6.64,
         "Power": 5.82,
-        "Control": 5.42
+        "Control": 6.3
     },
     {
         "name": "Raquette de padel PITON 12 SILVER",
@@ -2315,10 +753,10 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-piton-12-silver",
         "Maniability": 4.54,
         "Weight": 8.62,
-        "Effect": 5.5,
-        "Tolerance": 3.56,
+        "Effect": 4.0,
+        "Tolerance": 7.06,
         "Power": 5.5,
-        "Control": 5.79
+        "Control": 6.67
     },
     {
         "name": "Raquette de padel BELA PRO PADEL V2.5",
@@ -2327,9 +765,9 @@
         "Maniability": 4.31,
         "Weight": 10.0,
         "Effect": 6.5,
-        "Tolerance": 2.53,
-        "Power": 6.2,
-        "Control": 6.63
+        "Tolerance": 4.28,
+        "Power": 7.08,
+        "Control": 6.49
     },
     {
         "name": "Raquette de padel SPECIAL MASTER",
@@ -2337,10 +775,10 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-special-master",
         "Maniability": 5.18,
         "Weight": 7.98,
-        "Effect": 3.0,
-        "Tolerance": 3.56,
-        "Power": 5.04,
-        "Control": 7.25
+        "Effect": 1.5,
+        "Tolerance": 5.31,
+        "Power": 5.92,
+        "Control": 7.11
     },
     {
         "name": "Diablo révolution lite 3 2024",
@@ -2349,9 +787,9 @@
         "Maniability": 5.42,
         "Weight": 8.52,
         "Effect": 5.5,
-        "Tolerance": 3.35,
-        "Power": 4.83,
-        "Control": 5.86
+        "Tolerance": 5.11,
+        "Power": 5.7,
+        "Control": 5.71
     },
     {
         "name": "Raquette de padel SPECIAL PRO",
@@ -2359,10 +797,10 @@
         "storeUrl": "https://padeleurope.co/products/model-raquette-copie",
         "Maniability": 5.29,
         "Weight": 7.56,
-        "Effect": 4.5,
-        "Tolerance": 2.12,
-        "Power": 5.45,
-        "Control": 5.82
+        "Effect": 3.0,
+        "Tolerance": 3.87,
+        "Power": 6.32,
+        "Control": 5.67
     },
     {
         "name": "Raquette BELA LT V2.5 PADEL 2",
@@ -2371,9 +809,9 @@
         "Maniability": 5.4,
         "Weight": 7.35,
         "Effect": 9.0,
-        "Tolerance": 2.53,
-        "Power": 5.26,
-        "Control": 5.36
+        "Tolerance": 4.28,
+        "Power": 6.13,
+        "Control": 5.21
     },
     {
         "name": "Raquette BELA ELITE V2.5 PADEL 2",
@@ -2382,9 +820,9 @@
         "Maniability": 4.74,
         "Weight": 8.52,
         "Effect": 9.0,
-        "Tolerance": 2.12,
-        "Power": 5.84,
-        "Control": 5.24
+        "Tolerance": 3.87,
+        "Power": 6.71,
+        "Control": 5.09
     },
     {
         "name": "Diablo révolution pro 3 2024",
@@ -2392,10 +830,10 @@
         "storeUrl": "https://padeleurope.co/products/diablo-revolution-pro-3-2024",
         "Maniability": 5.32,
         "Weight": 8.2,
-        "Effect": 5.5,
-        "Tolerance": 3.15,
-        "Power": 5.27,
-        "Control": 5.42
+        "Effect": 4.0,
+        "Tolerance": 4.89,
+        "Power": 6.14,
+        "Control": 5.28
     },
     {
         "name": "Radogar attk 3d",
@@ -2404,9 +842,9 @@
         "Maniability": 4.95,
         "Weight": 8.52,
         "Effect": 8.0,
-        "Tolerance": 6.86,
+        "Tolerance": 3.35,
         "Power": 7.39,
-        "Control": 3.84
+        "Control": 4.71
     },
     {
         "name": "X5 ultimate red",
@@ -2414,10 +852,10 @@
         "storeUrl": null,
         "Maniability": 5.34,
         "Weight": 8.62,
-        "Effect": 4.5,
-        "Tolerance": 3.56,
+        "Effect": 3.0,
+        "Tolerance": 7.06,
         "Power": 5.09,
-        "Control": 6.19
+        "Control": 7.07
     },
     {
         "name": "Équation advanced séries 24",
@@ -2426,9 +864,9 @@
         "Maniability": 5.13,
         "Weight": 8.62,
         "Effect": 10.0,
-        "Tolerance": 3.15,
+        "Tolerance": 6.64,
         "Power": 5.4,
-        "Control": 4.84
+        "Control": 5.71
     },
     {
         "name": "Équation advanced femme",
@@ -2437,20 +875,9 @@
         "Maniability": 5.23,
         "Weight": 7.24,
         "Effect": 10.0,
-        "Tolerance": 3.56,
+        "Tolerance": 7.06,
         "Power": 6.39,
-        "Control": 3.6
-    },
-    {
-        "name": "Ml10 pro cup silver 23",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/8912_jpg.png?v=1714290990",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
+        "Control": 4.48
     },
     {
         "name": "At10 genius ultra light 23",
@@ -2459,9 +886,9 @@
         "Maniability": 7.9,
         "Weight": 3.0,
         "Effect": 4.5,
-        "Tolerance": 2.94,
-        "Power": 3.96,
-        "Control": 5.39
+        "Tolerance": 4.69,
+        "Power": 4.83,
+        "Control": 5.24
     },
     {
         "name": "ML10 BAHIA 12K LUXURY SERIES 24",
@@ -2470,9 +897,9 @@
         "Maniability": 4.41,
         "Weight": 8.62,
         "Effect": 9.0,
-        "Tolerance": 3.15,
-        "Power": 6.81,
-        "Control": 4.37
+        "Tolerance": 4.89,
+        "Power": 7.69,
+        "Control": 4.22
     },
     {
         "name": "ML10 PRO CUP 3K LUXURY SERIES",
@@ -2480,10 +907,10 @@
         "storeUrl": null,
         "Maniability": 4.82,
         "Weight": 8.3,
-        "Effect": 5.5,
-        "Tolerance": 3.35,
+        "Effect": 4.0,
+        "Tolerance": 6.86,
         "Power": 6.26,
-        "Control": 4.68
+        "Control": 5.55
     },
     {
         "name": "ML10 SHOTGUN 18K LUXURY SERIES PAR MIGUEL LAMPERTI",
@@ -2491,10 +918,10 @@
         "storeUrl": null,
         "Maniability": 4.82,
         "Weight": 8.3,
-        "Effect": 3.0,
-        "Tolerance": 6.64,
+        "Effect": 0.0,
+        "Tolerance": 3.15,
         "Power": 7.75,
-        "Control": 4.41
+        "Control": 3.24
     },
     {
         "name": "TECHNICAL VIPER 24",
@@ -2502,10 +929,10 @@
         "storeUrl": "https://padeleurope.co/products/technical-viper-24",
         "Maniability": 4.89,
         "Weight": 8.94,
-        "Effect": 6.5,
-        "Tolerance": 6.03,
+        "Effect": 5.0,
+        "Tolerance": 2.53,
         "Power": 7.64,
-        "Control": 2.43
+        "Control": 3.3
     },
     {
         "name": "TECHNICAL VERON 24",
@@ -2514,9 +941,9 @@
         "Maniability": 4.8,
         "Weight": 8.73,
         "Effect": 10.0,
-        "Tolerance": 6.03,
+        "Tolerance": 2.53,
         "Power": 7.92,
-        "Control": 2.18
+        "Control": 3.05
     },
     {
         "name": "Raquette de padel COUNTER VIPER 24",
@@ -2524,10 +951,10 @@
         "storeUrl": "https://padeleurope.co/products/counter-viper-24",
         "Maniability": 5.03,
         "Weight": 8.41,
-        "Effect": 6.5,
-        "Tolerance": 2.12,
+        "Effect": 5.0,
+        "Tolerance": 5.62,
         "Power": 5.69,
-        "Control": 4.59
+        "Control": 5.46
     },
     {
         "name": "Raquette de padel COUNTER VERON 24",
@@ -2536,9 +963,9 @@
         "Maniability": 4.46,
         "Weight": 8.62,
         "Effect": 10.0,
-        "Tolerance": 2.33,
+        "Tolerance": 5.83,
         "Power": 6.73,
-        "Control": 3.85
+        "Control": 4.72
     },
     {
         "name": "Raquette de padel AIR VIPER 24",
@@ -2546,10 +973,10 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-air-viper-24",
         "Maniability": 5.01,
         "Weight": 7.77,
-        "Effect": 6.5,
-        "Tolerance": 2.53,
-        "Power": 5.6,
-        "Control": 4.71
+        "Effect": 5.0,
+        "Tolerance": 4.28,
+        "Power": 6.47,
+        "Control": 4.57
     },
     {
         "name": "Raquette de padel AIR VERON 24",
@@ -2558,9 +985,9 @@
         "Maniability": 5.48,
         "Weight": 7.24,
         "Effect": 10.0,
-        "Tolerance": 2.73,
-        "Power": 5.52,
-        "Control": 4.41
+        "Tolerance": 4.48,
+        "Power": 6.39,
+        "Control": 4.26
     },
     {
         "name": "Raquette de padel PATRON",
@@ -2568,10 +995,10 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-patron",
         "Maniability": 4.95,
         "Weight": 8.3,
-        "Effect": 5.5,
-        "Tolerance": 3.56,
-        "Power": 5.75,
-        "Control": 5.17
+        "Effect": 4.0,
+        "Tolerance": 5.31,
+        "Power": 6.62,
+        "Control": 5.03
     },
     {
         "name": "Raquette de padel PATRON EVOLUTION",
@@ -2579,10 +1006,10 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-patron-evolution",
         "Maniability": 4.98,
         "Weight": 8.2,
-        "Effect": 5.5,
-        "Tolerance": 2.73,
-        "Power": 5.77,
-        "Control": 5.11
+        "Effect": 4.0,
+        "Tolerance": 4.48,
+        "Power": 6.65,
+        "Control": 4.97
     },
     {
         "name": "Raquette de padel STRIKER PADEL Rouge",
@@ -2591,42 +1018,9 @@
         "Maniability": 4.87,
         "Weight": 8.41,
         "Effect": 3.0,
-        "Tolerance": 2.33,
-        "Power": 6.02,
-        "Control": 6.39
-    },
-    {
-        "name": "Raquette de padel AT10 GENIUS JR",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/8932_jpg.png?v=1714310141",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Raquette de padel X-ONE EVO ROUGE 23",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/8927_jpg.png?v=1714310268",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "AT2 Genius LTD 2024 - Agustín Tapia",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/8843.jpg?v=1714310525",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
+        "Tolerance": 4.08,
+        "Power": 6.89,
+        "Control": 6.24
     },
     {
         "name": "Raquette de padel FENIX PRO 4 2024",
@@ -2635,9 +1029,9 @@
         "Maniability": 3.9,
         "Weight": 8.41,
         "Effect": 9.0,
-        "Tolerance": 6.23,
+        "Tolerance": 2.73,
         "Power": 9.25,
-        "Control": 1.96
+        "Control": 2.83
     },
     {
         "name": "Raquette de padel ELECTRA ST3 LITE 2024",
@@ -2645,10 +1039,10 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-electra-st3-lite-2024",
         "Maniability": 4.4,
         "Weight": 9.15,
-        "Effect": 5.5,
-        "Tolerance": 2.53,
+        "Effect": 4.0,
+        "Tolerance": 6.03,
         "Power": 6.46,
-        "Control": 4.8
+        "Control": 5.68
     },
     {
         "name": "Raquette de padel BLACK KING COBRA XTREME 3K",
@@ -2657,9 +1051,9 @@
         "Maniability": 5.01,
         "Weight": 7.77,
         "Effect": 9.0,
-        "Tolerance": 6.86,
+        "Tolerance": 3.35,
         "Power": 7.83,
-        "Control": 2.7
+        "Control": 3.57
     },
     {
         "name": "Raquette de padel BLACK MAMBA XTREME 3K",
@@ -2668,9 +1062,9 @@
         "Maniability": 5.06,
         "Weight": 9.05,
         "Effect": 9.0,
-        "Tolerance": 2.94,
-        "Power": 5.98,
-        "Control": 4.8
+        "Tolerance": 4.69,
+        "Power": 6.86,
+        "Control": 4.66
     },
     {
         "name": "Raquette de padel BELCHER CLASSIC",
@@ -2679,9 +1073,9 @@
         "Maniability": 4.96,
         "Weight": 7.77,
         "Effect": 5.5,
-        "Tolerance": 3.15,
+        "Tolerance": 6.64,
         "Power": 5.36,
-        "Control": 5.61
+        "Control": 6.48
     },
     {
         "name": "Raquette de padel NAYA XTREME FIBER",
@@ -2690,9 +1084,9 @@
         "Maniability": 5.81,
         "Weight": 6.92,
         "Effect": 9.0,
-        "Tolerance": 3.97,
-        "Power": 4.97,
-        "Control": 5.36
+        "Tolerance": 5.72,
+        "Power": 5.85,
+        "Control": 5.21
     },
     {
         "name": "Raquette de padel BLACK MAMBA ELITE 3K",
@@ -2701,9 +1095,9 @@
         "Maniability": 5.01,
         "Weight": 7.77,
         "Effect": 9.0,
-        "Tolerance": 2.73,
-        "Power": 5.86,
-        "Control": 4.99
+        "Tolerance": 4.48,
+        "Power": 6.74,
+        "Control": 4.84
     },
     {
         "name": "Raquette de padel DIVA ELITE 3K",
@@ -2712,9 +1106,9 @@
         "Maniability": 6.34,
         "Weight": 6.5,
         "Effect": 9.0,
-        "Tolerance": 2.94,
+        "Tolerance": 6.44,
         "Power": 4.6,
-        "Control": 5.36
+        "Control": 6.23
     },
     {
         "name": "Raquette de padel YARARA XTREME FIBER WHITE",
@@ -2723,9 +1117,9 @@
         "Maniability": 4.73,
         "Weight": 8.09,
         "Effect": 9.0,
-        "Tolerance": 3.15,
-        "Power": 6.12,
-        "Control": 4.93
+        "Tolerance": 4.89,
+        "Power": 6.99,
+        "Control": 4.78
     },
     {
         "name": "Raquette de padel RUSELL CLASSIC",
@@ -2734,20 +1128,9 @@
         "Maniability": 5.05,
         "Weight": 7.88,
         "Effect": 5.5,
-        "Tolerance": 2.53,
+        "Tolerance": 6.03,
         "Power": 5.83,
-        "Control": 4.99
-    },
-    {
-        "name": "Raquette de padel TITAN JR CLASSIC",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/8719_jpg.png?v=1714385964",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
+        "Control": 5.86
     },
     {
         "name": "Raquette de padel YARARA XTREME 3k GOLD",
@@ -2756,9 +1139,9 @@
         "Maniability": 4.67,
         "Weight": 8.73,
         "Effect": 9.0,
-        "Tolerance": 3.35,
-        "Power": 6.9,
-        "Control": 4.06
+        "Tolerance": 5.11,
+        "Power": 7.77,
+        "Control": 3.92
     },
     {
         "name": "Raquette de padel METALBONE CARBON 3.3",
@@ -2767,9 +1150,9 @@
         "Maniability": 4.56,
         "Weight": 8.2,
         "Effect": 9.0,
-        "Tolerance": 6.23,
+        "Tolerance": 2.73,
         "Power": 8.04,
-        "Control": 2.82
+        "Control": 3.7
     },
     {
         "name": "Raquette de padel METALBONE HRD+ 3.3",
@@ -2778,9 +1161,9 @@
         "Maniability": 4.74,
         "Weight": 8.41,
         "Effect": 9.0,
-        "Tolerance": 6.23,
+        "Tolerance": 2.73,
         "Power": 7.65,
-        "Control": 3.13
+        "Control": 4.01
     },
     {
         "name": "Raquette de padel METALBONE CARBON CTRL 3.3",
@@ -2789,9 +1172,9 @@
         "Maniability": 4.88,
         "Weight": 8.73,
         "Effect": 9.0,
-        "Tolerance": 3.35,
+        "Tolerance": 6.86,
         "Power": 5.63,
-        "Control": 5.36
+        "Control": 6.23
     },
     {
         "name": "Raquette de padel METALBONE CTRL 3.3",
@@ -2800,9 +1183,9 @@
         "Maniability": 5.25,
         "Weight": 8.64,
         "Effect": 9.0,
-        "Tolerance": 3.35,
+        "Tolerance": 6.86,
         "Power": 5.42,
-        "Control": 5.3
+        "Control": 6.17
     },
     {
         "name": "Raquette de padel ADIPOWER MULTIWEIGHT 3.3",
@@ -2811,9 +1194,9 @@
         "Maniability": 4.49,
         "Weight": 8.41,
         "Effect": 9.0,
-        "Tolerance": 6.64,
+        "Tolerance": 3.15,
         "Power": 8.88,
-        "Control": 1.89
+        "Control": 2.77
     },
     {
         "name": "Raquette de padel METALBONE 3.3 2024",
@@ -2822,9 +1205,9 @@
         "Maniability": 4.76,
         "Weight": 8.94,
         "Effect": 9.0,
-        "Tolerance": 6.44,
+        "Tolerance": 2.94,
         "Power": 7.47,
-        "Control": 3.32
+        "Control": 4.19
     },
     {
         "name": "Raquette de padel CROSS IT LIGHT",
@@ -2833,9 +1216,9 @@
         "Maniability": 5.0,
         "Weight": 7.56,
         "Effect": 9.0,
-        "Tolerance": 4.38,
+        "Tolerance": 7.88,
         "Power": 6.03,
-        "Control": 4.8
+        "Control": 5.68
     },
     {
         "name": "Raquette de padel RX SERIES LIGHT",
@@ -2844,9 +1227,9 @@
         "Maniability": 5.67,
         "Weight": 6.71,
         "Effect": 4.5,
-        "Tolerance": 3.15,
+        "Tolerance": 6.64,
         "Power": 5.55,
-        "Control": 5.39
+        "Control": 6.26
     },
     {
         "name": "Raquette de padel ELECTRA ST3 STUPA PRO 2024",
@@ -2854,10 +1237,10 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-electra-st3-stupa-pro-2024",
         "Maniability": 4.54,
         "Weight": 7.88,
-        "Effect": 5.5,
-        "Tolerance": 2.73,
-        "Power": 6.51,
-        "Control": 4.62
+        "Effect": 4.0,
+        "Tolerance": 4.48,
+        "Power": 7.38,
+        "Control": 4.47
     },
     {
         "name": "Raquette de padel PITON AIR 12K",
@@ -2865,10 +1248,10 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-piton-air-12k",
         "Maniability": 5.02,
         "Weight": 8.09,
-        "Effect": 5.5,
-        "Tolerance": 2.94,
+        "Effect": 4.0,
+        "Tolerance": 6.44,
         "Power": 5.85,
-        "Control": 4.99
+        "Control": 5.86
     },
     {
         "name": "Raquette de padel PITON ATTACK 15K POWER",
@@ -2876,10 +1259,10 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-piton-attack-15k-power",
         "Maniability": 4.69,
         "Weight": 8.3,
-        "Effect": 5.5,
-        "Tolerance": 3.35,
-        "Power": 6.14,
-        "Control": 4.93
+        "Effect": 4.0,
+        "Tolerance": 5.11,
+        "Power": 7.01,
+        "Control": 4.78
     },
     {
         "name": "Raquette de padel PITON PREMIUM",
@@ -2887,10 +1270,10 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-piton-premium",
         "Maniability": 4.87,
         "Weight": 8.41,
-        "Effect": 5.5,
-        "Tolerance": 2.73,
+        "Effect": 4.0,
+        "Tolerance": 6.23,
         "Power": 5.43,
-        "Control": 5.61
+        "Control": 6.48
     },
     {
         "name": "Raquette de padel TECHNICAL VERTUO JUAN LEBRON",
@@ -2899,9 +1282,9 @@
         "Maniability": 5.35,
         "Weight": 7.88,
         "Effect": 10.0,
-        "Tolerance": 6.03,
+        "Tolerance": 2.53,
         "Power": 7.26,
-        "Control": 2.49
+        "Control": 3.36
     },
     {
         "name": "Raquette de padel TECHNICAL VERON JUAN LEBRON",
@@ -2910,9 +1293,9 @@
         "Maniability": 4.54,
         "Weight": 8.62,
         "Effect": 10.0,
-        "Tolerance": 6.03,
+        "Tolerance": 2.53,
         "Power": 7.95,
-        "Control": 2.36
+        "Control": 3.24
     },
     {
         "name": "Raquette de padel TECHNICAL VIPER JUAN LEBRON",
@@ -2920,10 +1303,10 @@
         "storeUrl": null,
         "Maniability": 4.74,
         "Weight": 8.3,
-        "Effect": 6.5,
-        "Tolerance": 5.0,
+        "Effect": 5.0,
+        "Tolerance": 1.5,
         "Power": 8.18,
-        "Control": 1.93
+        "Control": 2.8
     },
     {
         "name": "Raquette de padel RADICAL ELITE 2024",
@@ -2931,10 +1314,10 @@
         "storeUrl": null,
         "Maniability": 4.87,
         "Weight": 8.41,
-        "Effect": 3.0,
-        "Tolerance": 2.73,
-        "Power": 5.75,
-        "Control": 6.7
+        "Effect": 1.5,
+        "Tolerance": 4.48,
+        "Power": 6.62,
+        "Control": 4.51
     },
     {
         "name": "Raquette de padel RADICAL PRO 2024",
@@ -2943,9 +1326,9 @@
         "Maniability": 4.3,
         "Weight": 8.94,
         "Effect": 3.0,
-        "Tolerance": 2.73,
-        "Power": 6.15,
-        "Control": 6.7
+        "Tolerance": 4.48,
+        "Power": 7.03,
+        "Control": 6.55
     },
     {
         "name": "Raquette de padel RADICAL MOTION 2024",
@@ -2954,20 +1337,9 @@
         "Maniability": 5.32,
         "Weight": 7.35,
         "Effect": 3.0,
-        "Tolerance": 2.53,
-        "Power": 5.69,
-        "Control": 6.39
-    },
-    {
-        "name": "Raquette de padel AT10 LUXURY GENIUS 12K 2024 BY Agustin Tapia",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/8508_jpg.png?v=1714389932",
-        "storeUrl": "https://padeleurope.co/products/raquette-de-padel-at10-luxury-genius-12k-2024-by-agustin-tapia",
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
+        "Tolerance": 4.28,
+        "Power": 6.56,
+        "Control": 6.24
     },
     {
         "name": "Raquette de padel AT10 PRO CUP COORP 2024",
@@ -2976,20 +1348,9 @@
         "Maniability": 4.7,
         "Weight": 8.52,
         "Effect": 5.5,
-        "Tolerance": 2.94,
-        "Power": 6.08,
-        "Control": 4.99
-    },
-    {
-        "name": "Raquette de padel AT10 Luxury GENIUS 18K Alum 2024 par Agustín Tapia",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/8501_jpg.png?v=1714390186",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
+        "Tolerance": 4.69,
+        "Power": 6.96,
+        "Control": 4.84
     },
     {
         "name": "Raquette de padel IONIC LIGHT 24",
@@ -2998,9 +1359,9 @@
         "Maniability": 5.18,
         "Weight": 7.14,
         "Effect": 8.0,
-        "Tolerance": 3.97,
-        "Power": 5.9,
-        "Control": 5.39
+        "Tolerance": 5.72,
+        "Power": 6.77,
+        "Control": 5.24
     },
     {
         "name": "Raquette de padel IONIC CONTROL 24",
@@ -3009,9 +1370,9 @@
         "Maniability": 4.19,
         "Weight": 9.26,
         "Effect": 9.0,
-        "Tolerance": 3.15,
+        "Tolerance": 6.64,
         "Power": 7.08,
-        "Control": 4.25
+        "Control": 5.12
     },
     {
         "name": "Raquette de padel IONIC POWER 24",
@@ -3020,9 +1381,9 @@
         "Maniability": 4.29,
         "Weight": 8.83,
         "Effect": 9.0,
-        "Tolerance": 6.64,
+        "Tolerance": 3.15,
         "Power": 9.07,
-        "Control": 1.83
+        "Control": 2.71
     },
     {
         "name": "Raquette de padel NEURON 24",
@@ -3031,9 +1392,9 @@
         "Maniability": 4.9,
         "Weight": 8.2,
         "Effect": 5.5,
-        "Tolerance": 2.94,
-        "Power": 5.99,
-        "Control": 4.93
+        "Tolerance": 4.69,
+        "Power": 6.87,
+        "Control": 4.78
     },
     {
         "name": "Raquette de padel ELITE W 24",
@@ -3042,9 +1403,9 @@
         "Maniability": 6.23,
         "Weight": 6.92,
         "Effect": 5.5,
-        "Tolerance": 3.77,
-        "Power": 4.72,
-        "Control": 5.3
+        "Tolerance": 5.52,
+        "Power": 5.6,
+        "Control": 5.15
     },
     {
         "name": "Raquette de padel FLOW WOMAN 24",
@@ -3053,9 +1414,9 @@
         "Maniability": 5.87,
         "Weight": 6.5,
         "Effect": 9.0,
-        "Tolerance": 6.86,
+        "Tolerance": 3.35,
         "Power": 7.26,
-        "Control": 2.64
+        "Control": 3.51
     },
     {
         "name": "Raquette de padel VERTEX 04 COMFORT 24",
@@ -3063,10 +1424,10 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-vertex-04-comfort-24",
         "Maniability": 4.79,
         "Weight": 8.62,
-        "Effect": 4.5,
-        "Tolerance": 6.44,
+        "Effect": 3.0,
+        "Tolerance": 2.94,
         "Power": 7.76,
-        "Control": 3.53
+        "Control": 4.41
     },
     {
         "name": "Raquette de padel VERTEX 04 HYBRID 24",
@@ -3074,10 +1435,10 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-vertex-04-hybrid-24",
         "Maniability": 5.26,
         "Weight": 8.62,
-        "Effect": 5.5,
-        "Tolerance": 2.94,
-        "Power": 4.99,
-        "Control": 5.79
+        "Effect": 4.0,
+        "Tolerance": 4.69,
+        "Power": 5.87,
+        "Control": 5.65
     },
     {
         "name": "Raquette de padel VERTEX 04 24",
@@ -3085,10 +1446,10 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-vertex-04-24",
         "Maniability": 5.11,
         "Weight": 8.2,
-        "Effect": 5.5,
-        "Tolerance": 7.06,
+        "Effect": 4.0,
+        "Tolerance": 3.56,
         "Power": 6.91,
-        "Control": 3.69
+        "Control": 4.56
     },
     {
         "name": "Raquette de padel HACK 03 COMFORT 24",
@@ -3097,9 +1458,9 @@
         "Maniability": 4.09,
         "Weight": 9.05,
         "Effect": 8.0,
-        "Tolerance": 6.64,
+        "Tolerance": 3.15,
         "Power": 8.74,
-        "Control": 2.97
+        "Control": 3.85
     },
     {
         "name": "Raquette de padel HACK 03 HYBRID 24",
@@ -3108,9 +1469,9 @@
         "Maniability": 4.38,
         "Weight": 8.73,
         "Effect": 9.0,
-        "Tolerance": 3.77,
-        "Power": 6.37,
-        "Control": 4.93
+        "Tolerance": 5.52,
+        "Power": 7.24,
+        "Control": 4.78
     },
     {
         "name": "Raquette de padel HACK 03 24",
@@ -3119,9 +1480,9 @@
         "Maniability": 3.85,
         "Weight": 9.15,
         "Effect": 9.0,
-        "Tolerance": 6.03,
+        "Tolerance": 2.53,
         "Power": 8.44,
-        "Control": 2.95
+        "Control": 3.82
     },
     {
         "name": "Raquette de padel CARBON FORCE PADEL 2",
@@ -3130,9 +1491,9 @@
         "Maniability": 3.56,
         "Weight": 8.41,
         "Effect": 3.0,
-        "Tolerance": 2.73,
-        "Power": 6.79,
-        "Control": 6.57
+        "Tolerance": 4.48,
+        "Power": 7.67,
+        "Control": 6.42
     },
     {
         "name": "Raquette de padel ACCENT LT PADEL 2",
@@ -3141,9 +1502,9 @@
         "Maniability": 3.98,
         "Weight": 7.67,
         "Effect": 9.0,
-        "Tolerance": 2.73,
-        "Power": 6.91,
-        "Control": 4.62
+        "Tolerance": 4.48,
+        "Power": 7.79,
+        "Control": 4.47
     },
     {
         "name": "Raquette de padel ACCENT PADEL 2",
@@ -3152,9 +1513,9 @@
         "Maniability": 3.87,
         "Weight": 7.88,
         "Effect": 9.0,
-        "Tolerance": 2.94,
-        "Power": 6.52,
-        "Control": 5.17
+        "Tolerance": 4.69,
+        "Power": 7.39,
+        "Control": 5.03
     },
     {
         "name": "Raquette de padel EXTREME ELITE 2023",
@@ -3163,9 +1524,9 @@
         "Maniability": 4.58,
         "Weight": 8.52,
         "Effect": 5.5,
-        "Tolerance": 6.44,
+        "Tolerance": 2.94,
         "Power": 8.4,
-        "Control": 2.39
+        "Control": 3.27
     },
     {
         "name": "Raquette de padel EXTREME MOTION 2023",
@@ -3174,9 +1535,9 @@
         "Maniability": 4.42,
         "Weight": 7.88,
         "Effect": 9.0,
-        "Tolerance": 6.44,
+        "Tolerance": 2.94,
         "Power": 8.25,
-        "Control": 2.7
+        "Control": 3.57
     },
     {
         "name": "Raquette de padel EXTREME PRO 2023",
@@ -3185,9 +1546,9 @@
         "Maniability": 4.0,
         "Weight": 8.94,
         "Effect": 9.0,
-        "Tolerance": 6.64,
+        "Tolerance": 3.15,
         "Power": 8.8,
-        "Control": 2.39
+        "Control": 3.27
     },
     {
         "name": "Raquette de padel EXTREME ONE 2023",
@@ -3195,10 +1556,10 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-extreme-one-2023",
         "Maniability": 4.81,
         "Weight": 6.29,
-        "Effect": 6.5,
-        "Tolerance": 6.03,
+        "Effect": 5.0,
+        "Tolerance": 2.53,
         "Power": 8.34,
-        "Control": 3.72
+        "Control": 2.56
     },
     {
         "name": "Raquette de padel CARBON FORCE LT PADEL 2",
@@ -3207,31 +1568,9 @@
         "Maniability": 3.97,
         "Weight": 7.35,
         "Effect": 6.5,
-        "Tolerance": 2.33,
-        "Power": 6.39,
-        "Control": 6.7
-    },
-    {
-        "name": "Raquette de padel VIPER Junior 2022",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/8226_jpg.png?v=1714394841",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Raquette de padel SPEED JUNIOR 2023",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/7731_jpg.png?v=1714395276",
-        "storeUrl": null,
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
+        "Tolerance": 4.08,
+        "Power": 7.27,
+        "Control": 6.55
     },
     {
         "name": "Raquette de padel INDIGA CTR 23",
@@ -3240,20 +1579,9 @@
         "Maniability": 5.26,
         "Weight": 7.77,
         "Effect": 4.5,
-        "Tolerance": 3.35,
+        "Tolerance": 6.86,
         "Power": 5.47,
-        "Control": 5.82
-    },
-    {
-        "name": "Raquette de padel INDIGA W 23",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/7684_jpg.png?v=1714395551",
-        "storeUrl": "https://padeleurope.co/products/raquette-de-padel-indiga-w-23",
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
+        "Control": 6.7
     },
     {
         "name": "Raquette de padel BP10 EVO 2023",
@@ -3262,9 +1590,9 @@
         "Maniability": 4.74,
         "Weight": 8.3,
         "Effect": 5.5,
-        "Tolerance": 2.53,
+        "Tolerance": 6.03,
         "Power": 6.37,
-        "Control": 4.62
+        "Control": 5.49
     },
     {
         "name": "Raquette de padel JUICE PADEL 2",
@@ -3273,41 +1601,8 @@
         "Maniability": 4.26,
         "Weight": 8.94,
         "Effect": 6.5,
-        "Tolerance": 2.94,
+        "Tolerance": 6.44,
         "Power": 6.56,
-        "Control": 6.26
-    },
-    {
-        "name": "Grip Bullpadel HESACORE CARBON",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/grip-bullpadel-hesacore-carbon2.png?v=1716482193",
-        "storeUrl": "https://padeleurope.co/products/grip-bullpadel-hesacore-carbon",
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "Grip BullPadel HESACORE GEL",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/grip-bullpadel-hesacore-gel.png?v=1716482375",
-        "storeUrl": "https://padeleurope.co/products/grip-bullpadel-hesacore-gel",
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
-    },
-    {
-        "name": "4on Totalspin",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/totalspin.png?v=1716482624",
-        "storeUrl": "https://padeleurope.co/products/totalspin",
-        "Maniability": 6.5,
-        "Weight": 5,
-        "Effect": 3.0,
-        "Tolerance": 4.0,
-        "Power": 4.5,
-        "Control": 6.79
+        "Control": 7.14
     }
 ]
