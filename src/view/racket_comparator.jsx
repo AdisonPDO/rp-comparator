@@ -85,7 +85,7 @@ const RacketComparison = () => {
 
   return (
     <div className="racket-comparison">
-      <h2>Comparateur de Raquette Pro en <span className='boldr'>TEMPS RÉEL</span></h2>
+      <h1>Comparateur de Raquette Pro en <span className='boldr'>TEMPS RÉEL</span></h1>
       <p className='boldst'> Algorithme basé sur <span className='boldt'>{products.length}</span> raquettes actuellement</p>
 
       <p className='center'>Un outil innovant conçu pour vous aider à choisir la <span className='bp'>meilleure raquette de padel</span>. Grâce à notre <span className='bp'>algorithme de calcul avancé</span>, nous analysons des statistiques détaillées de chaque raquette pour vous offrir des <span className='bp'>comparaisons précises et personnalisées</span>. Que vous soyez débutant ou joueur expérimenté, notre <span className='bp'>comparateur</span> vous guide pour faire le choix le plus éclairé.</p>
@@ -149,11 +149,11 @@ const RacketComparison = () => {
             }}>
               &times;
             </button>
-            <div onClick={() => {
+            <div className='cardblock'  onClick={() => {
               if (!racket.storeUrl) return;
               window.open(racket.storeUrl, '_blank');
             }}>
-              <img src={racket.imageUrl} alt={`Image of ${racket.name}`} style={{ maxHeight: '60px' }} />
+              <img className='imgc' src={racket.imageUrl} alt={`Image of ${racket.name}`} style={{ maxHeight: '60px' }} />
               <span>{racket.name}</span>
             </div>
           </div>
