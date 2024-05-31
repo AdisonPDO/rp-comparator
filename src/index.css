@@ -211,3 +211,27 @@
   cursor: pointer;
   margin: 10px;
 }
+
+.boldt{
+  font-weight: bold;
+  font-size: 23px;
+  color: #410ef8;
+}
+
+.boldr{
+  font-weight: bold;
+  color: #410ef8;
+}
+
+.boldst{
+  font-weight: bold;
+  font-size: large;
+  color: #282828;
+}
+
+.bp{
+  font-weight: bold;
+  color: #410ef8;
+}
+
+

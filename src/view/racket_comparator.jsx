@@ -67,7 +67,7 @@ const RacketComparison = () => {
   };
 
   const updateChart = () => {
-    const labels = ['Maniability', 'Weight', 'Effect', 'Tolerance', 'Power', 'Control'];
+    const labels = ['Maniabilité ', 'Poids', 'Effet', 'Tolérance', 'Puissance', 'Contrôle'];
     const datasets = selectedRackets.map((racket, index) => ({
       label: racket.name,
       data: [racket.Maniability, racket.Weight, racket.Effect, racket.Tolerance, racket.Power, racket.Control],
@@ -85,8 +85,11 @@ const RacketComparison = () => {
 
   return (
     <div className="racket-comparison">
-      <h2>Comparateur de Raquette Pro</h2>
-      <p>Un outil innovant conçu pour vous aider à choisir la meilleure raquette de padel. Grâce à notre algorithme de calcul avancé, nous analysons des statistiques détaillées de chaque raquette pour vous offrir des comparaisons précises et personnalisées. Que vous soyez débutant ou joueur expérimenté, notre comparateur vous guide pour faire le choix le plus éclairé.</p>
+      <h2>Comparateur de Raquette Pro en <span className='boldr'>TEMPS RÉEL</span></h2>
+      <p className='boldst'> Algorithme basé sur <span className='boldt'>{products.length}</span> raquettes actuellement</p>
+
+      <p className='center'>Un outil innovant conçu pour vous aider à choisir la <span className='bp'>meilleure raquette de padel</span>. Grâce à notre <span className='bp'>algorithme de calcul avancé</span>, nous analysons des statistiques détaillées de chaque raquette pour vous offrir des <span className='bp'>comparaisons précises et personnalisées</span>. Que vous soyez débutant ou joueur expérimenté, notre <span className='bp'>comparateur</span> vous guide pour faire le choix le plus éclairé.</p>
+
       <input
         type="text"
         id="searchInput"
