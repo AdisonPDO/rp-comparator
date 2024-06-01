@@ -5,7 +5,7 @@
         "storeUrl": null,
         "Maniability": 3.69,
         "Weight": 9.47,
-        "Effect": 9.0,
+        "Effect": 6.5,
         "Tolerance": 2.94,
         "Power": 9.29,
         "Control": 2.96
@@ -16,7 +16,7 @@
         "storeUrl": "https://padeleurope.co/products/black-crown-hurricane-pro",
         "Maniability": 4.82,
         "Weight": 8.3,
-        "Effect": 8.0,
+        "Effect": 5.5,
         "Tolerance": 6.86,
         "Power": 6.79,
         "Control": 5.52
@@ -27,7 +27,7 @@
         "storeUrl": "https://padeleurope.co/products/black-crown-special-power",
         "Maniability": 5.45,
         "Weight": 8.3,
-        "Effect": 4.0,
+        "Effect": 8.25,
         "Tolerance": 5.31,
         "Power": 5.89,
         "Control": 5.46
@@ -60,7 +60,7 @@
         "storeUrl": null,
         "Maniability": 4.59,
         "Weight": 8.83,
-        "Effect": 8.0,
+        "Effect": 5.5,
         "Tolerance": 4.89,
         "Power": 7.19,
         "Control": 5.24
@@ -71,7 +71,7 @@
         "storeUrl": "https://padeleurope.co/products/black-crown-piton-air-plus",
         "Maniability": 4.57,
         "Weight": 8.41,
-        "Effect": 8.0,
+        "Effect": 5.5,
         "Tolerance": 6.44,
         "Power": 6.23,
         "Control": 6.39
@@ -82,7 +82,7 @@
         "storeUrl": "https://padeleurope.co/products/black-crown-special",
         "Maniability": 5.15,
         "Weight": 8.2,
-        "Effect": 4.0,
+        "Effect": 8.25,
         "Tolerance": 6.75,
         "Power": 5.95,
         "Control": 5.65
@@ -104,7 +104,7 @@
         "storeUrl": "https://padeleurope.co/products/black-crown-special-soft",
         "Maniability": 5.2,
         "Weight": 8.3,
-        "Effect": 4.0,
+        "Effect": 8.25,
         "Tolerance": 5.52,
         "Power": 7.02,
         "Control": 4.35
@@ -115,7 +115,7 @@
         "storeUrl": "https://padeleurope.co/products/black-crown-hurricane-pro-2-0",
         "Maniability": 5.11,
         "Weight": 7.24,
-        "Effect": 9.0,
+        "Effect": 6.5,
         "Tolerance": 6.44,
         "Power": 6.38,
         "Control": 5.18
@@ -126,7 +126,7 @@
         "storeUrl": "https://padeleurope.co/products/black-crown-piton-11-soft",
         "Maniability": 4.94,
         "Weight": 8.09,
-        "Effect": 3.0,
+        "Effect": 7.25,
         "Tolerance": 7.06,
         "Power": 5.96,
         "Control": 6.39
@@ -137,7 +137,7 @@
         "storeUrl": "https://padeleurope.co/products/black-crown-piton-furia",
         "Maniability": 4.28,
         "Weight": 7.67,
-        "Effect": 3.0,
+        "Effect": 7.25,
         "Tolerance": 6.64,
         "Power": 7.23,
         "Control": 5.46
@@ -148,7 +148,7 @@
         "storeUrl": "https://padeleurope.co/products/black-crown-piton-11",
         "Maniability": 4.65,
         "Weight": 8.3,
-        "Effect": 3.0,
+        "Effect": 7.25,
         "Tolerance": 6.64,
         "Power": 6.28,
         "Control": 6.26
@@ -192,7 +192,7 @@
         "storeUrl": "https://padeleurope.co/products/black-crown-shark",
         "Maniability": 4.71,
         "Weight": 8.73,
-        "Effect": 6.5,
+        "Effect": 4.0,
         "Tolerance": 5.31,
         "Power": 6.37,
         "Control": 6.98
@@ -225,7 +225,7 @@
         "storeUrl": null,
         "Maniability": 4.02,
         "Weight": 10.0,
-        "Effect": 10.0,
+        "Effect": 7.5,
         "Tolerance": 4.48,
         "Power": 7.5,
         "Control": 4.2
@@ -236,7 +236,7 @@
         "storeUrl": "https://padeleurope.co/products/head-gravity-elite-2022",
         "Maniability": 4.42,
         "Weight": 8.73,
-        "Effect": 10.0,
+        "Effect": 7.5,
         "Tolerance": 7.06,
         "Power": 6.87,
         "Control": 4.6
@@ -247,7 +247,7 @@
         "storeUrl": "https://padeleurope.co/products/head-gravity-motion-2022",
         "Maniability": 5.16,
         "Weight": 7.56,
-        "Effect": 10.0,
+        "Effect": 7.5,
         "Tolerance": 7.06,
         "Power": 5.96,
         "Control": 5.03
@@ -258,7 +258,7 @@
         "storeUrl": "https://padeleurope.co/products/head-gravity-pro-2022",
         "Maniability": 4.38,
         "Weight": 8.83,
-        "Effect": 9.0,
+        "Effect": 6.5,
         "Tolerance": 6.86,
         "Power": 6.62,
         "Control": 5.49
@@ -280,7 +280,7 @@
         "storeUrl": null,
         "Maniability": 5.3,
         "Weight": 8.62,
-        "Effect": 0.0,
+        "Effect": 4.25,
         "Tolerance": 4.69,
         "Power": 6.26,
         "Control": 4.57
@@ -291,7 +291,7 @@
         "storeUrl": "https://padeleurope.co/products/bullpadel-ionic-power-23",
         "Maniability": 3.74,
         "Weight": 9.58,
-        "Effect": 9.0,
+        "Effect": 6.5,
         "Tolerance": 2.94,
         "Power": 9.26,
         "Control": 2.96
@@ -324,7 +324,7 @@
         "storeUrl": "https://padeleurope.co/products/babolat-counter-vertuo",
         "Maniability": 5.54,
         "Weight": 6.71,
-        "Effect": 10.0,
+        "Effect": 7.5,
         "Tolerance": 5.11,
         "Power": 6.67,
         "Control": 3.89
@@ -335,7 +335,7 @@
         "storeUrl": "https://padeleurope.co/products/babolat-technical-vertuo",
         "Maniability": 4.62,
         "Weight": 7.77,
-        "Effect": 10.0,
+        "Effect": 7.5,
         "Tolerance": 3.15,
         "Power": 8.73,
         "Control": 2.25
@@ -346,7 +346,7 @@
         "storeUrl": "https://padeleurope.co/products/babolat-air-vertuo",
         "Maniability": 6.07,
         "Weight": 6.18,
-        "Effect": 10.0,
+        "Effect": 7.5,
         "Tolerance": 4.69,
         "Power": 5.92,
         "Control": 4.32
@@ -379,7 +379,7 @@
         "storeUrl": null,
         "Maniability": 4.63,
         "Weight": 8.73,
-        "Effect": 10.0,
+        "Effect": 7.5,
         "Tolerance": 3.35,
         "Power": 8.31,
         "Control": 2.74
@@ -390,7 +390,7 @@
         "storeUrl": "https://padeleurope.co/products/ml10-pro-cup-rough-surface-edition",
         "Maniability": 5.02,
         "Weight": 8.09,
-        "Effect": 3.0,
+        "Effect": 7.25,
         "Tolerance": 7.27,
         "Power": 6.59,
         "Control": 5.58
@@ -412,7 +412,7 @@
         "storeUrl": null,
         "Maniability": 5.64,
         "Weight": 7.77,
-        "Effect": 5.0,
+        "Effect": 9.25,
         "Tolerance": 5.31,
         "Power": 5.86,
         "Control": 4.76
@@ -423,7 +423,7 @@
         "storeUrl": null,
         "Maniability": 4.3,
         "Weight": 8.94,
-        "Effect": 10.0,
+        "Effect": 7.5,
         "Tolerance": 3.15,
         "Power": 8.33,
         "Control": 2.99
@@ -434,7 +434,7 @@
         "storeUrl": "https://padeleurope.co/products/wilson-bela-pro-v2",
         "Maniability": 4.15,
         "Weight": 8.41,
-        "Effect": 6.5,
+        "Effect": 4.0,
         "Tolerance": 4.48,
         "Power": 7.93,
         "Control": 5.62
@@ -445,7 +445,7 @@
         "storeUrl": null,
         "Maniability": 5.03,
         "Weight": 8.41,
-        "Effect": 5.0,
+        "Effect": 9.25,
         "Tolerance": 4.89,
         "Power": 6.61,
         "Control": 4.38
@@ -456,7 +456,7 @@
         "storeUrl": null,
         "Maniability": 5.3,
         "Weight": 7.77,
-        "Effect": 5.0,
+        "Effect": 9.25,
         "Tolerance": 4.28,
         "Power": 6.53,
         "Control": 4.26
@@ -489,7 +489,7 @@
         "storeUrl": "https://padeleurope.co/products/starvie-metheora-dual-2023",
         "Maniability": 4.92,
         "Weight": 8.62,
-        "Effect": 8.0,
+        "Effect": 5.5,
         "Tolerance": 5.83,
         "Power": 6.08,
         "Control": 6.26
@@ -500,7 +500,7 @@
         "storeUrl": null,
         "Maniability": 5.07,
         "Weight": 8.2,
-        "Effect": 8.0,
+        "Effect": 5.5,
         "Tolerance": 3.35,
         "Power": 7.89,
         "Control": 4.04
@@ -577,7 +577,7 @@
         "storeUrl": "https://padeleurope.co/products/head-delta-motion-padel-racket",
         "Maniability": 4.67,
         "Weight": 7.88,
-        "Effect": 8.0,
+        "Effect": 5.5,
         "Tolerance": 2.94,
         "Power": 8.06,
         "Control": 4.16
@@ -610,7 +610,7 @@
         "storeUrl": null,
         "Maniability": 6.0,
         "Weight": 6.39,
-        "Effect": 9.0,
+        "Effect": 6.5,
         "Tolerance": 2.73,
         "Power": 7.17,
         "Control": 3.51
@@ -632,7 +632,7 @@
         "storeUrl": null,
         "Maniability": 4.91,
         "Weight": 7.45,
-        "Effect": 10.0,
+        "Effect": 7.5,
         "Tolerance": 3.97,
         "Power": 8.11,
         "Control": 2.74
@@ -676,7 +676,7 @@
         "storeUrl": "https://padeleurope.co/products/cartri-shield-alpha",
         "Maniability": 5.46,
         "Weight": 7.67,
-        "Effect": 9.0,
+        "Effect": 6.5,
         "Tolerance": 4.89,
         "Power": 6.83,
         "Control": 4.35
@@ -687,7 +687,7 @@
         "storeUrl": "https://padeleurope.co/products/cartri-volcano-teide",
         "Maniability": 4.66,
         "Weight": 8.52,
-        "Effect": 8.0,
+        "Effect": 5.5,
         "Tolerance": 4.69,
         "Power": 7.3,
         "Control": 5.06
@@ -698,7 +698,7 @@
         "storeUrl": null,
         "Maniability": 5.04,
         "Weight": 7.67,
-        "Effect": 9.0,
+        "Effect": 6.5,
         "Tolerance": 2.53,
         "Power": 7.9,
         "Control": 3.45
@@ -742,7 +742,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-piton-12",
         "Maniability": 4.54,
         "Weight": 8.73,
-        "Effect": 4.0,
+        "Effect": 8.25,
         "Tolerance": 6.64,
         "Power": 5.82,
         "Control": 6.3
@@ -753,7 +753,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-piton-12-silver",
         "Maniability": 4.54,
         "Weight": 8.62,
-        "Effect": 4.0,
+        "Effect": 8.25,
         "Tolerance": 7.06,
         "Power": 5.5,
         "Control": 6.67
@@ -764,7 +764,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-bela-pro-padel-v2-5",
         "Maniability": 4.31,
         "Weight": 10.0,
-        "Effect": 6.5,
+        "Effect": 4.0,
         "Tolerance": 4.28,
         "Power": 7.08,
         "Control": 6.49
@@ -775,7 +775,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-special-master",
         "Maniability": 5.18,
         "Weight": 7.98,
-        "Effect": 1.5,
+        "Effect": 5.75,
         "Tolerance": 5.31,
         "Power": 5.92,
         "Control": 7.11
@@ -797,7 +797,7 @@
         "storeUrl": "https://padeleurope.co/products/model-raquette-copie",
         "Maniability": 5.29,
         "Weight": 7.56,
-        "Effect": 3.0,
+        "Effect": 7.25,
         "Tolerance": 3.87,
         "Power": 6.32,
         "Control": 5.67
@@ -808,7 +808,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-bela-lt-v2-5-padel-2",
         "Maniability": 5.4,
         "Weight": 7.35,
-        "Effect": 9.0,
+        "Effect": 6.5,
         "Tolerance": 4.28,
         "Power": 6.13,
         "Control": 5.21
@@ -819,7 +819,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-bela-elite-v2-5-padel-2",
         "Maniability": 4.74,
         "Weight": 8.52,
-        "Effect": 9.0,
+        "Effect": 6.5,
         "Tolerance": 3.87,
         "Power": 6.71,
         "Control": 5.09
@@ -830,7 +830,7 @@
         "storeUrl": "https://padeleurope.co/products/diablo-revolution-pro-3-2024",
         "Maniability": 5.32,
         "Weight": 8.2,
-        "Effect": 4.0,
+        "Effect": 8.25,
         "Tolerance": 4.89,
         "Power": 6.14,
         "Control": 5.28
@@ -841,7 +841,7 @@
         "storeUrl": null,
         "Maniability": 4.95,
         "Weight": 8.52,
-        "Effect": 8.0,
+        "Effect": 5.5,
         "Tolerance": 3.35,
         "Power": 7.39,
         "Control": 4.71
@@ -852,7 +852,7 @@
         "storeUrl": null,
         "Maniability": 5.34,
         "Weight": 8.62,
-        "Effect": 3.0,
+        "Effect": 7.25,
         "Tolerance": 7.06,
         "Power": 5.09,
         "Control": 7.07
@@ -863,7 +863,7 @@
         "storeUrl": null,
         "Maniability": 5.13,
         "Weight": 8.62,
-        "Effect": 10.0,
+        "Effect": 7.5,
         "Tolerance": 6.64,
         "Power": 5.4,
         "Control": 5.71
@@ -874,7 +874,7 @@
         "storeUrl": null,
         "Maniability": 5.23,
         "Weight": 7.24,
-        "Effect": 10.0,
+        "Effect": 7.5,
         "Tolerance": 7.06,
         "Power": 6.39,
         "Control": 4.48
@@ -896,7 +896,7 @@
         "storeUrl": null,
         "Maniability": 4.41,
         "Weight": 8.62,
-        "Effect": 9.0,
+        "Effect": 6.5,
         "Tolerance": 4.89,
         "Power": 7.69,
         "Control": 4.22
@@ -907,7 +907,7 @@
         "storeUrl": null,
         "Maniability": 4.82,
         "Weight": 8.3,
-        "Effect": 4.0,
+        "Effect": 8.25,
         "Tolerance": 6.86,
         "Power": 6.26,
         "Control": 5.55
@@ -929,7 +929,7 @@
         "storeUrl": "https://padeleurope.co/products/technical-viper-24",
         "Maniability": 4.89,
         "Weight": 8.94,
-        "Effect": 5.0,
+        "Effect": 9.25,
         "Tolerance": 2.53,
         "Power": 7.64,
         "Control": 3.3
@@ -940,7 +940,7 @@
         "storeUrl": "https://padeleurope.co/products/technical-veron-24",
         "Maniability": 4.8,
         "Weight": 8.73,
-        "Effect": 10.0,
+        "Effect": 7.5,
         "Tolerance": 2.53,
         "Power": 7.92,
         "Control": 3.05
@@ -951,7 +951,7 @@
         "storeUrl": "https://padeleurope.co/products/counter-viper-24",
         "Maniability": 5.03,
         "Weight": 8.41,
-        "Effect": 5.0,
+        "Effect": 9.25,
         "Tolerance": 5.62,
         "Power": 5.69,
         "Control": 5.46
@@ -962,7 +962,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-counter-veron-24",
         "Maniability": 4.46,
         "Weight": 8.62,
-        "Effect": 10.0,
+        "Effect": 7.5,
         "Tolerance": 5.83,
         "Power": 6.73,
         "Control": 4.72
@@ -973,7 +973,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-air-viper-24",
         "Maniability": 5.01,
         "Weight": 7.77,
-        "Effect": 5.0,
+        "Effect": 9.25,
         "Tolerance": 4.28,
         "Power": 6.47,
         "Control": 4.57
@@ -984,7 +984,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-air-veron-24",
         "Maniability": 5.48,
         "Weight": 7.24,
-        "Effect": 10.0,
+        "Effect": 7.5,
         "Tolerance": 4.48,
         "Power": 6.39,
         "Control": 4.26
@@ -995,7 +995,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-patron",
         "Maniability": 4.95,
         "Weight": 8.3,
-        "Effect": 4.0,
+        "Effect": 8.25,
         "Tolerance": 5.31,
         "Power": 6.62,
         "Control": 5.03
@@ -1006,7 +1006,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-patron-evolution",
         "Maniability": 4.98,
         "Weight": 8.2,
-        "Effect": 4.0,
+        "Effect": 8.25,
         "Tolerance": 4.48,
         "Power": 6.65,
         "Control": 4.97
@@ -1028,7 +1028,7 @@
         "storeUrl": null,
         "Maniability": 3.9,
         "Weight": 8.41,
-        "Effect": 9.0,
+        "Effect": 6.5,
         "Tolerance": 2.73,
         "Power": 9.25,
         "Control": 2.83
@@ -1039,7 +1039,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-electra-st3-lite-2024",
         "Maniability": 4.4,
         "Weight": 9.15,
-        "Effect": 4.0,
+        "Effect": 8.25,
         "Tolerance": 6.03,
         "Power": 6.46,
         "Control": 5.68
@@ -1050,7 +1050,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-black-king-cobra-xtreme-3k",
         "Maniability": 5.01,
         "Weight": 7.77,
-        "Effect": 9.0,
+        "Effect": 6.5,
         "Tolerance": 3.35,
         "Power": 7.83,
         "Control": 3.57
@@ -1061,7 +1061,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-black-mamba-xtreme-3k",
         "Maniability": 5.06,
         "Weight": 9.05,
-        "Effect": 9.0,
+        "Effect": 6.5,
         "Tolerance": 4.69,
         "Power": 6.86,
         "Control": 4.66
@@ -1083,7 +1083,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-naya-xtreme-fiber",
         "Maniability": 5.81,
         "Weight": 6.92,
-        "Effect": 9.0,
+        "Effect": 6.5,
         "Tolerance": 5.72,
         "Power": 5.85,
         "Control": 5.21
@@ -1094,7 +1094,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-black-mamba-elite-3k",
         "Maniability": 5.01,
         "Weight": 7.77,
-        "Effect": 9.0,
+        "Effect": 6.5,
         "Tolerance": 4.48,
         "Power": 6.74,
         "Control": 4.84
@@ -1105,7 +1105,7 @@
         "storeUrl": null,
         "Maniability": 6.34,
         "Weight": 6.5,
-        "Effect": 9.0,
+        "Effect": 6.5,
         "Tolerance": 6.44,
         "Power": 4.6,
         "Control": 6.23
@@ -1116,7 +1116,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-yarara-xtreme-fiber-white",
         "Maniability": 4.73,
         "Weight": 8.09,
-        "Effect": 9.0,
+        "Effect": 6.5,
         "Tolerance": 4.89,
         "Power": 6.99,
         "Control": 4.78
@@ -1138,7 +1138,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-yarara-xtreme-3k-gold",
         "Maniability": 4.67,
         "Weight": 8.73,
-        "Effect": 9.0,
+        "Effect": 6.5,
         "Tolerance": 5.11,
         "Power": 7.77,
         "Control": 3.92
@@ -1149,7 +1149,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-metalbone-carbon-3-3",
         "Maniability": 4.56,
         "Weight": 8.2,
-        "Effect": 9.0,
+        "Effect": 6.5,
         "Tolerance": 2.73,
         "Power": 8.04,
         "Control": 3.7
@@ -1160,7 +1160,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-metalbone-hrd-3-3",
         "Maniability": 4.74,
         "Weight": 8.41,
-        "Effect": 9.0,
+        "Effect": 6.5,
         "Tolerance": 2.73,
         "Power": 7.65,
         "Control": 4.01
@@ -1171,7 +1171,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-metalbone-carbon-ctrl-3-3",
         "Maniability": 4.88,
         "Weight": 8.73,
-        "Effect": 9.0,
+        "Effect": 6.5,
         "Tolerance": 6.86,
         "Power": 5.63,
         "Control": 6.23
@@ -1182,7 +1182,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-metalbone-ctrl-3-3",
         "Maniability": 5.25,
         "Weight": 8.64,
-        "Effect": 9.0,
+        "Effect": 6.5,
         "Tolerance": 6.86,
         "Power": 5.42,
         "Control": 6.17
@@ -1193,7 +1193,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-adipower-multiweight-3-3",
         "Maniability": 4.49,
         "Weight": 8.41,
-        "Effect": 9.0,
+        "Effect": 6.5,
         "Tolerance": 3.15,
         "Power": 8.88,
         "Control": 2.77
@@ -1204,7 +1204,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-metalbone-3-3-2024",
         "Maniability": 4.76,
         "Weight": 8.94,
-        "Effect": 9.0,
+        "Effect": 6.5,
         "Tolerance": 2.94,
         "Power": 7.47,
         "Control": 4.19
@@ -1215,7 +1215,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-cross-it-light",
         "Maniability": 5.0,
         "Weight": 7.56,
-        "Effect": 9.0,
+        "Effect": 6.5,
         "Tolerance": 7.88,
         "Power": 6.03,
         "Control": 5.68
@@ -1237,7 +1237,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-electra-st3-stupa-pro-2024",
         "Maniability": 4.54,
         "Weight": 7.88,
-        "Effect": 4.0,
+        "Effect": 8.25,
         "Tolerance": 4.48,
         "Power": 7.38,
         "Control": 4.47
@@ -1248,7 +1248,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-piton-air-12k",
         "Maniability": 5.02,
         "Weight": 8.09,
-        "Effect": 4.0,
+        "Effect": 8.25,
         "Tolerance": 6.44,
         "Power": 5.85,
         "Control": 5.86
@@ -1259,7 +1259,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-piton-attack-15k-power",
         "Maniability": 4.69,
         "Weight": 8.3,
-        "Effect": 4.0,
+        "Effect": 8.25,
         "Tolerance": 5.11,
         "Power": 7.01,
         "Control": 4.78
@@ -1270,7 +1270,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-piton-premium",
         "Maniability": 4.87,
         "Weight": 8.41,
-        "Effect": 4.0,
+        "Effect": 8.25,
         "Tolerance": 6.23,
         "Power": 5.43,
         "Control": 6.48
@@ -1281,7 +1281,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-technical-vertuo-juan-lebron",
         "Maniability": 5.35,
         "Weight": 7.88,
-        "Effect": 10.0,
+        "Effect": 7.5,
         "Tolerance": 2.53,
         "Power": 7.26,
         "Control": 3.36
@@ -1292,7 +1292,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-technical-veron-juan-lebron",
         "Maniability": 4.54,
         "Weight": 8.62,
-        "Effect": 10.0,
+        "Effect": 7.5,
         "Tolerance": 2.53,
         "Power": 7.95,
         "Control": 3.24
@@ -1303,7 +1303,7 @@
         "storeUrl": null,
         "Maniability": 4.74,
         "Weight": 8.3,
-        "Effect": 5.0,
+        "Effect": 9.25,
         "Tolerance": 1.5,
         "Power": 8.18,
         "Control": 2.8
@@ -1358,7 +1358,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-ionic-light-24",
         "Maniability": 5.18,
         "Weight": 7.14,
-        "Effect": 8.0,
+        "Effect": 5.5,
         "Tolerance": 5.72,
         "Power": 6.77,
         "Control": 5.24
@@ -1369,7 +1369,7 @@
         "storeUrl": null,
         "Maniability": 4.19,
         "Weight": 9.26,
-        "Effect": 9.0,
+        "Effect": 6.5,
         "Tolerance": 6.64,
         "Power": 7.08,
         "Control": 5.12
@@ -1380,7 +1380,7 @@
         "storeUrl": null,
         "Maniability": 4.29,
         "Weight": 8.83,
-        "Effect": 9.0,
+        "Effect": 6.5,
         "Tolerance": 3.15,
         "Power": 9.07,
         "Control": 2.71
@@ -1413,7 +1413,7 @@
         "storeUrl": null,
         "Maniability": 5.87,
         "Weight": 6.5,
-        "Effect": 9.0,
+        "Effect": 6.5,
         "Tolerance": 3.35,
         "Power": 7.26,
         "Control": 3.51
@@ -1424,7 +1424,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-vertex-04-comfort-24",
         "Maniability": 4.79,
         "Weight": 8.62,
-        "Effect": 3.0,
+        "Effect": 7.25,
         "Tolerance": 2.94,
         "Power": 7.76,
         "Control": 4.41
@@ -1435,7 +1435,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-vertex-04-hybrid-24",
         "Maniability": 5.26,
         "Weight": 8.62,
-        "Effect": 4.0,
+        "Effect": 8.25,
         "Tolerance": 4.69,
         "Power": 5.87,
         "Control": 5.65
@@ -1446,7 +1446,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-vertex-04-24",
         "Maniability": 5.11,
         "Weight": 8.2,
-        "Effect": 4.0,
+        "Effect": 8.25,
         "Tolerance": 3.56,
         "Power": 6.91,
         "Control": 4.56
@@ -1457,7 +1457,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-hack-03-comfort-24",
         "Maniability": 4.09,
         "Weight": 9.05,
-        "Effect": 8.0,
+        "Effect": 5.5,
         "Tolerance": 3.15,
         "Power": 8.74,
         "Control": 3.85
@@ -1468,7 +1468,7 @@
         "storeUrl": null,
         "Maniability": 4.38,
         "Weight": 8.73,
-        "Effect": 9.0,
+        "Effect": 6.5,
         "Tolerance": 5.52,
         "Power": 7.24,
         "Control": 4.78
@@ -1479,7 +1479,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-hack-03-24",
         "Maniability": 3.85,
         "Weight": 9.15,
-        "Effect": 9.0,
+        "Effect": 6.5,
         "Tolerance": 2.53,
         "Power": 8.44,
         "Control": 3.82
@@ -1501,7 +1501,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-accent-lt-padel-2",
         "Maniability": 3.98,
         "Weight": 7.67,
-        "Effect": 9.0,
+        "Effect": 6.5,
         "Tolerance": 4.48,
         "Power": 7.79,
         "Control": 4.47
@@ -1512,7 +1512,7 @@
         "storeUrl": null,
         "Maniability": 3.87,
         "Weight": 7.88,
-        "Effect": 9.0,
+        "Effect": 6.5,
         "Tolerance": 4.69,
         "Power": 7.39,
         "Control": 5.03
@@ -1534,7 +1534,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-extreme-motion-2023",
         "Maniability": 4.42,
         "Weight": 7.88,
-        "Effect": 9.0,
+        "Effect": 6.5,
         "Tolerance": 2.94,
         "Power": 8.25,
         "Control": 3.57
@@ -1545,7 +1545,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-extreme-pro-2023",
         "Maniability": 4.0,
         "Weight": 8.94,
-        "Effect": 9.0,
+        "Effect": 6.5,
         "Tolerance": 3.15,
         "Power": 8.8,
         "Control": 3.27
@@ -1556,7 +1556,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-extreme-one-2023",
         "Maniability": 4.81,
         "Weight": 6.29,
-        "Effect": 5.0,
+        "Effect": 2.5,
         "Tolerance": 2.53,
         "Power": 8.34,
         "Control": 2.56
@@ -1567,7 +1567,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-carbon-force-lt-padel-2",
         "Maniability": 3.97,
         "Weight": 7.35,
-        "Effect": 6.5,
+        "Effect": 4.0,
         "Tolerance": 4.08,
         "Power": 7.27,
         "Control": 6.55
@@ -1600,7 +1600,7 @@
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-juice-padel-2",
         "Maniability": 4.26,
         "Weight": 8.94,
-        "Effect": 6.5,
+        "Effect": 4.0,
         "Tolerance": 6.44,
         "Power": 6.56,
         "Control": 7.14
