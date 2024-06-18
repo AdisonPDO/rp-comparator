@@ -6,9 +6,9 @@
         "Maniability": 3.69,
         "Weight": 9.47,
         "Effect": 6.5,
-        "Tolerance": 2.94,
-        "Power": 9.29,
-        "Control": 2.96
+        "Tolerance": 2.5,
+        "Power": 8.22,
+        "Control": 4.72
     },
     {
         "name": "Black Crown Hurricane Pro",
@@ -17,9 +17,9 @@
         "Maniability": 4.82,
         "Weight": 8.3,
         "Effect": 5.5,
-        "Tolerance": 6.86,
-        "Power": 6.79,
-        "Control": 5.52
+        "Tolerance": 6.5,
+        "Power": 5.78,
+        "Control": 7.35
     },
     {
         "name": "Black Crown Special Power",
@@ -28,9 +28,9 @@
         "Maniability": 5.45,
         "Weight": 8.3,
         "Effect": 8.25,
-        "Tolerance": 5.31,
-        "Power": 5.89,
-        "Control": 5.46
+        "Tolerance": 5.0,
+        "Power": 6.5,
+        "Control": 5.77
     },
     {
         "name": "Black Crown Piton 10",
@@ -39,9 +39,9 @@
         "Maniability": 4.63,
         "Weight": 7.88,
         "Effect": 4.5,
-        "Tolerance": 6.44,
-        "Power": 6.98,
-        "Control": 5.46
+        "Tolerance": 6.0,
+        "Power": 5.89,
+        "Control": 7.35
     },
     {
         "name": "Black Crown Hurricane",
@@ -50,9 +50,9 @@
         "Maniability": 4.8,
         "Weight": 7.88,
         "Effect": 6.5,
-        "Tolerance": 6.64,
-        "Power": 6.38,
-        "Control": 4.85
+        "Tolerance": 6.25,
+        "Power": 4.78,
+        "Control": 6.19
     },
     {
         "name": "Black Crown Piton Attack 12k+",
@@ -61,9 +61,9 @@
         "Maniability": 4.59,
         "Weight": 8.83,
         "Effect": 5.5,
-        "Tolerance": 4.89,
-        "Power": 7.19,
-        "Control": 5.24
+        "Tolerance": 4.5,
+        "Power": 6.6,
+        "Control": 6.34
     },
     {
         "name": "Black Crown Piton Air Plus",
@@ -72,9 +72,9 @@
         "Maniability": 4.57,
         "Weight": 8.41,
         "Effect": 5.5,
-        "Tolerance": 6.44,
-        "Power": 6.23,
-        "Control": 6.39
+        "Tolerance": 6.0,
+        "Power": 5.51,
+        "Control": 7.36
     },
     {
         "name": "Black Crown Special",
@@ -84,8 +84,8 @@
         "Weight": 8.2,
         "Effect": 8.25,
         "Tolerance": 6.75,
-        "Power": 5.95,
-        "Control": 5.65
+        "Power": 6.27,
+        "Control": 5.77
     },
     {
         "name": "Black Crown Hurricane 2.0",
@@ -94,9 +94,9 @@
         "Maniability": 4.8,
         "Weight": 7.88,
         "Effect": 3.0,
-        "Tolerance": 7.88,
-        "Power": 6.54,
-        "Control": 6.7
+        "Tolerance": 7.75,
+        "Power": 4.79,
+        "Control": 8.23
     },
     {
         "name": "Black Crown Special Soft",
@@ -105,9 +105,9 @@
         "Maniability": 5.2,
         "Weight": 8.3,
         "Effect": 8.25,
-        "Tolerance": 5.52,
-        "Power": 7.02,
-        "Control": 4.35
+        "Tolerance": 5.25,
+        "Power": 6.26,
+        "Control": 5.75
     },
     {
         "name": "Black Crown  Hurricane Pro 2.0",
@@ -116,9 +116,9 @@
         "Maniability": 5.11,
         "Weight": 7.24,
         "Effect": 6.5,
-        "Tolerance": 6.44,
-        "Power": 6.38,
-        "Control": 5.18
+        "Tolerance": 6.0,
+        "Power": 5.61,
+        "Control": 6.77
     },
     {
         "name": "Black Crown Piton 11 Soft",
@@ -127,9 +127,9 @@
         "Maniability": 4.94,
         "Weight": 8.09,
         "Effect": 7.25,
-        "Tolerance": 7.06,
-        "Power": 5.96,
-        "Control": 6.39
+        "Tolerance": 6.75,
+        "Power": 5.7,
+        "Control": 7.36
     },
     {
         "name": "Black Crown Piton Furia",
@@ -138,9 +138,9 @@
         "Maniability": 4.28,
         "Weight": 7.67,
         "Effect": 7.25,
-        "Tolerance": 6.64,
-        "Power": 7.23,
-        "Control": 5.46
+        "Tolerance": 6.25,
+        "Power": 5.09,
+        "Control": 7.35
     },
     {
         "name": "Black Crown Piton 11",
@@ -149,9 +149,9 @@
         "Maniability": 4.65,
         "Weight": 8.3,
         "Effect": 7.25,
-        "Tolerance": 6.64,
-        "Power": 6.28,
-        "Control": 6.26
+        "Tolerance": 6.25,
+        "Power": 5.87,
+        "Control": 7.36
     },
     {
         "name": "Black Crown Wolf",
@@ -160,9 +160,9 @@
         "Maniability": 5.55,
         "Weight": 7.67,
         "Effect": 3.0,
-        "Tolerance": 5.31,
-        "Power": 5.98,
-        "Control": 6.73
+        "Tolerance": 5.0,
+        "Power": 5.05,
+        "Control": 7.22
     },
     {
         "name": "Black Crown Piton",
@@ -171,9 +171,9 @@
         "Maniability": 4.57,
         "Weight": 7.56,
         "Effect": 4.5,
-        "Tolerance": 7.47,
-        "Power": 6.76,
-        "Control": 5.77
+        "Tolerance": 7.25,
+        "Power": 4.32,
+        "Control": 7.35
     },
     {
         "name": "Black Crown Snake",
@@ -182,9 +182,9 @@
         "Maniability": 4.64,
         "Weight": 8.09,
         "Effect": 4.5,
-        "Tolerance": 5.62,
-        "Power": 6.5,
-        "Control": 6.01
+        "Tolerance": 5.0,
+        "Power": 5.87,
+        "Control": 7.36
     },
     {
         "name": "Black Crown Shark",
@@ -193,9 +193,9 @@
         "Maniability": 4.71,
         "Weight": 8.73,
         "Effect": 4.0,
-        "Tolerance": 5.31,
-        "Power": 6.37,
-        "Control": 6.98
+        "Tolerance": 5.0,
+        "Power": 5.52,
+        "Control": 7.23
     },
     {
         "name": "Babolat Storm 22",
@@ -204,9 +204,9 @@
         "Maniability": 6.51,
         "Weight": 5.65,
         "Effect": 4.5,
-        "Tolerance": 4.48,
-        "Power": 5.51,
-        "Control": 5.61
+        "Tolerance": 4.0,
+        "Power": 4.5,
+        "Control": 6.34
     },
     {
         "name": "Babolat Contact 22",
@@ -215,9 +215,9 @@
         "Maniability": 6.52,
         "Weight": 5.86,
         "Effect": 4.5,
-        "Tolerance": 6.23,
-        "Power": 4.57,
-        "Control": 6.7
+        "Tolerance": 5.75,
+        "Power": 3.8,
+        "Control": 7.37
     },
     {
         "name": "Babolat Counter Veron 2023",
@@ -226,9 +226,9 @@
         "Maniability": 4.02,
         "Weight": 10.0,
         "Effect": 7.5,
-        "Tolerance": 4.48,
-        "Power": 7.5,
-        "Control": 4.2
+        "Tolerance": 4.0,
+        "Power": 6.93,
+        "Control": 5.17
     },
     {
         "name": "Head Gravity Elite",
@@ -237,9 +237,9 @@
         "Maniability": 4.42,
         "Weight": 8.73,
         "Effect": 7.5,
-        "Tolerance": 7.06,
-        "Power": 6.87,
-        "Control": 4.6
+        "Tolerance": 6.75,
+        "Power": 5.01,
+        "Control": 6.19
     },
     {
         "name": "Head Gravity Motion",
@@ -248,9 +248,9 @@
         "Maniability": 5.16,
         "Weight": 7.56,
         "Effect": 7.5,
-        "Tolerance": 7.06,
-        "Power": 5.96,
-        "Control": 5.03
+        "Tolerance": 6.75,
+        "Power": 4.58,
+        "Control": 6.19
     },
     {
         "name": "Head Gravity Pro",
@@ -259,9 +259,9 @@
         "Maniability": 4.38,
         "Weight": 8.83,
         "Effect": 6.5,
-        "Tolerance": 6.86,
-        "Power": 6.62,
-        "Control": 5.49
+        "Tolerance": 6.5,
+        "Power": 6.42,
+        "Control": 6.77
     },
     {
         "name": "Tecnifibre Wallbreaker 375",
@@ -270,9 +270,9 @@
         "Maniability": 4.08,
         "Weight": 9.58,
         "Effect": 0.0,
-        "Tolerance": 4.28,
-        "Power": 8.04,
-        "Control": 3.52
+        "Tolerance": 3.75,
+        "Power": 5.3,
+        "Control": 5.16
     },
     {
         "name": "Nox AT10 Luxury Genius Arena 12K 2023",
@@ -281,9 +281,9 @@
         "Maniability": 5.3,
         "Weight": 8.62,
         "Effect": 4.25,
-        "Tolerance": 4.69,
-        "Power": 6.26,
-        "Control": 4.57
+        "Tolerance": 4.25,
+        "Power": 4.59,
+        "Control": 5.18
     },
     {
         "name": "Bullpadel Ionic Power 23",
@@ -292,9 +292,9 @@
         "Maniability": 3.74,
         "Weight": 9.58,
         "Effect": 6.5,
-        "Tolerance": 2.94,
-        "Power": 9.26,
-        "Control": 2.96
+        "Tolerance": 2.5,
+        "Power": 7.8,
+        "Control": 4.72
     },
     {
         "name": "Bullpadel Indiga W 23",
@@ -303,9 +303,9 @@
         "Maniability": 5.26,
         "Weight": 7.77,
         "Effect": 4.5,
-        "Tolerance": 6.23,
-        "Power": 5.74,
-        "Control": 6.39
+        "Tolerance": 5.75,
+        "Power": 3.92,
+        "Control": 7.36
     },
     {
         "name": "Head Zephyr UL",
@@ -314,9 +314,9 @@
         "Maniability": 6.17,
         "Weight": 5.76,
         "Effect": 4.5,
-        "Tolerance": 6.86,
-        "Power": 5.34,
-        "Control": 6.08
+        "Tolerance": 6.5,
+        "Power": 4.0,
+        "Control": 7.36
     },
     {
         "name": "Babolat Counter Vertuo 2023",
@@ -325,9 +325,9 @@
         "Maniability": 5.54,
         "Weight": 6.71,
         "Effect": 7.5,
-        "Tolerance": 5.11,
-        "Power": 6.67,
-        "Control": 3.89
+        "Tolerance": 4.75,
+        "Power": 5.06,
+        "Control": 5.17
     },
     {
         "name": "Babolat Technical Vertuo 2023",
@@ -336,9 +336,9 @@
         "Maniability": 4.62,
         "Weight": 7.77,
         "Effect": 7.5,
-        "Tolerance": 3.15,
-        "Power": 8.73,
-        "Control": 2.25
+        "Tolerance": 2.75,
+        "Power": 6.29,
+        "Control": 4.14
     },
     {
         "name": "Babolat Air Vertuo 2023",
@@ -347,9 +347,9 @@
         "Maniability": 6.07,
         "Weight": 6.18,
         "Effect": 7.5,
-        "Tolerance": 4.69,
-        "Power": 5.92,
-        "Control": 4.32
+        "Tolerance": 4.25,
+        "Power": 4.75,
+        "Control": 5.18
     },
     {
         "name": "Adidas RX 2000 Light",
@@ -358,8 +358,8 @@
         "Maniability": 6.14,
         "Weight": 6.82,
         "Effect": 4.5,
-        "Tolerance": 6.64,
-        "Power": 4.26,
+        "Tolerance": 6.25,
+        "Power": 4.01,
         "Control": 7.38
     },
     {
@@ -369,9 +369,9 @@
         "Maniability": 4.14,
         "Weight": 10.0,
         "Effect": 0.0,
-        "Tolerance": 4.48,
-        "Power": 7.46,
-        "Control": 4.13
+        "Tolerance": 4.0,
+        "Power": 7.26,
+        "Control": 5.17
     },
     {
         "name": "Babolat Technical Veron 2023",
@@ -380,9 +380,9 @@
         "Maniability": 4.63,
         "Weight": 8.73,
         "Effect": 7.5,
-        "Tolerance": 3.35,
-        "Power": 8.31,
-        "Control": 2.74
+        "Tolerance": 3.0,
+        "Power": 7.28,
+        "Control": 4.15
     },
     {
         "name": "Nox ML10 Pro Cup Rough Surface Edition",
@@ -391,9 +391,9 @@
         "Maniability": 5.02,
         "Weight": 8.09,
         "Effect": 7.25,
-        "Tolerance": 7.27,
-        "Power": 6.59,
-        "Control": 5.58
+        "Tolerance": 7.0,
+        "Power": 5.26,
+        "Control": 7.35
     },
     {
         "name": "Head Zephyr 2023",
@@ -402,9 +402,9 @@
         "Maniability": 5.63,
         "Weight": 6.82,
         "Effect": 4.5,
-        "Tolerance": 6.64,
-        "Power": 5.63,
-        "Control": 6.2
+        "Tolerance": 6.25,
+        "Power": 4.31,
+        "Control": 7.36
     },
     {
         "name": "Nox AT Genius LIMITED EDITION",
@@ -413,9 +413,9 @@
         "Maniability": 5.64,
         "Weight": 7.77,
         "Effect": 9.25,
-        "Tolerance": 5.31,
-        "Power": 5.86,
-        "Control": 4.76
+        "Tolerance": 5.0,
+        "Power": 6.4,
+        "Control": 5.18
     },
     {
         "name": "Babolat Technical Viper 2023",
@@ -424,9 +424,9 @@
         "Maniability": 4.3,
         "Weight": 8.94,
         "Effect": 7.5,
-        "Tolerance": 3.15,
-        "Power": 8.33,
-        "Control": 2.99
+        "Tolerance": 2.75,
+        "Power": 7.87,
+        "Control": 4.15
     },
     {
         "name": "Wilson Bela Pro v2",
@@ -435,9 +435,9 @@
         "Maniability": 4.15,
         "Weight": 8.41,
         "Effect": 4.0,
-        "Tolerance": 4.48,
-        "Power": 7.93,
-        "Control": 5.62
+        "Tolerance": 4.0,
+        "Power": 7.26,
+        "Control": 7.21
     },
     {
         "name": "Babolat Counter Viper 2023",
@@ -446,9 +446,9 @@
         "Maniability": 5.03,
         "Weight": 8.41,
         "Effect": 9.25,
-        "Tolerance": 4.89,
-        "Power": 6.61,
-        "Control": 4.38
+        "Tolerance": 4.5,
+        "Power": 6.75,
+        "Control": 5.18
     },
     {
         "name": "Babolat Air Viper 2023",
@@ -457,9 +457,9 @@
         "Maniability": 5.3,
         "Weight": 7.77,
         "Effect": 9.25,
-        "Tolerance": 4.28,
-        "Power": 6.53,
-        "Control": 4.26
+        "Tolerance": 3.75,
+        "Power": 6.59,
+        "Control": 5.18
     },
     {
         "name": "Head Concord 2023",
@@ -468,9 +468,9 @@
         "Maniability": 4.13,
         "Weight": 7.98,
         "Effect": 4.5,
-        "Tolerance": 4.69,
-        "Power": 7.89,
-        "Control": 4.81
+        "Tolerance": 4.25,
+        "Power": 5.87,
+        "Control": 6.33
     },
     {
         "name": "Head Alpha Touch Graphene 360+",
@@ -479,9 +479,9 @@
         "Maniability": 4.7,
         "Weight": 8.41,
         "Effect": 4.5,
-        "Tolerance": 4.08,
-        "Power": 7.27,
-        "Control": 5.06
+        "Tolerance": 3.5,
+        "Power": 5.54,
+        "Control": 6.34
     },
     {
         "name": "StarVie Metheora Dual 2023",
@@ -490,9 +490,9 @@
         "Maniability": 4.92,
         "Weight": 8.62,
         "Effect": 5.5,
-        "Tolerance": 5.83,
-        "Power": 6.08,
-        "Control": 6.26
+        "Tolerance": 5.25,
+        "Power": 6.11,
+        "Control": 7.36
     },
     {
         "name": "Adidas Metalbone 3.2 2023 (Ale Galan)",
@@ -501,9 +501,9 @@
         "Maniability": 5.07,
         "Weight": 8.2,
         "Effect": 5.5,
-        "Tolerance": 3.35,
-        "Power": 7.89,
-        "Control": 4.04
+        "Tolerance": 3.0,
+        "Power": 7.43,
+        "Control": 5.32
     },
     {
         "name": "Siux SG Copper Edition 18k (Sanyo)",
@@ -512,9 +512,9 @@
         "Maniability": 5.26,
         "Weight": 7.77,
         "Effect": 4.5,
-        "Tolerance": 4.89,
-        "Power": 5.92,
-        "Control": 6.17
+        "Tolerance": 4.5,
+        "Power": 6.61,
+        "Control": 6.35
     },
     {
         "name": "Head Speed Pro 2023",
@@ -523,9 +523,9 @@
         "Maniability": 4.21,
         "Weight": 8.94,
         "Effect": 4.5,
-        "Tolerance": 4.28,
-        "Power": 7.62,
-        "Control": 5.06
+        "Tolerance": 3.75,
+        "Power": 6.82,
+        "Control": 6.34
     },
     {
         "name": "Head Speed Motion 2023",
@@ -534,9 +534,9 @@
         "Maniability": 5.24,
         "Weight": 7.35,
         "Effect": 3.0,
-        "Tolerance": 4.89,
-        "Power": 7.1,
-        "Control": 5.68
+        "Tolerance": 4.5,
+        "Power": 6.24,
+        "Control": 7.21
     },
     {
         "name": "Head Speed Elite 2023",
@@ -545,9 +545,9 @@
         "Maniability": 4.43,
         "Weight": 8.94,
         "Effect": 4.5,
-        "Tolerance": 4.69,
-        "Power": 7.2,
-        "Control": 5.37
+        "Tolerance": 4.25,
+        "Power": 5.69,
+        "Control": 6.34
     },
     {
         "name": "Nox Luxury Titanium Exclusive",
@@ -556,9 +556,9 @@
         "Maniability": 4.35,
         "Weight": 8.2,
         "Effect": 0.0,
-        "Tolerance": 4.89,
-        "Power": 7.79,
-        "Control": 3.58
+        "Tolerance": 4.5,
+        "Power": 5.15,
+        "Control": 5.16
     },
     {
         "name": "Head Speed Pro X",
@@ -567,9 +567,9 @@
         "Maniability": 3.8,
         "Weight": 10.0,
         "Effect": 4.5,
-        "Tolerance": 4.69,
-        "Power": 7.92,
-        "Control": 5.06
+        "Tolerance": 4.25,
+        "Power": 7.45,
+        "Control": 6.34
     },
     {
         "name": "Head Delta Motion",
@@ -578,9 +578,9 @@
         "Maniability": 4.67,
         "Weight": 7.88,
         "Effect": 5.5,
-        "Tolerance": 2.94,
-        "Power": 8.06,
-        "Control": 4.16
+        "Tolerance": 2.5,
+        "Power": 7.26,
+        "Control": 5.32
     },
     {
         "name": "Black Crown Piton Nakano",
@@ -589,9 +589,20 @@
         "Maniability": 5.34,
         "Weight": 7.77,
         "Effect": 4.5,
-        "Tolerance": 6.64,
-        "Power": 5.67,
-        "Control": 6.39
+        "Tolerance": 6.25,
+        "Power": 4.47,
+        "Control": 7.36
+    },
+    {
+        "name": "Head Graphene Discovery Touch",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Head-Graphene-Touch-Discovery-Padel-Racket-PADELUSA1.webp?v=1683637700",
+        "storeUrl": "https://padeleurope.co/products/head-graphene-discovery-touch",
+        "Maniability": 5.23,
+        "Weight": 7.24,
+        "Effect": 4.5,
+        "Tolerance": 4.75,
+        "Power": 5.24,
+        "Control": 6.33
     },
     {
         "name": "Head Delta Elite",
@@ -600,9 +611,9 @@
         "Maniability": 5.59,
         "Weight": 7.56,
         "Effect": 5.5,
-        "Tolerance": 3.77,
-        "Power": 7.51,
-        "Control": 3.45
+        "Tolerance": 3.5,
+        "Power": 5.73,
+        "Control": 4.73
     },
     {
         "name": "Head Delta Speed Graphene 360+",
@@ -611,9 +622,9 @@
         "Maniability": 6.0,
         "Weight": 6.39,
         "Effect": 6.5,
-        "Tolerance": 2.73,
-        "Power": 7.17,
-        "Control": 3.51
+        "Tolerance": 2.25,
+        "Power": 5.5,
+        "Control": 4.73
     },
     {
         "name": "Wilson Blade Team V2",
@@ -622,9 +633,9 @@
         "Maniability": 5.02,
         "Weight": 8.09,
         "Effect": 0.0,
-        "Tolerance": 4.48,
-        "Power": 6.89,
-        "Control": 4.07
+        "Tolerance": 4.0,
+        "Power": 5.36,
+        "Control": 5.17
     },
     {
         "name": "Babolat Air Veron 2023",
@@ -633,9 +644,9 @@
         "Maniability": 4.91,
         "Weight": 7.45,
         "Effect": 7.5,
-        "Tolerance": 3.97,
-        "Power": 8.11,
-        "Control": 2.74
+        "Tolerance": 3.75,
+        "Power": 7.12,
+        "Control": 4.15
     },
     {
         "name": "Wilson Pro Staff V2 Team",
@@ -644,9 +655,20 @@
         "Maniability": 5.03,
         "Weight": 8.41,
         "Effect": 3.0,
-        "Tolerance": 5.62,
-        "Power": 5.9,
-        "Control": 7.26
+        "Tolerance": 5.0,
+        "Power": 4.65,
+        "Control": 8.24
+    },
+    {
+        "name": "Nox AT Luxury Genius Attack 18K 2022",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Nox-AT10-Attack-18k-Agustin-Tapia-Padel-Racket-PADELUSA1.webp?v=1683638891",
+        "storeUrl": null,
+        "Maniability": 4.01,
+        "Weight": 9.05,
+        "Effect": 6.5,
+        "Tolerance": 3.25,
+        "Power": 8.04,
+        "Control": 4.73
     },
     {
         "name": "Head Alpha Elite Graphene 360+",
@@ -655,9 +677,9 @@
         "Maniability": 4.7,
         "Weight": 8.41,
         "Effect": 3.0,
-        "Tolerance": 4.69,
-        "Power": 7.01,
-        "Control": 6.24
+        "Tolerance": 4.25,
+        "Power": 5.54,
+        "Control": 7.21
     },
     {
         "name": "Babolat Defiance Woman",
@@ -666,9 +688,9 @@
         "Maniability": 6.37,
         "Weight": 6.39,
         "Effect": 4.5,
-        "Tolerance": 5.62,
-        "Power": 4.46,
-        "Control": 6.94
+        "Tolerance": 5.0,
+        "Power": 3.88,
+        "Control": 7.37
     },
     {
         "name": "Cartri Shield Alpha",
@@ -677,9 +699,9 @@
         "Maniability": 5.46,
         "Weight": 7.67,
         "Effect": 6.5,
-        "Tolerance": 4.89,
-        "Power": 6.83,
-        "Control": 4.35
+        "Tolerance": 4.5,
+        "Power": 6.51,
+        "Control": 5.75
     },
     {
         "name": "Cartri Volcano Teide",
@@ -688,9 +710,9 @@
         "Maniability": 4.66,
         "Weight": 8.52,
         "Effect": 5.5,
-        "Tolerance": 4.69,
-        "Power": 7.3,
-        "Control": 5.06
+        "Tolerance": 4.25,
+        "Power": 6.96,
+        "Control": 6.34
     },
     {
         "name": "Varlion Bourne Summum Carbon Black",
@@ -699,9 +721,9 @@
         "Maniability": 5.04,
         "Weight": 7.67,
         "Effect": 6.5,
-        "Tolerance": 2.53,
-        "Power": 7.9,
-        "Control": 3.45
+        "Tolerance": 2.0,
+        "Power": 7.05,
+        "Control": 4.73
     },
     {
         "name": "Varlion LW Summum Carbon Black",
@@ -710,9 +732,9 @@
         "Maniability": 5.4,
         "Weight": 7.35,
         "Effect": 0.0,
-        "Tolerance": 5.62,
-        "Power": 5.74,
-        "Control": 5.09
+        "Tolerance": 5.0,
+        "Power": 5.44,
+        "Control": 6.19
     },
     {
         "name": "Varlion Maxima Summum Prisma S",
@@ -721,9 +743,9 @@
         "Maniability": 5.06,
         "Weight": 7.98,
         "Effect": 5.5,
-        "Tolerance": 3.87,
-        "Power": 6.7,
-        "Control": 4.84
+        "Tolerance": 3.25,
+        "Power": 4.73,
+        "Control": 5.76
     },
     {
         "name": "Head Typhoon",
@@ -732,9 +754,9 @@
         "Maniability": 4.18,
         "Weight": 9.15,
         "Effect": 4.5,
-        "Tolerance": 4.89,
-        "Power": 8.07,
-        "Control": 4.56
+        "Tolerance": 4.5,
+        "Power": 5.84,
+        "Control": 6.33
     },
     {
         "name": "Raquette de padel PITON 12",
@@ -743,9 +765,9 @@
         "Maniability": 4.54,
         "Weight": 8.73,
         "Effect": 8.25,
-        "Tolerance": 6.64,
-        "Power": 5.82,
-        "Control": 6.3
+        "Tolerance": 6.25,
+        "Power": 5.92,
+        "Control": 6.79
     },
     {
         "name": "Raquette de padel PITON 12 SILVER",
@@ -754,9 +776,9 @@
         "Maniability": 4.54,
         "Weight": 8.62,
         "Effect": 8.25,
-        "Tolerance": 7.06,
-        "Power": 5.5,
-        "Control": 6.67
+        "Tolerance": 6.75,
+        "Power": 5.92,
+        "Control": 6.79
     },
     {
         "name": "Raquette de padel BELA PRO PADEL V2.5",
@@ -765,9 +787,9 @@
         "Maniability": 4.31,
         "Weight": 10.0,
         "Effect": 4.0,
-        "Tolerance": 4.28,
-        "Power": 7.08,
-        "Control": 6.49
+        "Tolerance": 3.75,
+        "Power": 7.16,
+        "Control": 7.22
     },
     {
         "name": "Raquette de padel SPECIAL MASTER",
@@ -776,9 +798,9 @@
         "Maniability": 5.18,
         "Weight": 7.98,
         "Effect": 5.75,
-        "Tolerance": 5.31,
-        "Power": 5.92,
-        "Control": 7.11
+        "Tolerance": 5.0,
+        "Power": 6.65,
+        "Control": 7.23
     },
     {
         "name": "Diablo révolution lite 3 2024",
@@ -787,9 +809,9 @@
         "Maniability": 5.42,
         "Weight": 8.52,
         "Effect": 5.5,
-        "Tolerance": 5.11,
-        "Power": 5.7,
-        "Control": 5.71
+        "Tolerance": 4.75,
+        "Power": 6.52,
+        "Control": 5.77
     },
     {
         "name": "Raquette de padel SPECIAL PRO",
@@ -798,9 +820,9 @@
         "Maniability": 5.29,
         "Weight": 7.56,
         "Effect": 7.25,
-        "Tolerance": 3.87,
-        "Power": 6.32,
-        "Control": 5.67
+        "Tolerance": 3.25,
+        "Power": 6.6,
+        "Control": 6.35
     },
     {
         "name": "Raquette BELA LT V2.5 PADEL 2",
@@ -809,9 +831,9 @@
         "Maniability": 5.4,
         "Weight": 7.35,
         "Effect": 6.5,
-        "Tolerance": 4.28,
-        "Power": 6.13,
-        "Control": 5.21
+        "Tolerance": 3.75,
+        "Power": 6.53,
+        "Control": 5.76
     },
     {
         "name": "Raquette BELA ELITE V2.5 PADEL 2",
@@ -820,9 +842,9 @@
         "Maniability": 4.74,
         "Weight": 8.52,
         "Effect": 6.5,
-        "Tolerance": 3.87,
-        "Power": 6.71,
-        "Control": 5.09
+        "Tolerance": 3.25,
+        "Power": 6.91,
+        "Control": 5.76
     },
     {
         "name": "Diablo révolution pro 3 2024",
@@ -831,9 +853,9 @@
         "Maniability": 5.32,
         "Weight": 8.2,
         "Effect": 8.25,
-        "Tolerance": 4.89,
-        "Power": 6.14,
-        "Control": 5.28
+        "Tolerance": 4.5,
+        "Power": 6.58,
+        "Control": 5.77
     },
     {
         "name": "Radogar attk 3d",
@@ -842,9 +864,9 @@
         "Maniability": 4.95,
         "Weight": 8.52,
         "Effect": 5.5,
-        "Tolerance": 3.35,
-        "Power": 7.39,
-        "Control": 4.71
+        "Tolerance": 3.0,
+        "Power": 7.09,
+        "Control": 5.32
     },
     {
         "name": "X5 ultimate red",
@@ -853,9 +875,9 @@
         "Maniability": 5.34,
         "Weight": 8.62,
         "Effect": 7.25,
-        "Tolerance": 7.06,
-        "Power": 5.09,
-        "Control": 7.07
+        "Tolerance": 6.75,
+        "Power": 4.46,
+        "Control": 7.37
     },
     {
         "name": "Équation advanced séries 24",
@@ -864,9 +886,9 @@
         "Maniability": 5.13,
         "Weight": 8.62,
         "Effect": 7.5,
-        "Tolerance": 6.64,
-        "Power": 5.4,
-        "Control": 5.71
+        "Tolerance": 6.25,
+        "Power": 4.59,
+        "Control": 6.2
     },
     {
         "name": "Équation advanced femme",
@@ -875,9 +897,9 @@
         "Maniability": 5.23,
         "Weight": 7.24,
         "Effect": 7.5,
-        "Tolerance": 7.06,
-        "Power": 6.39,
-        "Control": 4.48
+        "Tolerance": 6.75,
+        "Power": 4.54,
+        "Control": 6.19
     },
     {
         "name": "At10 genius ultra light 23",
@@ -886,9 +908,9 @@
         "Maniability": 7.9,
         "Weight": 3.0,
         "Effect": 4.5,
-        "Tolerance": 4.69,
-        "Power": 4.83,
-        "Control": 5.24
+        "Tolerance": 4.25,
+        "Power": 3.11,
+        "Control": 6.34
     },
     {
         "name": "ML10 BAHIA 12K LUXURY SERIES 24",
@@ -897,9 +919,9 @@
         "Maniability": 4.41,
         "Weight": 8.62,
         "Effect": 6.5,
-        "Tolerance": 4.89,
-        "Power": 7.69,
-        "Control": 4.22
+        "Tolerance": 4.5,
+        "Power": 7.11,
+        "Control": 5.75
     },
     {
         "name": "ML10 PRO CUP 3K LUXURY SERIES",
@@ -908,9 +930,9 @@
         "Maniability": 4.82,
         "Weight": 8.3,
         "Effect": 8.25,
-        "Tolerance": 6.86,
-        "Power": 6.26,
-        "Control": 5.55
+        "Tolerance": 6.5,
+        "Power": 6.17,
+        "Control": 6.77
     },
     {
         "name": "ML10 SHOTGUN 18K LUXURY SERIES PAR MIGUEL LAMPERTI",
@@ -919,9 +941,9 @@
         "Maniability": 4.82,
         "Weight": 8.3,
         "Effect": 0.0,
-        "Tolerance": 3.15,
-        "Power": 7.75,
-        "Control": 3.24
+        "Tolerance": 2.75,
+        "Power": 7.57,
+        "Control": 4.16
     },
     {
         "name": "TECHNICAL VIPER 24",
@@ -930,9 +952,9 @@
         "Maniability": 4.89,
         "Weight": 8.94,
         "Effect": 9.25,
-        "Tolerance": 2.53,
-        "Power": 7.64,
-        "Control": 3.3
+        "Tolerance": 2.0,
+        "Power": 7.53,
+        "Control": 4.16
     },
     {
         "name": "TECHNICAL VERON 24",
@@ -941,9 +963,9 @@
         "Maniability": 4.8,
         "Weight": 8.73,
         "Effect": 7.5,
-        "Tolerance": 2.53,
-        "Power": 7.92,
-        "Control": 3.05
+        "Tolerance": 2.0,
+        "Power": 7.18,
+        "Control": 4.15
     },
     {
         "name": "Raquette de padel COUNTER VIPER 24",
@@ -952,9 +974,9 @@
         "Maniability": 5.03,
         "Weight": 8.41,
         "Effect": 9.25,
-        "Tolerance": 5.62,
-        "Power": 5.69,
-        "Control": 5.46
+        "Tolerance": 5.0,
+        "Power": 6.05,
+        "Control": 6.2
     },
     {
         "name": "Raquette de padel COUNTER VERON 24",
@@ -963,9 +985,9 @@
         "Maniability": 4.46,
         "Weight": 8.62,
         "Effect": 7.5,
-        "Tolerance": 5.83,
-        "Power": 6.73,
-        "Control": 4.72
+        "Tolerance": 5.25,
+        "Power": 5.98,
+        "Control": 6.19
     },
     {
         "name": "Raquette de padel AIR VIPER 24",
@@ -974,9 +996,9 @@
         "Maniability": 5.01,
         "Weight": 7.77,
         "Effect": 9.25,
-        "Tolerance": 4.28,
-        "Power": 6.47,
-        "Control": 4.57
+        "Tolerance": 3.75,
+        "Power": 6.76,
+        "Control": 5.18
     },
     {
         "name": "Raquette de padel AIR VERON 24",
@@ -985,9 +1007,9 @@
         "Maniability": 5.48,
         "Weight": 7.24,
         "Effect": 7.5,
-        "Tolerance": 4.48,
-        "Power": 6.39,
-        "Control": 4.26
+        "Tolerance": 4.0,
+        "Power": 6.09,
+        "Control": 5.18
     },
     {
         "name": "Raquette de padel PATRON",
@@ -996,9 +1018,9 @@
         "Maniability": 4.95,
         "Weight": 8.3,
         "Effect": 8.25,
-        "Tolerance": 5.31,
-        "Power": 6.62,
-        "Control": 5.03
+        "Tolerance": 5.0,
+        "Power": 6.4,
+        "Control": 5.76
     },
     {
         "name": "Raquette de padel PATRON EVOLUTION",
@@ -1007,9 +1029,9 @@
         "Maniability": 4.98,
         "Weight": 8.2,
         "Effect": 8.25,
-        "Tolerance": 4.48,
-        "Power": 6.65,
-        "Control": 4.97
+        "Tolerance": 4.0,
+        "Power": 6.38,
+        "Control": 5.76
     },
     {
         "name": "Raquette de padel STRIKER PADEL Rouge",
@@ -1018,9 +1040,9 @@
         "Maniability": 4.87,
         "Weight": 8.41,
         "Effect": 3.0,
-        "Tolerance": 4.08,
-        "Power": 6.89,
-        "Control": 6.24
+        "Tolerance": 3.5,
+        "Power": 5.44,
+        "Control": 7.21
     },
     {
         "name": "Raquette de padel FENIX PRO 4 2024",
@@ -1029,9 +1051,9 @@
         "Maniability": 3.9,
         "Weight": 8.41,
         "Effect": 6.5,
-        "Tolerance": 2.73,
-        "Power": 9.25,
-        "Control": 2.83
+        "Tolerance": 2.25,
+        "Power": 8.11,
+        "Control": 4.72
     },
     {
         "name": "Raquette de padel ELECTRA ST3 LITE 2024",
@@ -1040,9 +1062,9 @@
         "Maniability": 4.4,
         "Weight": 9.15,
         "Effect": 8.25,
-        "Tolerance": 6.03,
-        "Power": 6.46,
-        "Control": 5.68
+        "Tolerance": 5.5,
+        "Power": 6.41,
+        "Control": 6.78
     },
     {
         "name": "Raquette de padel BLACK KING COBRA XTREME 3K",
@@ -1051,9 +1073,9 @@
         "Maniability": 5.01,
         "Weight": 7.77,
         "Effect": 6.5,
-        "Tolerance": 3.35,
-        "Power": 7.83,
-        "Control": 3.57
+        "Tolerance": 3.0,
+        "Power": 7.47,
+        "Control": 4.73
     },
     {
         "name": "Raquette de padel BLACK MAMBA XTREME 3K",
@@ -1062,9 +1084,9 @@
         "Maniability": 5.06,
         "Weight": 9.05,
         "Effect": 6.5,
-        "Tolerance": 4.69,
-        "Power": 6.86,
-        "Control": 4.66
+        "Tolerance": 4.25,
+        "Power": 6.73,
+        "Control": 5.76
     },
     {
         "name": "Raquette de padel BELCHER CLASSIC",
@@ -1073,9 +1095,9 @@
         "Maniability": 4.96,
         "Weight": 7.77,
         "Effect": 5.5,
-        "Tolerance": 6.64,
-        "Power": 5.36,
-        "Control": 6.48
+        "Tolerance": 6.25,
+        "Power": 4.68,
+        "Control": 6.79
     },
     {
         "name": "Raquette de padel NAYA XTREME FIBER",
@@ -1084,9 +1106,9 @@
         "Maniability": 5.81,
         "Weight": 6.92,
         "Effect": 6.5,
-        "Tolerance": 5.72,
-        "Power": 5.85,
-        "Control": 5.21
+        "Tolerance": 5.5,
+        "Power": 4.9,
+        "Control": 5.76
     },
     {
         "name": "Raquette de padel BLACK MAMBA ELITE 3K",
@@ -1095,9 +1117,9 @@
         "Maniability": 5.01,
         "Weight": 7.77,
         "Effect": 6.5,
-        "Tolerance": 4.48,
-        "Power": 6.74,
-        "Control": 4.84
+        "Tolerance": 4.0,
+        "Power": 6.76,
+        "Control": 5.76
     },
     {
         "name": "Raquette de padel DIVA ELITE 3K",
@@ -1106,9 +1128,9 @@
         "Maniability": 6.34,
         "Weight": 6.5,
         "Effect": 6.5,
-        "Tolerance": 6.44,
-        "Power": 4.6,
-        "Control": 6.23
+        "Tolerance": 6.0,
+        "Power": 5.3,
+        "Control": 6.78
     },
     {
         "name": "Raquette de padel YARARA XTREME FIBER WHITE",
@@ -1117,9 +1139,9 @@
         "Maniability": 4.73,
         "Weight": 8.09,
         "Effect": 6.5,
-        "Tolerance": 4.89,
-        "Power": 6.99,
-        "Control": 4.78
+        "Tolerance": 4.5,
+        "Power": 5.52,
+        "Control": 5.76
     },
     {
         "name": "Raquette de padel RUSELL CLASSIC",
@@ -1128,9 +1150,9 @@
         "Maniability": 5.05,
         "Weight": 7.88,
         "Effect": 5.5,
-        "Tolerance": 6.03,
-        "Power": 5.83,
-        "Control": 5.86
+        "Tolerance": 5.5,
+        "Power": 4.64,
+        "Control": 6.78
     },
     {
         "name": "Raquette de padel YARARA XTREME 3k GOLD",
@@ -1139,9 +1161,9 @@
         "Maniability": 4.67,
         "Weight": 8.73,
         "Effect": 6.5,
-        "Tolerance": 5.11,
-        "Power": 7.77,
-        "Control": 3.92
+        "Tolerance": 4.75,
+        "Power": 6.96,
+        "Control": 5.74
     },
     {
         "name": "Raquette de padel METALBONE CARBON 3.3",
@@ -1150,9 +1172,9 @@
         "Maniability": 4.56,
         "Weight": 8.2,
         "Effect": 6.5,
-        "Tolerance": 2.73,
-        "Power": 8.04,
-        "Control": 3.7
+        "Tolerance": 2.25,
+        "Power": 7.72,
+        "Control": 4.74
     },
     {
         "name": "Raquette de padel METALBONE HRD+ 3.3",
@@ -1161,9 +1183,9 @@
         "Maniability": 4.74,
         "Weight": 8.41,
         "Effect": 6.5,
-        "Tolerance": 2.73,
-        "Power": 7.65,
-        "Control": 4.01
+        "Tolerance": 2.25,
+        "Power": 7.61,
+        "Control": 4.74
     },
     {
         "name": "Raquette de padel METALBONE CARBON CTRL 3.3",
@@ -1172,9 +1194,9 @@
         "Maniability": 4.88,
         "Weight": 8.73,
         "Effect": 6.5,
-        "Tolerance": 6.86,
-        "Power": 5.63,
-        "Control": 6.23
+        "Tolerance": 6.5,
+        "Power": 6.13,
+        "Control": 6.78
     },
     {
         "name": "Raquette de padel METALBONE CTRL 3.3",
@@ -1183,9 +1205,9 @@
         "Maniability": 5.25,
         "Weight": 8.64,
         "Effect": 6.5,
-        "Tolerance": 6.86,
-        "Power": 5.42,
-        "Control": 6.17
+        "Tolerance": 6.5,
+        "Power": 5.92,
+        "Control": 6.78
     },
     {
         "name": "Raquette de padel ADIPOWER MULTIWEIGHT 3.3",
@@ -1194,9 +1216,9 @@
         "Maniability": 4.49,
         "Weight": 8.41,
         "Effect": 6.5,
-        "Tolerance": 3.15,
-        "Power": 8.88,
-        "Control": 2.77
+        "Tolerance": 2.75,
+        "Power": 7.77,
+        "Control": 4.72
     },
     {
         "name": "Raquette de padel METALBONE 3.3 2024",
@@ -1205,9 +1227,9 @@
         "Maniability": 4.76,
         "Weight": 8.94,
         "Effect": 6.5,
-        "Tolerance": 2.94,
-        "Power": 7.47,
-        "Control": 4.19
+        "Tolerance": 2.5,
+        "Power": 7.6,
+        "Control": 4.74
     },
     {
         "name": "Raquette de padel CROSS IT LIGHT",
@@ -1216,9 +1238,9 @@
         "Maniability": 5.0,
         "Weight": 7.56,
         "Effect": 6.5,
-        "Tolerance": 7.88,
-        "Power": 6.03,
-        "Control": 5.68
+        "Tolerance": 7.75,
+        "Power": 6.07,
+        "Control": 6.78
     },
     {
         "name": "Raquette de padel RX SERIES LIGHT",
@@ -1227,9 +1249,9 @@
         "Maniability": 5.67,
         "Weight": 6.71,
         "Effect": 4.5,
-        "Tolerance": 6.64,
-        "Power": 5.55,
-        "Control": 6.26
+        "Tolerance": 6.25,
+        "Power": 4.28,
+        "Control": 7.36
     },
     {
         "name": "Raquette de padel ELECTRA ST3 STUPA PRO 2024",
@@ -1238,9 +1260,9 @@
         "Maniability": 4.54,
         "Weight": 7.88,
         "Effect": 8.25,
-        "Tolerance": 4.48,
-        "Power": 7.38,
-        "Control": 4.47
+        "Tolerance": 4.0,
+        "Power": 7.03,
+        "Control": 5.75
     },
     {
         "name": "Raquette de padel PITON AIR 12K",
@@ -1249,9 +1271,9 @@
         "Maniability": 5.02,
         "Weight": 8.09,
         "Effect": 8.25,
-        "Tolerance": 6.44,
-        "Power": 5.85,
-        "Control": 5.86
+        "Tolerance": 6.0,
+        "Power": 5.65,
+        "Control": 6.78
     },
     {
         "name": "Raquette de padel PITON ATTACK 15K POWER",
@@ -1260,9 +1282,9 @@
         "Maniability": 4.69,
         "Weight": 8.3,
         "Effect": 8.25,
-        "Tolerance": 5.11,
-        "Power": 7.01,
-        "Control": 4.78
+        "Tolerance": 4.75,
+        "Power": 6.54,
+        "Control": 5.76
     },
     {
         "name": "Raquette de padel PITON PREMIUM",
@@ -1271,9 +1293,9 @@
         "Maniability": 4.87,
         "Weight": 8.41,
         "Effect": 8.25,
-        "Tolerance": 6.23,
-        "Power": 5.43,
-        "Control": 6.48
+        "Tolerance": 5.75,
+        "Power": 5.74,
+        "Control": 6.79
     },
     {
         "name": "Raquette de padel TECHNICAL VERTUO JUAN LEBRON",
@@ -1282,9 +1304,9 @@
         "Maniability": 5.35,
         "Weight": 7.88,
         "Effect": 7.5,
-        "Tolerance": 2.53,
-        "Power": 7.26,
-        "Control": 3.36
+        "Tolerance": 2.0,
+        "Power": 5.87,
+        "Control": 4.16
     },
     {
         "name": "Raquette de padel TECHNICAL VERON JUAN LEBRON",
@@ -1293,31 +1315,20 @@
         "Maniability": 4.54,
         "Weight": 8.62,
         "Effect": 7.5,
-        "Tolerance": 2.53,
-        "Power": 7.95,
-        "Control": 3.24
-    },
-    {
-        "name": "Raquette de padel TECHNICAL VIPER JUAN LEBRON",
-        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/8600_jpg.png?v=1714388983",
-        "storeUrl": null,
-        "Maniability": 4.74,
-        "Weight": 8.3,
-        "Effect": 9.25,
-        "Tolerance": 1.5,
-        "Power": 8.18,
-        "Control": 2.8
+        "Tolerance": 2.0,
+        "Power": 7.33,
+        "Control": 4.16
     },
     {
         "name": "Raquette de padel RADICAL ELITE 2024",
         "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/8593_jpg.png?v=1714389121",
-        "storeUrl": null,
+        "storeUrl": "https://padeleurope.co/products/raquette-de-padel-radical-elite-2024",
         "Maniability": 4.87,
         "Weight": 8.41,
         "Effect": 1.5,
-        "Tolerance": 4.48,
-        "Power": 6.62,
-        "Control": 4.51
+        "Tolerance": 4.0,
+        "Power": 5.44,
+        "Control": 5.18
     },
     {
         "name": "Raquette de padel RADICAL PRO 2024",
@@ -1326,9 +1337,9 @@
         "Maniability": 4.3,
         "Weight": 8.94,
         "Effect": 3.0,
-        "Tolerance": 4.48,
-        "Power": 7.03,
-        "Control": 6.55
+        "Tolerance": 4.0,
+        "Power": 7.16,
+        "Control": 7.22
     },
     {
         "name": "Raquette de padel RADICAL MOTION 2024",
@@ -1337,20 +1348,42 @@
         "Maniability": 5.32,
         "Weight": 7.35,
         "Effect": 3.0,
-        "Tolerance": 4.28,
-        "Power": 6.56,
-        "Control": 6.24
+        "Tolerance": 3.75,
+        "Power": 6.58,
+        "Control": 7.21
+    },
+    {
+        "name": "Raquette de padel AT10 LUXURY GENIUS 12K 2024 BY Agustin Tapia",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/8508_jpg.png?v=1714389932",
+        "storeUrl": "https://padeleurope.co/products/raquette-de-padel-at10-luxury-genius-12k-2024-by-agustin-tapia",
+        "Maniability": 5.26,
+        "Weight": 8.62,
+        "Effect": 8.25,
+        "Tolerance": 4.0,
+        "Power": 8.01,
+        "Control": 3.73
     },
     {
         "name": "Raquette de padel AT10 PRO CUP COORP 2024",
         "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/8503_jpg.png?v=1714390044",
-        "storeUrl": null,
+        "storeUrl": "https://padeleurope.co/products/raquette-de-padel-at10-pro-cup-coorp-2024",
         "Maniability": 4.7,
         "Weight": 8.52,
         "Effect": 5.5,
-        "Tolerance": 4.69,
-        "Power": 6.96,
-        "Control": 4.84
+        "Tolerance": 4.25,
+        "Power": 6.14,
+        "Control": 5.76
+    },
+    {
+        "name": "Raquette de padel AT10 Luxury GENIUS 18K Alum 2024 par Agustín Tapia",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/8501_jpg.png?v=1714390186",
+        "storeUrl": "https://padeleurope.co/products/raquette-de-padel-at10-luxury-genius-18k-alum-2024-par-agustin-tapia",
+        "Maniability": 5.15,
+        "Weight": 8.09,
+        "Effect": 7.25,
+        "Tolerance": 5.25,
+        "Power": 6.68,
+        "Control": 6.34
     },
     {
         "name": "Raquette de padel IONIC LIGHT 24",
@@ -1359,9 +1392,9 @@
         "Maniability": 5.18,
         "Weight": 7.14,
         "Effect": 5.5,
-        "Tolerance": 5.72,
-        "Power": 6.77,
-        "Control": 5.24
+        "Tolerance": 5.5,
+        "Power": 6.26,
+        "Control": 6.34
     },
     {
         "name": "Raquette de padel IONIC CONTROL 24",
@@ -1370,9 +1403,9 @@
         "Maniability": 4.19,
         "Weight": 9.26,
         "Effect": 6.5,
-        "Tolerance": 6.64,
-        "Power": 7.08,
-        "Control": 5.12
+        "Tolerance": 6.25,
+        "Power": 6.14,
+        "Control": 6.77
     },
     {
         "name": "Raquette de padel IONIC POWER 24",
@@ -1381,9 +1414,9 @@
         "Maniability": 4.29,
         "Weight": 8.83,
         "Effect": 6.5,
-        "Tolerance": 3.15,
-        "Power": 9.07,
-        "Control": 2.71
+        "Tolerance": 2.75,
+        "Power": 7.48,
+        "Control": 4.72
     },
     {
         "name": "Raquette de padel NEURON 24",
@@ -1392,9 +1425,9 @@
         "Maniability": 4.9,
         "Weight": 8.2,
         "Effect": 5.5,
-        "Tolerance": 4.69,
-        "Power": 6.87,
-        "Control": 4.78
+        "Tolerance": 4.25,
+        "Power": 6.83,
+        "Control": 5.76
     },
     {
         "name": "Raquette de padel ELITE W 24",
@@ -1403,9 +1436,9 @@
         "Maniability": 6.23,
         "Weight": 6.92,
         "Effect": 5.5,
-        "Tolerance": 5.52,
-        "Power": 5.6,
-        "Control": 5.15
+        "Tolerance": 5.25,
+        "Power": 6.06,
+        "Control": 5.76
     },
     {
         "name": "Raquette de padel FLOW WOMAN 24",
@@ -1414,9 +1447,9 @@
         "Maniability": 5.87,
         "Weight": 6.5,
         "Effect": 6.5,
-        "Tolerance": 3.35,
-        "Power": 7.26,
-        "Control": 3.51
+        "Tolerance": 3.0,
+        "Power": 6.57,
+        "Control": 4.73
     },
     {
         "name": "Raquette de padel VERTEX 04 COMFORT 24",
@@ -1425,9 +1458,9 @@
         "Maniability": 4.79,
         "Weight": 8.62,
         "Effect": 7.25,
-        "Tolerance": 2.94,
-        "Power": 7.76,
-        "Control": 4.41
+        "Tolerance": 2.5,
+        "Power": 7.18,
+        "Control": 5.32
     },
     {
         "name": "Raquette de padel VERTEX 04 HYBRID 24",
@@ -1436,9 +1469,9 @@
         "Maniability": 5.26,
         "Weight": 8.62,
         "Effect": 8.25,
-        "Tolerance": 4.69,
-        "Power": 5.87,
-        "Control": 5.65
+        "Tolerance": 4.25,
+        "Power": 6.61,
+        "Control": 5.77
     },
     {
         "name": "Raquette de padel VERTEX 04 24",
@@ -1447,9 +1480,9 @@
         "Maniability": 5.11,
         "Weight": 8.2,
         "Effect": 8.25,
-        "Tolerance": 3.56,
-        "Power": 6.91,
-        "Control": 4.56
+        "Tolerance": 3.25,
+        "Power": 7.4,
+        "Control": 4.75
     },
     {
         "name": "Raquette de padel HACK 03 COMFORT 24",
@@ -1458,20 +1491,20 @@
         "Maniability": 4.09,
         "Weight": 9.05,
         "Effect": 5.5,
-        "Tolerance": 3.15,
-        "Power": 8.74,
-        "Control": 3.85
+        "Tolerance": 2.75,
+        "Power": 7.59,
+        "Control": 5.31
     },
     {
         "name": "Raquette de padel HACK 03 HYBRID 24",
         "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/8538.jpg?v=1714393382",
-        "storeUrl": null,
+        "storeUrl": "https://padeleurope.co/products/raquette-de-padel-hack-03-hybrid-24",
         "Maniability": 4.38,
         "Weight": 8.73,
         "Effect": 6.5,
-        "Tolerance": 5.52,
-        "Power": 7.24,
-        "Control": 4.78
+        "Tolerance": 5.25,
+        "Power": 7.12,
+        "Control": 5.76
     },
     {
         "name": "Raquette de padel HACK 03 24",
@@ -1480,9 +1513,9 @@
         "Maniability": 3.85,
         "Weight": 9.15,
         "Effect": 6.5,
-        "Tolerance": 2.53,
-        "Power": 8.44,
-        "Control": 3.82
+        "Tolerance": 2.0,
+        "Power": 8.12,
+        "Control": 4.74
     },
     {
         "name": "Raquette de padel CARBON FORCE PADEL 2",
@@ -1491,9 +1524,9 @@
         "Maniability": 3.56,
         "Weight": 8.41,
         "Effect": 3.0,
-        "Tolerance": 4.48,
-        "Power": 7.67,
-        "Control": 6.42
+        "Tolerance": 4.0,
+        "Power": 7.59,
+        "Control": 7.22
     },
     {
         "name": "Raquette de padel ACCENT LT PADEL 2",
@@ -1502,9 +1535,9 @@
         "Maniability": 3.98,
         "Weight": 7.67,
         "Effect": 6.5,
-        "Tolerance": 4.48,
-        "Power": 7.79,
-        "Control": 4.47
+        "Tolerance": 4.0,
+        "Power": 7.35,
+        "Control": 5.75
     },
     {
         "name": "Raquette de padel ACCENT PADEL 2",
@@ -1513,9 +1546,9 @@
         "Maniability": 3.87,
         "Weight": 7.88,
         "Effect": 6.5,
-        "Tolerance": 4.69,
-        "Power": 7.39,
-        "Control": 5.03
+        "Tolerance": 4.25,
+        "Power": 7.41,
+        "Control": 5.76
     },
     {
         "name": "Raquette de padel EXTREME ELITE 2023",
@@ -1524,9 +1557,9 @@
         "Maniability": 4.58,
         "Weight": 8.52,
         "Effect": 5.5,
-        "Tolerance": 2.94,
-        "Power": 8.4,
-        "Control": 3.27
+        "Tolerance": 2.5,
+        "Power": 6.31,
+        "Control": 4.73
     },
     {
         "name": "Raquette de padel EXTREME MOTION 2023",
@@ -1535,9 +1568,9 @@
         "Maniability": 4.42,
         "Weight": 7.88,
         "Effect": 6.5,
-        "Tolerance": 2.94,
-        "Power": 8.25,
-        "Control": 3.57
+        "Tolerance": 2.5,
+        "Power": 7.4,
+        "Control": 4.73
     },
     {
         "name": "Raquette de padel EXTREME PRO 2023",
@@ -1546,9 +1579,9 @@
         "Maniability": 4.0,
         "Weight": 8.94,
         "Effect": 6.5,
-        "Tolerance": 3.15,
-        "Power": 8.8,
-        "Control": 3.27
+        "Tolerance": 2.75,
+        "Power": 8.04,
+        "Control": 4.73
     },
     {
         "name": "Raquette de padel EXTREME ONE 2023",
@@ -1557,9 +1590,9 @@
         "Maniability": 4.81,
         "Weight": 6.29,
         "Effect": 2.5,
-        "Tolerance": 2.53,
-        "Power": 8.34,
-        "Control": 2.56
+        "Tolerance": 2.0,
+        "Power": 7.58,
+        "Control": 4.14
     },
     {
         "name": "Raquette de padel CARBON FORCE LT PADEL 2",
@@ -1568,9 +1601,9 @@
         "Maniability": 3.97,
         "Weight": 7.35,
         "Effect": 4.0,
-        "Tolerance": 4.08,
-        "Power": 7.27,
-        "Control": 6.55
+        "Tolerance": 3.5,
+        "Power": 7.35,
+        "Control": 7.22
     },
     {
         "name": "Raquette de padel INDIGA CTR 23",
@@ -1579,9 +1612,20 @@
         "Maniability": 5.26,
         "Weight": 7.77,
         "Effect": 4.5,
-        "Tolerance": 6.86,
-        "Power": 5.47,
-        "Control": 6.7
+        "Tolerance": 6.5,
+        "Power": 4.52,
+        "Control": 7.37
+    },
+    {
+        "name": "Raquette de padel INDIGA W 23",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/7684_jpg.png?v=1714395551",
+        "storeUrl": "https://padeleurope.co/products/raquette-de-padel-indiga-w-23",
+        "Maniability": 5.26,
+        "Weight": 7.77,
+        "Effect": 4.5,
+        "Tolerance": 5.75,
+        "Power": 4.52,
+        "Control": 7.36
     },
     {
         "name": "Raquette de padel BP10 EVO 2023",
@@ -1590,9 +1634,9 @@
         "Maniability": 4.74,
         "Weight": 8.3,
         "Effect": 5.5,
-        "Tolerance": 6.03,
-        "Power": 6.37,
-        "Control": 5.49
+        "Tolerance": 5.5,
+        "Power": 4.82,
+        "Control": 6.77
     },
     {
         "name": "Raquette de padel JUICE PADEL 2",
@@ -1601,8 +1645,8 @@
         "Maniability": 4.26,
         "Weight": 8.94,
         "Effect": 4.0,
-        "Tolerance": 6.44,
-        "Power": 6.56,
-        "Control": 7.14
+        "Tolerance": 6.0,
+        "Power": 5.09,
+        "Control": 8.24
     }
 ]
