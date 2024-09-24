@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import './RacketComparisonTabs.css';
 import reportWebVitals from './reportWebVitals';
-import RacketComparison from './view/racket_comparator';
+import RacketComparisonTabs from "./view/RacketComparisonTabs";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RacketComparison />
+    <RacketComparisonTabs />
   </React.StrictMode>
 );
 

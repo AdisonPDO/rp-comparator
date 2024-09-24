@@ -237,3 +237,24 @@
 }
 
 
+
+
+.rackets-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.selected-racket-container {
+  width: 30%;
+}
+
+.similar-rackets-container {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.racket-card.selected {
+  border: 2px solid #410ef8;
+}
