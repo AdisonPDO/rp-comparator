@@ -30,7 +30,7 @@
         "Effect": 8.81,
         "Tolerance": 7.32,
         "Power": 6.5,
-        "Control": 6.81
+        "Control": 6.8
     },
     {
         "name": "Black Crown Piton 10",
@@ -51,7 +51,7 @@
         "Weight": 7.88,
         "Effect": 7.06,
         "Tolerance": 6.38,
-        "Power": 4.78,
+        "Power": 4.79,
         "Control": 7.21
     },
     {
@@ -61,7 +61,7 @@
         "Maniability": 5.36,
         "Weight": 8.83,
         "Effect": 6.78,
-        "Tolerance": 6.7,
+        "Tolerance": 6.69,
         "Power": 6.6,
         "Control": 7.0
     },
@@ -149,15 +149,15 @@
         "Maniability": 5.39,
         "Weight": 8.3,
         "Effect": 8.25,
-        "Tolerance": 7.42,
+        "Tolerance": 7.41,
         "Power": 5.87,
-        "Control": 7.73
+        "Control": 7.72
     },
     {
         "name": "Black Crown Wolf",
         "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/Blackcrownwolf.webp?v=1674151831",
         "storeUrl": "https://padeleurope.co/products/black-crown-wolf",
-        "Maniability": 5.85,
+        "Maniability": 5.84,
         "Weight": 7.67,
         "Effect": 5.1,
         "Tolerance": 5.88,
@@ -179,11 +179,11 @@
         "name": "Black Crown Snake",
         "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/blackcrownsnake.webp?v=1674152206",
         "storeUrl": "https://padeleurope.co/products/black-crown-snake",
-        "Maniability": 5.39,
+        "Maniability": 5.38,
         "Weight": 8.09,
         "Effect": 5.94,
         "Tolerance": 6.9,
-        "Power": 5.87,
+        "Power": 5.88,
         "Control": 7.72
     },
     {
@@ -295,17 +295,6 @@
         "Tolerance": 5.86,
         "Power": 7.8,
         "Control": 5.86
-    },
-    {
-        "name": "Bullpadel Indiga W 23",
-        "imageUrl": null,
-        "storeUrl": null,
-        "Maniability": 5.61,
-        "Weight": 7.77,
-        "Effect": 5.94,
-        "Tolerance": 5.56,
-        "Power": 3.92,
-        "Control": 7.83
     },
     {
         "name": "Head Zephyr UL",
@@ -454,11 +443,11 @@
         "name": "Babolat Air Viper 2023",
         "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/products/BabolatAirViper2023-3.0.webp?v=1683637427",
         "storeUrl": null,
-        "Maniability": 5.46,
+        "Maniability": 5.45,
         "Weight": 7.77,
         "Effect": 9.37,
         "Tolerance": 6.8,
-        "Power": 6.59,
+        "Power": 6.6,
         "Control": 6.49
     },
     {
@@ -470,7 +459,7 @@
         "Effect": 5.94,
         "Tolerance": 5.56,
         "Power": 5.87,
-        "Control": 7.21
+        "Control": 7.2
     },
     {
         "name": "Head Alpha Touch Graphene 360+",
@@ -490,8 +479,8 @@
         "Maniability": 5.26,
         "Weight": 8.62,
         "Effect": 6.78,
-        "Tolerance": 7.42,
-        "Power": 6.11,
+        "Tolerance": 7.41,
+        "Power": 6.12,
         "Control": 8.03
     },
     {
@@ -536,7 +525,7 @@
         "Effect": 5.1,
         "Tolerance": 6.69,
         "Power": 6.24,
-        "Control": 7.93
+        "Control": 7.92
     },
     {
         "name": "Head Speed Elite 2023",
@@ -734,7 +723,7 @@
         "Effect": 8.81,
         "Tolerance": 7.42,
         "Power": 5.92,
-        "Control": 7.53
+        "Control": 7.52
     },
     {
         "name": "Raquette de padel PITON 12 SILVER",
@@ -778,16 +767,16 @@
         "Effect": 6.5,
         "Tolerance": 7.22,
         "Power": 6.52,
-        "Control": 6.71
+        "Control": 6.7
     },
     {
         "name": "Raquette de padel SPECIAL PRO",
         "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/9366.png?v=1714160503",
         "storeUrl": "https://padeleurope.co/products/model-raquette-copie",
-        "Maniability": 5.63,
+        "Maniability": 5.62,
         "Weight": 7.56,
         "Effect": 8.25,
-        "Tolerance": 6.6,
+        "Tolerance": 6.59,
         "Power": 6.6,
         "Control": 7.11
     },
@@ -809,9 +798,9 @@
         "Maniability": 5.18,
         "Weight": 8.52,
         "Effect": 7.34,
-        "Tolerance": 6.6,
+        "Tolerance": 6.59,
         "Power": 6.91,
-        "Control": 6.91
+        "Control": 6.9
     },
     {
         "name": "Diablo révolution pro 3 2024",
@@ -843,7 +832,7 @@
         "Weight": 8.62,
         "Effect": 8.25,
         "Tolerance": 6.6,
-        "Power": 4.46,
+        "Power": 4.47,
         "Control": 7.94
     },
     {
@@ -864,9 +853,9 @@
         "Maniability": 5.68,
         "Weight": 7.24,
         "Effect": 7.9,
-        "Tolerance": 6.59,
+        "Tolerance": 6.58,
         "Power": 4.54,
-        "Control": 6.9
+        "Control": 6.89
     },
     {
         "name": "At10 genius ultra light 23",
@@ -875,9 +864,9 @@
         "Maniability": 7.54,
         "Weight": 3.0,
         "Effect": 5.94,
-        "Tolerance": 4.95,
+        "Tolerance": 4.94,
         "Power": 3.11,
-        "Control": 6.39
+        "Control": 6.38
     },
     {
         "name": "ML10 BAHIA 12K LUXURY SERIES 24",
@@ -930,9 +919,9 @@
         "Maniability": 5.29,
         "Weight": 8.73,
         "Effect": 7.9,
-        "Tolerance": 5.67,
-        "Power": 7.18,
-        "Control": 5.67
+        "Tolerance": 5.66,
+        "Power": 7.19,
+        "Control": 5.66
     },
     {
         "name": "Raquette de padel COUNTER VIPER 24",
@@ -976,7 +965,7 @@
         "Effect": 7.9,
         "Tolerance": 6.49,
         "Power": 6.09,
-        "Control": 6.29
+        "Control": 6.28
     },
     {
         "name": "Raquette de padel PATRON",
@@ -1064,7 +1053,7 @@
         "Effect": 7.34,
         "Tolerance": 7.0,
         "Power": 6.73,
-        "Control": 6.7
+        "Control": 6.69
     },
     {
         "name": "Raquette de padel BELCHER CLASSIC",
@@ -1097,7 +1086,7 @@
         "Effect": 7.34,
         "Tolerance": 6.9,
         "Power": 6.76,
-        "Control": 7.01
+        "Control": 7.0
     },
     {
         "name": "Raquette de padel DIVA ELITE 3K",
@@ -1216,7 +1205,7 @@
         "Maniability": 5.56,
         "Weight": 7.56,
         "Effect": 7.34,
-        "Tolerance": 8.45,
+        "Tolerance": 8.44,
         "Power": 6.07,
         "Control": 7.31
     },
@@ -1227,8 +1216,8 @@
         "Maniability": 5.81,
         "Weight": 6.71,
         "Effect": 5.94,
-        "Tolerance": 6.39,
-        "Power": 4.28,
+        "Tolerance": 6.38,
+        "Power": 4.29,
         "Control": 7.83
     },
     {
@@ -1249,8 +1238,8 @@
         "Maniability": 5.75,
         "Weight": 8.09,
         "Effect": 8.81,
-        "Tolerance": 7.32,
-        "Power": 5.65,
+        "Tolerance": 7.31,
+        "Power": 5.66,
         "Control": 7.11
     },
     {
@@ -1290,7 +1279,7 @@
         "name": "Raquette de padel TECHNICAL VERON JUAN LEBRON",
         "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/8604_jpg.png?v=1714388816",
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-technical-veron-juan-lebron",
-        "Maniability": 5.08,
+        "Maniability": 5.07,
         "Weight": 8.62,
         "Effect": 7.9,
         "Tolerance": 5.67,
@@ -1315,7 +1304,7 @@
         "Maniability": 4.96,
         "Weight": 8.94,
         "Effect": 5.1,
-        "Tolerance": 6.91,
+        "Tolerance": 6.9,
         "Power": 7.16,
         "Control": 7.93
     },
@@ -1433,11 +1422,11 @@
         "name": "Raquette de padel VERTEX 04 COMFORT 24",
         "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/8554.jpg?v=1714392924",
         "storeUrl": "https://padeleurope.co/products/raquette-de-padel-vertex-04-comfort-24",
-        "Maniability": 5.38,
+        "Maniability": 5.37,
         "Weight": 8.62,
         "Effect": 8.25,
         "Tolerance": 5.87,
-        "Power": 7.18,
+        "Power": 7.19,
         "Control": 6.39
     },
     {
@@ -1492,7 +1481,7 @@
         "Weight": 9.15,
         "Effect": 7.34,
         "Tolerance": 6.08,
-        "Power": 8.12,
+        "Power": 8.13,
         "Control": 5.77
     },
     {
@@ -1658,7 +1647,7 @@
         "Effect": 5.1,
         "Tolerance": 6.69,
         "Power": 6.24,
-        "Control": 7.93
+        "Control": 7.92
     },
     {
         "name": "Raquette EXTREME PRO Arturo Coello 24",
@@ -1670,5 +1659,104 @@
         "Tolerance": 6.38,
         "Power": 8.04,
         "Control": 6.28
+    },
+    {
+        "name": "Bullpadel Neuron 2025",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/RaquetteBULLPADELNEURON257-raquette-padel.com.png?v=1727450555",
+        "storeUrl": "https://padeleurope.co/products/bullpadel-neuron-25",
+        "Maniability": 6.15,
+        "Weight": 8.94,
+        "Effect": 6.78,
+        "Tolerance": 6.39,
+        "Power": 7.5,
+        "Control": 5.57
+    },
+    {
+        "name": "Bullpadel Flow Woman 2025",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/RaquetteBULLPADELFLOWW257-raquette-padel.com.png?v=1727450449",
+        "storeUrl": "https://padeleurope.co/products/bullpadel-flow-woman-2025",
+        "Maniability": 5.99,
+        "Weight": 6.82,
+        "Effect": 8.25,
+        "Tolerance": 5.87,
+        "Power": 6.68,
+        "Control": 6.18
+    },
+    {
+        "name": "Bullpadel Vertex 04 Woman 2025",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/RaquetteBULLPADELVERTEX4W257-raquette-padel.com.png?v=1727450681",
+        "storeUrl": "https://padeleurope.co/products/bullpadel-vertex-04-woman-2025",
+        "Maniability": 6.02,
+        "Weight": 6.82,
+        "Effect": 8.25,
+        "Tolerance": 6.59,
+        "Power": 7.15,
+        "Control": 6.08
+    },
+    {
+        "name": "Bullpadel Vertex 04 Hybrid 2025",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/RaquetteBULLPADELVERTEX04HYBRID257-raquette-padel.com.png?v=1727450881",
+        "storeUrl": "https://padeleurope.co/products/bullpadel-vertex-04-hybrid-2025",
+        "Maniability": 5.31,
+        "Weight": 8.41,
+        "Effect": 8.25,
+        "Tolerance": 6.91,
+        "Power": 6.86,
+        "Control": 7.22
+    },
+    {
+        "name": "Bullpadel Vertex 04 2025",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/RaquetteBULLPADELVERTEX04257-raquette-padel.com.png?v=1727451134",
+        "storeUrl": "https://padeleurope.co/products/bullpadel-vertex-04-2025",
+        "Maniability": 5.36,
+        "Weight": 9.36,
+        "Effect": 8.25,
+        "Tolerance": 6.29,
+        "Power": 7.6,
+        "Control": 6.4
+    },
+    {
+        "name": "Bullpadel Hack 04 Hybrid 2025",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/RaquetteBULLPADELHACK04HYBRID257-raquette-padel.com.png?v=1727451357",
+        "storeUrl": "https://padeleurope.co/products/bullpadel-hack-04-hybrid-2025",
+        "Maniability": 5.69,
+        "Weight": 8.94,
+        "Effect": 6.78,
+        "Tolerance": 7.01,
+        "Power": 6.82,
+        "Control": 6.8
+    },
+    {
+        "name": "Bullpadel Hack 04 2025",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/raquetteBULLPADELHACK04257-raquette-padel.com.png?v=1727451227",
+        "storeUrl": "https://padeleurope.co/products/bullpadel-hack-04-2025",
+        "Maniability": 5.58,
+        "Weight": 8.94,
+        "Effect": 6.78,
+        "Tolerance": 6.39,
+        "Power": 7.55,
+        "Control": 6.19
+    },
+    {
+        "name": "Bullpadel XPLO 2025",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/RaquetteBULLPADELXPLO257-raquette-padel.com.png?v=1727450101",
+        "storeUrl": "https://padeleurope.co/products/bullpadel-xplo-2025",
+        "Maniability": 5.45,
+        "Weight": 10.0,
+        "Effect": 5.94,
+        "Tolerance": 6.5,
+        "Power": 7.9,
+        "Control": 6.6
+    },
+    {
+        "name": "Bullpadel XPLO Comfort 2025",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0672/0022/1458/files/RaquetteBULLPADELXPLOCOMFORT257-raquette-padel.com.png?v=1727450319",
+        "storeUrl": "https://padeleurope.co/products/bullpadel-xplo-comfort-2025",
+        "Maniability": 5.14,
+        "Weight": 9.47,
+        "Effect": 6.78,
+        "Tolerance": 6.18,
+        "Power": 7.85,
+        "Control": 6.39
     }
 ]
