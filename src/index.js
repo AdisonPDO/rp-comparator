@@ -4,12 +4,14 @@ import './index.css';
 import './RacketComparisonTabs.css';
 import reportWebVitals from './reportWebVitals';
 import RacketComparisonTabs from "./view/RacketComparisonTabs";
-
+import { RacketProvider } from './contexts/RacketContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RacketComparisonTabs />
+    <RacketProvider>
+      <RacketComparisonTabs />
+    </RacketProvider>
   </React.StrictMode>
 );
 
