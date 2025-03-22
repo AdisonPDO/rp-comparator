@@ -174,29 +174,72 @@ class ApiService {
     // Crée une clé de cache à partir de l'endpoint et des paramètres
     const cacheKey = `${endpoint}:${JSON.stringify(params)}`;
     
+    // Nettoie les paramètres (supprime les valeurs undefined/null)
+    const cleanParams = {};
+    for (const key in params) {
+      if (params[key] !== undefined && params[key] !== null) {
+        cleanParams[key] = params[key];
+      }
+    }
+    
     // Vérifie le cache si useCache est activé
     if (useCache) {
       const cachedData = apiCache.get(cacheKey);
-      if (cachedData) return cachedData;
+      if (cachedData) {
+        console.log(`Données récupérées du cache pour ${endpoint}`);
+        return cachedData;
+      }
     }
     
     try {
-      // Obtient les en-têtes d'authentification
+      // Pour les requêtes GET, le payload pour la signature est vide
+      // Les paramètres sont envoyés dans l'URL, pas dans le payload
       const headers = hmacAuth.getAuthHeaders();
+      
+      console.log(`Requête GET vers ${endpoint}`, { 
+        params: cleanParams,
+        headers: {
+          'X-API-Key': headers['X-API-Key'],
+          'X-API-Timestamp': headers['X-API-Timestamp'],
+          'X-API-Nonce': headers['X-API-Nonce']
+          // Signature omise pour des raisons de sécurité
+        }
+      });
       
       // Effectue la requête
       const response = await this.axios.get(endpoint, { 
-        params,
-        headers
+        params: cleanParams,
+        headers,
+        paramsSerializer: params => {
+          // Convertit les paramètres en chaîne de requête
+          // sans les crochets pour les tableaux, et avec encodage URI
+          return Object.entries(params)
+            .map(([key, value]) => {
+              if (Array.isArray(value)) {
+                // Pour les tableaux, les convertir en chaîne séparée par des virgules
+                return `${encodeURIComponent(key)}=${encodeURIComponent(value.join(','))}`;
+              }
+              return `${encodeURIComponent(key)}=${encodeURIComponent(value)}`;
+            })
+            .join('&');
+        }
       });
+      
+      // Vérifie si la réponse est valide
+      if (!response.data) {
+        throw new Error('Réponse API vide');
+      }
       
       // Stocke dans le cache si useCache est activé
       if (useCache) {
-        apiCache.set(cacheKey, response.data);
+        const cacheDuration = parseInt(process.env.REACT_APP_CACHE_DURATION || '5', 10);
+        apiCache.set(cacheKey, response.data, cacheDuration);
       }
       
       return response.data;
     } catch (error) {
+      // Log de l'erreur pour le débogage
+      console.error(`Erreur lors de la requête GET à ${endpoint}:`, error.message);
       throw error;
     }
   }
@@ -208,14 +251,50 @@ class ApiService {
    * @returns {Promise<any>} Données de réponse
    */
   async post(endpoint, data) {
+    // Nettoie les données (supprime les valeurs undefined/null)
+    const cleanData = {};
+    if (data && typeof data === 'object') {
+      for (const key in data) {
+        if (data[key] !== undefined && data[key] !== null) {
+          cleanData[key] = data[key];
+        }
+      }
+    }
+    
     try {
-      // Obtient les en-têtes d'authentification avec le corps inclus pour la signature
-      const headers = hmacAuth.getAuthHeaders(data);
+      // Pour les requêtes POST, le payload pour la signature inclut le corps JSON
+      const jsonData = JSON.stringify(cleanData);
+      const headers = hmacAuth.getAuthHeaders(cleanData);
+      
+      console.log(`Requête POST vers ${endpoint}`, { 
+        dataSize: jsonData.length,
+        headers: {
+          'X-API-Key': headers['X-API-Key'],
+          'X-API-Timestamp': headers['X-API-Timestamp'],
+          'X-API-Nonce': headers['X-API-Nonce']
+          // Signature omise pour des raisons de sécurité
+        }
+      });
       
       // Effectue la requête
-      const response = await this.axios.post(endpoint, data, { headers });
+      const response = await this.axios.post(endpoint, jsonData, { 
+        headers,
+        // S'assurer que le contenu est envoyé en tant que JSON
+        transformRequest: [(data, headers) => {
+          headers['Content-Type'] = 'application/json';
+          return jsonData;
+        }]
+      });
+      
+      // Vérifie si la réponse est valide
+      if (!response.data) {
+        throw new Error('Réponse API vide');
+      }
+      
       return response.data;
     } catch (error) {
+      // Log de l'erreur pour le débogage
+      console.error(`Erreur lors de la requête POST à ${endpoint}:`, error.message);
       throw error;
     }
   }
@@ -225,18 +304,70 @@ class ApiService {
    * @param {boolean} useCache - Si true, utilise le cache
    * @returns {Promise<Array>} Liste des raquettes
    */
-  getAllRackets(useCache = true) {
-    return this.get('/analysis/rackets', {}, useCache);
+  async getAllRackets(useCache = true) {
+    const response = await this.get('/analysis/rackets', {}, useCache);
+    return this.formatRacketArray(response.rackets || []);
   }
   
   /**
    * Récupère les meilleures raquettes
-   * @param {string} category - Catégorie pour le classement
+   * @param {string} attribute - Attribut pour le classement (Maniability, Weight, Effect, Tolerance, Power, Control)
    * @param {number} limit - Nombre de raquettes à récupérer
    * @returns {Promise<Array>} Liste des meilleures raquettes
    */
-  getTopRackets(category, limit = 3) {
-    return this.get('/analysis/top-rackets', { category, limit });
+  async getTopRackets(attribute, limit = 3) {
+    // S'assurer que l'attribut est une chaîne valide avec la première lettre en majuscule
+    const validAttribute = this.normalizeCategory(attribute);
+    const response = await this.get('/analysis/top-rackets', { 
+      attribute: validAttribute, 
+      limit: parseInt(limit, 10) 
+    });
+    return this.formatRacketArray(response.rackets || []);
+  }
+  
+  /**
+   * Normalise un attribut pour être compatible avec l'API
+   * @param {string} attribute - Attribut à normaliser
+   * @returns {string} Attribut normalisé
+   */
+  normalizeCategory(attribute) {
+    // Liste des attributs valides selon backend-rp/app/Services/RacketAnalysisService.php ligne 277
+    const validAttributes = [
+      'Maniability', 'Weight', 'Effect', 'Tolerance', 'Power', 'Control'
+    ];
+    
+    // Mappings alternatifs (pour support des anciennes requêtes)
+    const attributeMappings = {
+      'maniability': 'Maniability',
+      'weight': 'Weight',
+      'effect': 'Effect',
+      'tolerance': 'Tolerance',
+      'power': 'Power',
+      'control': 'Control',
+      // Si l'API a des noms alternatifs, les ajouter ici
+    };
+    
+    // Vérifier si l'attribut est déjà valide
+    if (validAttributes.includes(attribute)) {
+      return attribute;
+    }
+    
+    // Vérifier si l'attribut existe dans les mappings
+    if (attributeMappings[attribute.toLowerCase()]) {
+      return attributeMappings[attribute.toLowerCase()];
+    }
+    
+    // Sinon, essayer de convertir la première lettre en majuscule
+    const normalized = attribute.charAt(0).toUpperCase() + attribute.slice(1);
+    
+    // Vérifier si l'attribut normalisé est valide
+    if (validAttributes.includes(normalized)) {
+      return normalized;
+    }
+    
+    // Si l'attribut n'est toujours pas valide, renvoyer 'Power' par défaut
+    console.warn(`Attribut invalide: ${attribute}. Utilisation de 'Power' par défaut`);
+    return 'Power';
   }
   
   /**
@@ -245,18 +376,43 @@ class ApiService {
    * @param {Object} filters - Filtres supplémentaires
    * @returns {Promise<Array>} Résultats de recherche
    */
-  searchRackets(query, filters = {}) {
-    return this.get('/analysis/search-rackets', { query, ...filters });
+  async searchRackets(query, filters = {}) {
+    // S'assurer que le terme de recherche est une chaîne
+    const searchTerm = String(query || '').trim();
+    const response = await this.get('/analysis/search-rackets', { 
+      searchTerm: searchTerm,
+      limit: filters.limit || 10,
+      ...filters 
+    });
+    return this.formatRacketArray(response.rackets || []);
   }
   
   /**
    * Récupère des raquettes similaires
-   * @param {string} racketId - ID de la raquette de référence
+   * @param {string|number} racketId - ID de la raquette de référence
    * @param {number} limit - Nombre de raquettes similaires à récupérer
    * @returns {Promise<Array>} Liste des raquettes similaires
    */
-  getSimilarRackets(racketId, limit = 3) {
-    return this.get(`/analysis/similar-rackets`, { racketId, limit });
+  async getSimilarRackets(racketId, limit = 3) {
+    // S'assurer que l'ID est une chaîne et que la limite est un nombre
+    const response = await this.get('/analysis/similar-rackets', { 
+      racketId: String(racketId), 
+      limit: parseInt(limit, 10) 
+    });
+    
+    // Formater la raquette de référence
+    let referenceRacket = null;
+    if (response.referenceRacket) {
+      referenceRacket = this.formatRacketData(response.referenceRacket);
+    }
+    
+    // Formater les raquettes similaires
+    const similarRackets = this.formatRacketArray(response.similarRackets || []);
+    
+    return {
+      referenceRacket,
+      similarRackets
+    };
   }
   
   /**
@@ -264,17 +420,24 @@ class ApiService {
    * @param {Array} racketIds - IDs des raquettes à comparer
    * @returns {Promise<Object>} Données de comparaison
    */
-  compareRackets(racketIds) {
-    return this.post('/analysis/compare-rackets', { racketIds });
+  async compareRackets(racketIds) {
+    // S'assurer que racketIds est bien un tableau
+    const ids = Array.isArray(racketIds) ? racketIds : [racketIds];
+    const response = await this.post('/analysis/compare-rackets', { 
+      racketIds: ids.map(id => String(id)) 
+    });
+    return this.formatRacketArray(response.rackets || []);
   }
   
   /**
    * Récupère une raquette spécifique
-   * @param {string} id - ID de la raquette
+   * @param {string|number} id - ID de la raquette
    * @returns {Promise<Object>} Données de la raquette
    */
-  getRacket(id) {
-    return this.get(`/analysis/racket/${id}`);
+  async getRacket(id) {
+    // S'assurer que l'ID est une chaîne
+    const response = await this.get(`/analysis/racket/${String(id)}`);
+    return this.formatRacketData(response);
   }
   
   /**
@@ -282,6 +445,51 @@ class ApiService {
    */
   clearCache() {
     apiCache.clear();
+  }
+  
+  /**
+   * Adapte le format des données des raquettes depuis la réponse API
+   * @param {Object} racket - Raquette reçue de l'API
+   * @returns {Object} Raquette avec format adapté pour le frontend
+   */
+  formatRacketData(racket) {
+    // Mappings des noms de champs pour compatibilité
+    const formattedRacket = {
+      id: racket.id,
+      name: racket.name,
+      marque: racket.brand, // Dans le frontend on utilise marque, dans l'API c'est brand
+      imageUrl: racket.url_image, // Adaptation nom de champ
+      storeUrl: racket.url_shop, // Adaptation nom de champ
+      
+      // Extraire les valeurs des métriques pour les mettre au niveau racine
+      Maniability: racket.metrics?.Maniability || 0,
+      Weight: racket.metrics?.Weight || 0,
+      Effect: racket.metrics?.Effect || 0,
+      Tolerance: racket.metrics?.Tolerance || 0,
+      Power: racket.metrics?.Power || 0,
+      Control: racket.metrics?.Control || 0,
+      
+      // Ajouter d'autres champs si nécessaire
+      balance: racket.balance,
+      weight: racket.weight,
+      shape: racket.shape
+    };
+    
+    return formattedRacket;
+  }
+  
+  /**
+   * Traite un tableau de raquettes pour formater les données
+   * @param {Array} rackets - Tableau de raquettes depuis l'API
+   * @returns {Array} Tableau de raquettes formatées pour le frontend
+   */
+  formatRacketArray(rackets) {
+    if (!Array.isArray(rackets)) {
+      console.warn('formatRacketArray a reçu un objet non-tableau:', rackets);
+      return [];
+    }
+    
+    return rackets.map(racket => this.formatRacketData(racket));
   }
 }
 

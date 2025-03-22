@@ -44,6 +44,14 @@ class HmacAuthService {
   createSignature(timestamp, nonce, payload = '') {
     // D'après la documentation fournie, la signature concatène timestamp + nonce + payload
     const dataToSign = `${timestamp}${nonce}${payload}`;
+    console.log('HMAC Signature Data:', { 
+      timestamp, 
+      nonce, 
+      payloadLength: payload.length,
+      dataToSign 
+    });
+    
+    // Utilisation de HMAC-SHA256 comme spécifié dans la documentation
     return CryptoJS.HmacSHA256(dataToSign, this.apiSecret).toString(CryptoJS.enc.Hex);
   }
 
@@ -53,17 +61,26 @@ class HmacAuthService {
    * @returns {Object} En-têtes d'authentification
    */
   getAuthHeaders(body = null) {
-    const timestamp = Math.floor(Date.now() / 1000); // Timestamp en secondes
-    const nonce = this.generateNonce();
+    // Génération du timestamp en secondes (comme requis par l'API)
+    const timestamp = Math.floor(Date.now() / 1000); 
+    
+    // Génération d'un nonce aléatoire unique
+    const nonce = this.generateRandomString(16);
+    
+    // Pour les requêtes GET, le payload est vide. Pour les requêtes POST, c'est le corps JSON
     const payload = body ? JSON.stringify(body) : '';
+    
+    // Création de la signature HMAC
     const signature = this.createSignature(timestamp, nonce, payload);
-
+    
+    // Création des en-têtes d'authentification conformes à la documentation
     return {
       'X-API-Key': this.apiKey,
       'X-API-Timestamp': timestamp.toString(),
       'X-API-Nonce': nonce,
       'X-API-Signature': signature,
-      'Content-Type': 'application/json'
+      'Content-Type': 'application/json',
+      'Accept': 'application/json'
     };
   }
 }
