@@ -391,7 +391,7 @@ class ApiService {
    * Récupère des raquettes similaires
    * @param {string|number} racketId - ID de la raquette de référence
    * @param {number} limit - Nombre de raquettes similaires à récupérer
-   * @returns {Promise<Array>} Liste des raquettes similaires
+   * @returns {Promise<Object>} Objet contenant la raquette de référence et les raquettes similaires
    */
   async getSimilarRackets(racketId, limit = 3) {
     // S'assurer que l'ID est une chaîne et que la limite est un nombre
@@ -400,14 +400,39 @@ class ApiService {
       limit: parseInt(limit, 10) 
     });
     
+    console.log('Réponse getSimilarRackets brute:', response);
+    
+    // S'assurer que la réponse a un format valide
+    if (!response || typeof response !== 'object') {
+      console.error('Format de réponse invalide pour similar-rackets:', response);
+      return {
+        referenceRacket: null,
+        similarRackets: []
+      };
+    }
+    
     // Formater la raquette de référence
     let referenceRacket = null;
     if (response.referenceRacket) {
       referenceRacket = this.formatRacketData(response.referenceRacket);
     }
     
-    // Formater les raquettes similaires
-    const similarRackets = this.formatRacketArray(response.similarRackets || []);
+    // Formater les raquettes similaires, s'assurer que c'est un tableau
+    let similarRackets = [];
+    if (Array.isArray(response.similarRackets)) {
+      similarRackets = this.formatRacketArray(response.similarRackets);
+    } else if (response.similarRackets && typeof response.similarRackets === 'object') {
+      // Si ce n'est pas un tableau mais un objet, essayer de le convertir en tableau
+      similarRackets = this.formatRacketArray(Object.values(response.similarRackets));
+    } else {
+      console.error('Le format des raquettes similaires est inattendu:', response.similarRackets);
+    }
+    
+    console.log('Données formatées de getSimilarRackets:', {
+      referenceRacket: referenceRacket ? referenceRacket.name : null,
+      similarCount: similarRackets.length,
+      similarNames: similarRackets.map(r => r.name)
+    });
     
     return {
       referenceRacket,

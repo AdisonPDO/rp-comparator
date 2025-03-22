@@ -100,8 +100,17 @@ const SimilarRacketsComparison = () => {
     const fetchSimilarRackets = async (racketId) => {
         try {
             setSimilarLoading(true);
-            const similar = await getSimilarRackets(racketId, 3);
-            setSimilarRackets(similar);
+            const response = await getSimilarRackets(racketId, 3);
+            
+            // Le service API retourne un objet avec referenceRacket et similarRackets
+            if (response && response.similarRackets) {
+                console.log('Raquettes similaires reçues:', response);
+                // On met à jour uniquement le tableau des raquettes similaires
+                setSimilarRackets(response.similarRackets);
+            } else {
+                console.error('Format de réponse inattendu pour les raquettes similaires:', response);
+                setSimilarRackets([]);
+            }
         } catch (error) {
             console.error('Erreur lors de la récupération des raquettes similaires:', error);
             setSimilarRackets([]);
@@ -113,16 +122,45 @@ const SimilarRacketsComparison = () => {
     // Mise à jour des données pour le graphique
     const updateChart = () => {
         const labels = ['Maniabilité', 'Poids', 'Effet', 'Tolérance', 'Puissance', 'Contrôle'];
-        const allRackets = [selectedRacket, ...similarRackets].filter(Boolean);
         
-        const datasets = allRackets.map((racket, index) => ({
-            label: racket.name,
-            data: [racket.Maniability, racket.Weight, racket.Effect, racket.Tolerance, racket.Power, racket.Control],
-            fill: true,
-            pointRadius: 2.5,
-            borderWidth: 1,
-            ...colors[index]
-        }));
+        // Assurer que similarRackets est un tableau avant de faire ...similarRackets
+        const safeRackets = Array.isArray(similarRackets) ? similarRackets : [];
+        const allRackets = [selectedRacket, ...safeRackets].filter(Boolean);
+        
+        // Ajouter la vérification de données et de logs supplémentaires
+        console.log('Données du graphique:', { 
+            selectedRacket: selectedRacket ? selectedRacket.name : null,
+            similarCount: safeRackets.length,
+            allRackets: allRackets.map(r => r.name)
+        });
+        
+        const datasets = allRackets.map((racket, index) => {
+            // Vérifier que les métriques existent, sinon utiliser des valeurs par défaut
+            const metrics = {
+                Maniability: racket.Maniability ?? 0,
+                Weight: racket.Weight ?? 0,
+                Effect: racket.Effect ?? 0,
+                Tolerance: racket.Tolerance ?? 0,
+                Power: racket.Power ?? 0,
+                Control: racket.Control ?? 0
+            };
+            
+            return {
+                label: racket.name,
+                data: [
+                    metrics.Maniability,
+                    metrics.Weight,
+                    metrics.Effect,
+                    metrics.Tolerance,
+                    metrics.Power,
+                    metrics.Control
+                ],
+                fill: true,
+                pointRadius: 2.5,
+                borderWidth: 1,
+                ...colors[index]
+            };
+        });
 
         return { labels, datasets };
     };

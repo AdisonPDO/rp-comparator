@@ -80,11 +80,18 @@ export const RacketProvider = ({ children }) => {
       setLoading(true);
       setError(null);
       const data = await apiService.getSimilarRackets(racketId, limit);
+      
+      // Vérifier que les données sont au format attendu
+      if (!data || typeof data !== 'object') {
+        console.error('Format de réponse inattendu pour getSimilarRackets:', data);
+        return { referenceRacket: null, similarRackets: [] };
+      }
+      
       return data;
     } catch (err) {
       console.error('Erreur raquettes similaires:', err.message);
       setError('Erreur lors de la récupération des raquettes similaires.');
-      return [];
+      return { referenceRacket: null, similarRackets: [] };
     } finally {
       setLoading(false);
     }
