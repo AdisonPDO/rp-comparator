@@ -210,6 +210,37 @@
   width: 30%;
 }
 
+/* Style pour la barre de score de similarité */
+.similarity-score {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.similarity-score-value {
+  font-size: 14px;
+  font-weight: bold;
+  color: #5a31f4;
+  margin-bottom: 4px;
+}
+
+.similarity-bar-container {
+  width: 100%;
+  height: 8px;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.similarity-bar {
+  height: 100%;
+  background: linear-gradient(90deg, #5a31f4, #7b5cf5);
+  border-radius: 4px;
+  transition: width 0.5s ease;
+}
+
 .boldt{
   font-weight: bold;
   font-size: 15px;

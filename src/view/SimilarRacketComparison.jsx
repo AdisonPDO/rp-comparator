@@ -3,6 +3,7 @@ import { Radar } from 'react-chartjs-2';
 import { Chart as ChartJS, RadialLinearScale, PointElement, LineElement, Filler, Tooltip, Legend } from 'chart.js';
 import { useRackets } from '../contexts/RacketContext';
 import LoadingOverlay from '../components/LoadingOverlay';
+import RacketImage from '../components/RacketImage';
 import apiService from '../services/apiService';
 
 ChartJS.register(RadialLinearScale, PointElement, LineElement, Filler, Tooltip, Legend);
@@ -56,10 +57,13 @@ const SimilarRacketsComparison = () => {
 
     // Chercher des raquettes similaires quand une raquette est sélectionnée
     useEffect(() => {
-        if (selectedRacket) {
-            fetchSimilarRackets(selectedRacket.id);
+        if (selectedRacket && selectedRacket.id) {
+            // Éviter de chercher à nouveau si la référence existe déjà dans les données similaires
+            if (!similarRackets.some(r => r.id === selectedRacket.id)) {
+                fetchSimilarRackets(selectedRacket.id);
+            }
         }
-    }, [selectedRacket]);
+    }, [selectedRacket?.id]); // Dépendre uniquement de l'ID, pas de l'objet entier
 
     // Rechercher des produits quand le terme de recherche change
     useEffect(() => {
@@ -86,13 +90,39 @@ const SimilarRacketsComparison = () => {
         }
     };
 
-    // Sélectionner une raquette
-    const selectRacket = (racketId) => {
-        const racket = searchResults.find(r => r.id === racketId);
-        if (racket) {
-            setSelectedRacket(racket);
-            setSearchTerm('');
-            setSearchResults([]);
+    // Sélectionner une raquette et charger ses données complètes
+    const selectRacket = async (racketId) => {
+        try {
+            setSearchLoading(true);
+            // Récupérer les données complètes de la raquette depuis l'API
+            const racketData = await apiService.getRacket(racketId);
+            
+            if (racketData) {
+                //console.log('Données complètes de la raquette chargées:', racketData);
+                setSelectedRacket(racketData);
+                setSearchTerm('');
+                setSearchResults([]);
+            } else {
+                console.error('Impossible de charger les données complètes de la raquette ID:', racketId);
+                // Fallback sur les données de recherche si l'API échoue
+                const racket = searchResults.find(r => r.id === racketId);
+                if (racket) {
+                    setSelectedRacket(racket);
+                    setSearchTerm('');
+                    setSearchResults([]);
+                }
+            }
+        } catch (error) {
+            console.error('Erreur lors du chargement des données de la raquette:', error);
+            // Fallback sur les données de recherche si l'API échoue
+            const racket = searchResults.find(r => r.id === racketId);
+            if (racket) {
+                setSelectedRacket(racket);
+                setSearchTerm('');
+                setSearchResults([]);
+            }
+        } finally {
+            setSearchLoading(false);
         }
     };
 
@@ -104,8 +134,19 @@ const SimilarRacketsComparison = () => {
             
             // Le service API retourne un objet avec referenceRacket et similarRackets
             if (response && response.similarRackets) {
-                console.log('Raquettes similaires reçues:', response);
-                // On met à jour uniquement le tableau des raquettes similaires
+                //console.log('Raquettes similaires reçues:', response);
+                
+                // Éviter de mettre à jour la raquette sélectionnée si elle a le même ID
+                // pour éviter de déclencher à nouveau le useEffect
+                if (response.referenceRacket && 
+                    response.referenceRacket.id === racketId &&
+                    Object.keys(response.referenceRacket).length > 0 &&
+                    (!selectedRacket || JSON.stringify(selectedRacket) !== JSON.stringify(response.referenceRacket))) {
+                    //console.log('Mise à jour de la raquette sélectionnée avec données complètes');
+                    setSelectedRacket(response.referenceRacket);
+                }
+                
+                // On met à jour le tableau des raquettes similaires
                 setSimilarRackets(response.similarRackets);
             } else {
                 console.error('Format de réponse inattendu pour les raquettes similaires:', response);
@@ -128,11 +169,11 @@ const SimilarRacketsComparison = () => {
         const allRackets = [selectedRacket, ...safeRackets].filter(Boolean);
         
         // Ajouter la vérification de données et de logs supplémentaires
-        console.log('Données du graphique:', { 
+        /*console.log('Données du graphique:', {
             selectedRacket: selectedRacket ? selectedRacket.name : null,
             similarCount: safeRackets.length,
             allRackets: allRackets.map(r => r.name)
-        });
+        });*/
         
         const datasets = allRackets.map((racket, index) => {
             // Vérifier que les métriques existent, sinon utiliser des valeurs par défaut
@@ -176,7 +217,7 @@ const SimilarRacketsComparison = () => {
         <div className="racket-comparison">
             <LoadingOverlay loading={loading && !searchLoading && !similarLoading} error={error}>
                 <h1>Trouvez des raquettes similaires en <span className='boldr'>TEMPS RÉEL</span></h1>
-                <p className='boldst'>Algorithme basé sur <span className='boldt'>{rackets.length}</span> raquettes actuellement</p>
+                <p className='boldst'>Algorithme basé sur des milliers de raquettes actuellement</p>
 
                 <p className='center'>Un outil innovant pour découvrir des <span className='bp'>raquettes similaires</span> à votre modèle préféré. Notre <span className='bp'>algorithme avancé</span> analyse les caractéristiques détaillées de chaque raquette pour vous proposer les <span className='bp'>options les plus proches</span>. Idéal pour explorer de nouvelles raquettes correspondant à votre style de jeu.</p>
 
@@ -241,7 +282,7 @@ const SimilarRacketsComparison = () => {
                         <div key={selectedRacket.id} className="racket-card selected">
                             <span className="boldst">Raquette sélectionnée</span>
                             <div className='cardblock' onClick={() => openStoreLink(selectedRacket)}>
-                                <img 
+                                <RacketImage 
                                     className='imgc' 
                                     src={selectedRacket.imageUrl} 
                                     alt={`Image of ${selectedRacket.name}`} 
@@ -256,7 +297,7 @@ const SimilarRacketsComparison = () => {
                         <div key={racket.id} className="racket-card">
                             <span className="boldst">Raquette similaire {index + 1}</span>
                             <div className='cardblock' onClick={() => openStoreLink(racket)}>
-                                <img 
+                                <RacketImage 
                                     className='imgc' 
                                     src={racket.imageUrl} 
                                     alt={`Image of ${racket.name}`} 
@@ -264,6 +305,21 @@ const SimilarRacketsComparison = () => {
                                 />
                                 <span>{racket.name}</span>
                             </div>
+                            
+                            {/* Affichage du score de similarité avec barre de progression */}
+                            {racket.similarityScore !== undefined && (
+                                <div className="similarity-score">
+                                    <div className="similarity-score-value">
+                                        {Math.round(racket.similarityScore * 100)}% de similarité
+                                    </div>
+                                    <div className="similarity-bar-container">
+                                        <div 
+                                            className="similarity-bar" 
+                                            style={{ width: `${Math.round(racket.similarityScore * 100)}%` }}
+                                        ></div>
+                                    </div>
+                                </div>
+                            )}
                         </div>
                     ))}
                 </div>

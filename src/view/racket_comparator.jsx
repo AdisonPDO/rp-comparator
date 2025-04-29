@@ -3,6 +3,8 @@ import { Radar } from 'react-chartjs-2';
 import { Chart as ChartJS, RadialLinearScale, PointElement, LineElement, Filler, Tooltip, Legend } from 'chart.js';
 import { useRackets } from '../contexts/RacketContext';
 import LoadingOverlay from '../components/LoadingOverlay';
+import RacketImage from '../components/RacketImage';
+import apiService from '../services/apiService';
 
 ChartJS.register(RadialLinearScale, PointElement, LineElement, Filler, Tooltip, Legend);
 
@@ -53,17 +55,56 @@ const RacketComparison = () => {
     }
   }, [searchTerm]);
 
-  // Fonction pour ajouter une raquette à la sélection
-  const addRacket = (racketId) => {
-    const racketToAdd = searchResultRacket.find(racket => racket.id === racketId);
-
-    if (racketToAdd && !selectedRackets.some(r => r.id === racketId)) {
-      if (selectedRackets.length === 3) {
-        setSelectedRackets(prev => prev.slice(1));
+  // Fonction pour ajouter une raquette à la sélection avec chargement des données complètes
+  const addRacket = async (racketId) => {
+    try {
+      setSearchLoading(true);
+      
+      // Récupérer les données complètes de la raquette depuis l'API
+      const racketComplete = await apiService.getRacket(racketId);
+      
+      if (racketComplete) {
+        //console.log('Données complètes de la raquette chargées:', racketComplete);
+        
+        // Vérifier si la raquette est déjà sélectionnée
+        if (!selectedRackets.some(r => r.id === racketId)) {
+          // Limiter à 3 raquettes maximum
+          if (selectedRackets.length === 3) {
+            setSelectedRackets(prev => prev.slice(1));
+          }
+          setSelectedRackets(prev => [...prev, racketComplete]);
+        }
+      } else {
+        // Fallback sur les données de recherche si l'API échoue
+        const racketToAdd = searchResultRacket.find(racket => racket.id === racketId);
+        if (racketToAdd && !selectedRackets.some(r => r.id === racketId)) {
+          if (selectedRackets.length === 3) {
+            setSelectedRackets(prev => prev.slice(1));
+          }
+          setSelectedRackets(prev => [...prev, racketToAdd]);
+        }
       }
-      setSelectedRackets(prev => [...prev, racketToAdd]);
+      
+      // Réinitialiser la recherche
       setSearchTerm('');
       setSearchResultRacket([]);
+    } catch (error) {
+      console.error('Erreur lors du chargement des données de la raquette:', error);
+      
+      // Fallback sur les données de recherche si l'API échoue
+      const racketToAdd = searchResultRacket.find(racket => racket.id === racketId);
+      if (racketToAdd && !selectedRackets.some(r => r.id === racketId)) {
+        if (selectedRackets.length === 3) {
+          setSelectedRackets(prev => prev.slice(1));
+        }
+        setSelectedRackets(prev => [...prev, racketToAdd]);
+      }
+      
+      // Réinitialiser la recherche
+      setSearchTerm('');
+      setSearchResultRacket([]);
+    } finally {
+      setSearchLoading(false);
     }
   };
 
@@ -118,7 +159,7 @@ const RacketComparison = () => {
     <div className="racket-comparison">
       <LoadingOverlay loading={loading && !searchLoading && !topLoading} error={error}>
         <h1>Comparateur de Raquette Pro en <span className='boldr'>TEMPS RÉEL</span></h1>
-        <p className='boldst'> Algorithme basé sur <span className='boldt'>{rackets.length}</span> raquettes actuellement</p>
+        <p className='boldst'> Algorithme basé sur des milliers de raquettes actuellement</p>
 
         <p className='center'>Un outil innovant conçu pour vous aider à choisir la <span className='bp'>meilleure raquette de padel</span>. Grâce à notre <span className='bp'>algorithme de calcul avancé</span>, nous analysons des statistiques détaillées de chaque raquette pour vous offrir des <span className='bp'>comparaisons précises et personnalisées</span>. Que vous soyez débutant ou joueur expérimenté, notre <span className='bp'>comparateur</span> vous guide pour faire le choix le plus éclairé.</p>
 
@@ -232,7 +273,7 @@ const RacketComparison = () => {
                 if (!racket.storeUrl) return;
                 window.open(racket.storeUrl, '_blank');
               }}>
-                <img 
+                <RacketImage 
                   className='imgc' 
                   src={racket.imageUrl} 
                   alt={`Image of ${racket.name}`} 

@@ -44,12 +44,12 @@ class HmacAuthService {
   createSignature(timestamp, nonce, payload = '') {
     // D'après la documentation fournie, la signature concatène timestamp + nonce + payload
     const dataToSign = `${timestamp}${nonce}${payload}`;
-    console.log('HMAC Signature Data:', { 
+    /*console.log('HMAC Signature Data:', {
       timestamp, 
       nonce, 
       payloadLength: payload.length,
       dataToSign 
-    });
+    });*/
     
     // Utilisation de HMAC-SHA256 comme spécifié dans la documentation
     return CryptoJS.HmacSHA256(dataToSign, this.apiSecret).toString(CryptoJS.enc.Hex);

@@ -45,7 +45,7 @@ const apiCache = {
 class ApiService {
   constructor() {
     this.baseUrl = process.env.REACT_APP_API_URL || 'http://localhost:8000/api';
-    console.log('API URL configurée:', this.baseUrl);
+    //console.log('API URL configurée:', this.baseUrl);
     
     this.axios = axios.create({
       baseURL: this.baseUrl,
@@ -76,13 +76,13 @@ class ApiService {
     );
 
     // Test de connexion à l'API
-    this.testConnection();
+    //this.testConnection();
   }
 
   // Méthode pour tester la connexion à l'API
   async testConnection() {
     try {
-      console.log('Test de connexion à l\'API:', this.baseUrl);
+      //console.log('Test de connexion à l\'API:', this.baseUrl);
       
       // Obtenir les en-têtes d'authentification
       const headers = hmacAuth.getAuthHeaders();
@@ -94,10 +94,10 @@ class ApiService {
       });
       
       if (response.status >= 200 && response.status < 300) {
-        console.log('✅ Connexion à l\'API réussie !');
-        console.log(`   - URL: ${this.baseUrl}`);
-        console.log(`   - Statut: ${response.status}`);
-        console.log(`   - Données: ${response.data.length} raquettes reçues`);
+        //console.log('✅ Connexion à l\'API réussie !');
+        //console.log(`   - URL: ${this.baseUrl}`);
+        //console.log(`   - Statut: ${response.status}`);
+        //console.log(`   - Données: ${response.data.length} raquettes reçues`);
       } else {
         console.warn('⚠️ Connexion à l\'API réussie mais avec un statut non-2xx:', response.status);
         console.warn('Réponse:', response.data);
@@ -186,7 +186,7 @@ class ApiService {
     if (useCache) {
       const cachedData = apiCache.get(cacheKey);
       if (cachedData) {
-        console.log(`Données récupérées du cache pour ${endpoint}`);
+        //console.log(`Données récupérées du cache pour ${endpoint}`);
         return cachedData;
       }
     }
@@ -196,7 +196,7 @@ class ApiService {
       // Les paramètres sont envoyés dans l'URL, pas dans le payload
       const headers = hmacAuth.getAuthHeaders();
       
-      console.log(`Requête GET vers ${endpoint}`, { 
+      /*console.log(`Requête GET vers ${endpoint}`, {
         params: cleanParams,
         headers: {
           'X-API-Key': headers['X-API-Key'],
@@ -204,7 +204,7 @@ class ApiService {
           'X-API-Nonce': headers['X-API-Nonce']
           // Signature omise pour des raisons de sécurité
         }
-      });
+      });*/
       
       // Effectue la requête
       const response = await this.axios.get(endpoint, { 
@@ -266,7 +266,7 @@ class ApiService {
       const jsonData = JSON.stringify(cleanData);
       const headers = hmacAuth.getAuthHeaders(cleanData);
       
-      console.log(`Requête POST vers ${endpoint}`, { 
+      /*console.log(`Requête POST vers ${endpoint}`, {
         dataSize: jsonData.length,
         headers: {
           'X-API-Key': headers['X-API-Key'],
@@ -274,7 +274,7 @@ class ApiService {
           'X-API-Nonce': headers['X-API-Nonce']
           // Signature omise pour des raisons de sécurité
         }
-      });
+      });*/
       
       // Effectue la requête
       const response = await this.axios.post(endpoint, jsonData, { 
@@ -298,16 +298,7 @@ class ApiService {
       throw error;
     }
   }
-  
-  /**
-   * Récupère toutes les raquettes
-   * @param {boolean} useCache - Si true, utilise le cache
-   * @returns {Promise<Array>} Liste des raquettes
-   */
-  async getAllRackets(useCache = true) {
-    const response = await this.get('/analysis/rackets', {}, useCache);
-    return this.formatRacketArray(response.rackets || []);
-  }
+
   
   /**
    * Récupère les meilleures raquettes
@@ -400,7 +391,7 @@ class ApiService {
       limit: parseInt(limit, 10) 
     });
     
-    console.log('Réponse getSimilarRackets brute:', response);
+    //console.log('Réponse getSimilarRackets brute:', response);
     
     // S'assurer que la réponse a un format valide
     if (!response || typeof response !== 'object') {
@@ -428,11 +419,11 @@ class ApiService {
       console.error('Le format des raquettes similaires est inattendu:', response.similarRackets);
     }
     
-    console.log('Données formatées de getSimilarRackets:', {
+    /*console.log('Données formatées de getSimilarRackets:', {
       referenceRacket: referenceRacket ? referenceRacket.name : null,
       similarCount: similarRackets.length,
       similarNames: similarRackets.map(r => r.name)
-    });
+    });*/
     
     return {
       referenceRacket,
@@ -460,9 +451,24 @@ class ApiService {
    * @returns {Promise<Object>} Données de la raquette
    */
   async getRacket(id) {
-    // S'assurer que l'ID est une chaîne
-    const response = await this.get(`/analysis/racket/${String(id)}`);
-    return this.formatRacketData(response);
+    try {
+      //console.log(`Chargement des données complètes pour la raquette ID: ${id}`);
+      // S'assurer que l'ID est une chaîne
+      const response = await this.get(`/analysis/racket/${String(id)}`);
+      
+      // Vérifier si la réponse est valide
+      if (!response || typeof response !== 'object') {
+        console.error('Format de réponse invalide pour getRacket:', response);
+        return null;
+      }
+      
+      const formattedRacket = this.formatRacketData(response);
+      //console.log('Données formatées de la raquette:', formattedRacket);
+      return formattedRacket;
+    } catch (error) {
+      console.error(`Erreur lors de la récupération des données de la raquette ID ${id}:`, error.message);
+      throw error; // Remonter l'erreur pour être gérée par l'appelant
+    }
   }
   
   /**
@@ -497,8 +503,16 @@ class ApiService {
       // Ajouter d'autres champs si nécessaire
       balance: racket.balance,
       weight: racket.weight,
-      shape: racket.shape
+      shape: racket.shape,
+      
+      // Ajouter le score de similarité s'il existe
+      similarityScore: racket.similarityScore !== undefined ? racket.similarityScore : undefined
     };
+    
+    // Déboguer le score de similarité
+    if (racket.similarityScore !== undefined) {
+      //console.log(`Raquette ${racket.name} a un score de similarité: ${racket.similarityScore}`);
+    }
     
     return formattedRacket;
   }

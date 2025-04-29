@@ -31,12 +31,13 @@ export const RacketProvider = ({ children }) => {
     try {
       setLoading(true);
       setError(null);
-      const data = await apiService.getAllRackets();
-      setRackets(data);
-      console.log('Données chargées depuis l\'API:', data.length, 'raquettes');
+      // Initialise un tableau vide au lieu de charger toutes les raquettes
+      setRackets([]);
+      setLoading(false);
+      ////console.log('Chargement de raquettes désactivé, tableau initialisé vide');
     } catch (err) {
       setError('Impossible de charger les données depuis l\'API. Veuillez réessayer plus tard.');
-      console.error('Erreur lors du chargement des raquettes depuis l\'API:', err.message);
+      //console.error('Erreur lors du chargement des raquettes depuis l\'API:', err.message);
     } finally {
       setLoading(false);
     }
